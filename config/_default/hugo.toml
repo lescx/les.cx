@@ -11,3 +11,6 @@ disableKinds = ['404', 'taxonomy', 'term']
   codeFences = true
   guessSyntax = true
   noClasses=false
+
+[outputs]
+  home = ['html']
