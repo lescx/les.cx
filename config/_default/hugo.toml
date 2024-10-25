@@ -6,3 +6,8 @@ languageCode = 'en-us' # Can be overwritten on a per-article basis
 timezone = 'Europe/Berlin'
 title = 'Luca Etienne Schulz'
 disableKinds = ['404', 'taxonomy', 'term']
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses=false
