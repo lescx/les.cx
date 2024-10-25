@@ -1,0 +1,4 @@
+public/
+.ignore
+.hugo_build.lock
+site.tar.gz

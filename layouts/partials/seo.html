@@ -1,0 +1,30 @@
+<meta
+  name="title"
+  content="{{ with .Title -}}
+    {{ . }}
+  {{- else -}}
+    {{ .Site.Title }}
+  {{- end }}"
+/>
+<meta
+  name="description"
+  content="{{ with .Description -}}
+    {{ . }}
+  {{- else -}}
+    {{ if .IsPage -}}
+      {{ .Summary }}
+    {{- else -}}
+      {{ with .Site.Params.description }}{{ . }}{{ end }}
+    {{- end }}
+  {{- end }}"
+/>
+{{ with .Site.Params.name }}
+  <meta name="author" content="{{ . }}" />
+{{ end }}
+
+<!-- Open Graph / Facebook -->
+{{ template "_internal/opengraph.html" . }}
+<!-- Twitter -->
+{{ template "_internal/twitter_cards.html" . }}
+<!-- Microdata -->
+{{ template "_internal/schema.html" . }}

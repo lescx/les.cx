@@ -1,0 +1,9 @@
+{{ define "main" }}
+<hgroup>
+  <h1>{{ .Title }}</h1>
+  {{ partial "dates.html" . }}
+</hgroup>
+<article>
+  {{ .Content }}
+</article>
+{{ end }}

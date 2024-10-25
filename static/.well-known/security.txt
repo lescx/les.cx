@@ -1,0 +1,17 @@
+# This file is digitally signed with signify (https://man.openbsd.org/signify).
+# Use security.txt.sig and signify.pub to check the authenticity of this file.
+#
+# signify.pub was published on 2024-08-27 on:
+# * Mastodon: https://23.social/@les/113034879180477797
+# * Bluesky: https://bsky.app/profile/les.cx/post/3l2pmdhc4pa2t
+# * GitHub Gist: https://gist.github.com/lescx/45972d4b1242c644cac5cc9cb6fd61de
+# * nostr: nevent1qyg8wumn8ghj7mn09eehgu3wvdez7qgewaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmp0qy2hwumn8ghj7un9d3shjtnyv9kh2uewd9hj7qgawaehxw309ahx7um5wghxy6t5vdhkjmn9wgh8xmmrd9skctcpz4mhxue69uhhyetvv9ujumn0wd68ytnzvuhsz9thwden5te0dehhxarj9ehhsarj9ejx2a30qy08wumn8ghj7mn0wd68yttsw43zuam9d3kx7unyv4ezumn9wshszyrhwden5te0dehhxarj9ekk7mf0qy88wumn8ghj7mn0wvhxcmmv9uqzp0xql9hf2an66sg2fhs7uvzrn3ha4fz286862ruhc4zg32k7xgvacpwx45 
+
+# * Use my public age key (.well-known/age.pub) if you use email.
+# * If you don't know how to use age or can't secure your private key well enough, use Signal or Matrix.
+# * Use an empty or generic Subject for your email.
+Contact: mailto:security@les.cx
+Encryption: data:application/x-age-public-key,age158xs26gpenperfuzcelqr76ewp4wyu88fs27yly49c0pfxx8rqcqhr7n6m
+Canonical: https://les.cx/.well-known/security.txt
+Expires: 2025-08-27T00:00:00Z
+Preferred-Languages: de, en, jp

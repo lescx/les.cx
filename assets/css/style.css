@@ -1,0 +1,64 @@
+/* Reference to article on why you shouldn't minify, and how to logically
+  structure CSS code to be consistent with your HTML */
+
+@charset "UTF-8";
+
+:root {
+  --color-background-primary: #FCFCFC; /* background color */
+  --color-text-primary: #171717; /* highlighting, important, heading, links, special stuff */
+  --color-text-secondary: #3D3D3D; /* default text */
+  --color-text-tertiary: #5C5C5C; /* one element that differs from the rest - e.g. one link item in a menu */
+
+  @media (prefers-color-scheme: dark) {
+    --color-background-primary: #171717;
+    --color-text-primary: #FCFCFC;
+    --color-text-secondary: #E5E5E5;
+    --color-text-tertiary: #D0D0D0;
+  }
+}
+
+body {
+  margin: 40px auto;
+  padding: 0 10px;
+  max-width: 650px;
+  color: var(--color-text-secondary);
+  background-color: var(--color-background-primary);
+  overflow-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 1.2;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, a, a:visited {
+  color: var(--color-text-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+a:hover, a:active, a:focus {
+  color: var(--color-text-tertiary);
+}
+
+nav ul, ol {
+  list-style: none;
+}
+
+footer {
+  li {
+    display: inline; 
+  }
+  li:not(:last-child) {
+    margin-right: 6px;
+  }
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  width: 100%;
+}
+
+.chroma, .highlight {
+  overflow-y: auto;
+}

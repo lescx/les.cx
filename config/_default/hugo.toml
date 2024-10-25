@@ -1,0 +1,8 @@
+baseURL = 'https://les.cx'
+cleanDestinationDir = true
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+languageCode = 'en-us' # Can be overwritten on a per-article basis
+timezone = 'Europe/Berlin'
+title = 'Luca Etienne Schulz'
+disableKinds = ['404', 'taxonomy', 'term']

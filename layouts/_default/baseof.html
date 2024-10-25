@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="{{ with .Params.languageCode }}{{ . }}{{ else }}{{ .Site.LanguageCode }}{{ end }}">
+  {{ partial "head.html" . }}
+  <body>
+    <main>
+    {{ block "main" . }}{{ end }}
+    </main>
+    {{ partialCached "footer.html" . }}
+  </body>
+</html>

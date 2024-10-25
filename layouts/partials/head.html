@@ -1,0 +1,17 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ block "title" . }}{{ partial "title.html" . }}{{ end }}</title>
+  <meta name="description" content="{{ .Description }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  {{ $style := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+  <!-- the web is so fucked up… -->
+  <meta name="color-scheme" content="dark light">
+
+  {{- partial "seo.html" . -}}
+
+  {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+  {{ end }}
+</head>
