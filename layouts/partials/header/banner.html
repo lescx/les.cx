@@ -1,0 +1,5 @@
+{{ with .Resources.GetMatch "banner.jpg" }}
+  <div>
+    <img src="{{ .RelPermalink }}" alt="Banner">
+  </div>
+{{ end }}

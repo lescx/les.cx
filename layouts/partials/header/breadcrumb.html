@@ -1,0 +1,29 @@
+<nav aria-label="breadcrumb">
+  <ol>
+    {{- /* declare a 'variable' to store the each link position */}}
+    {{- $data := newScratch }}
+    {{- range $index, $value := .Ancestors.Reverse }}
+      <li>
+        {{- /* read the index from loop and add 'one', because it starts counting from zero */}}
+        {{- $data.Set "counter" $index }}
+        {{- $data.Add "counter" 1 }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{- /* pass the counter value into schema attribute */}}
+        <meta itemprop="position" content="{{ $data.Get "counter"}}">
+      </li>
+      <!-- breadcrumb separator. should prob apply the margin in styling. -->
+      {{- if ne (add $index 1) (len .Ancestors.Reverse) }}
+        <span> / </span>
+      {{- end }}
+    {{- end }}
+    <li>
+      {{- /* add '1' one more time for the last link position */}}
+      {{- $data.Add "counter" 1 }}
+      <a href="{{ .Permalink }}">
+        <span>{{ .Title }}</span>
+      </a>
+      {{- /* pass the counter value into schema attribute */}}
+      <meta itemprop="position" content="{{ $data.Get "counter"}}">
+    </li>
+  </ol>
+</nav>

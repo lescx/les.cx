@@ -1,0 +1,12 @@
+<header>
+  {{ if .subtitle }}
+    <hgroup>
+      <h1 {{ with .ariaLabel }}aria-label="{{ . }}"{{ end }}>{{ .title }}</h1>
+      {{ with .subtitle }}
+        <p>{{ . }}</p>
+      {{ end }}
+    </hgroup>
+  {{ else }}
+    <h1 {{ with .ariaLabel }}aria-label="{{ . }}"{{ end }}>{{ .title }}</h1>
+  {{ end }}
+</header>

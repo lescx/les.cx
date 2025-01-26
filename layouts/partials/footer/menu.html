@@ -1,0 +1,6 @@
+<!-- This is the "menu" option for the footer, not the "aesthatic" one -->
+<ul>
+  {{- range site.Menus.footer}}
+    <li><a href="{{ .URL }}">{{ .Name }}</a>
+  {{- end }}
+</ul>
