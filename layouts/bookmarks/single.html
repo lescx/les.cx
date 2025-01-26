@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ if .Params.url }}
+    <p><strong>URL:</strong> <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Params.url }}</a></p>
+  {{ end }}
+
+  {{ if .Params.tags }}
+    <p><strong>Tags:</strong></p>
+    <ul>
+      {{ range .Params.tags }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+  {{ if .Content }}
+    <div>
+      {{ .Content }}
+    </div>
+  {{ end }}
+{{ end }}

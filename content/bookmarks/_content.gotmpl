@@ -1,0 +1,34 @@
+{{/* Get bookmark data. */}}
+{{ $data := dict }}
+{{ $file := "bookmarks.json" }}
+{{ with try (resources.Get $file) }}
+  {{ with .Err }}
+    {{ errorf "Unable to get resource %s: %s" $file . }}
+  {{ else with .Value }}
+    {{ $data = . | transform.Unmarshal }}
+  {{ else }}
+    {{ errorf "Unable to get resource %s" $file }}
+  {{ end }}
+{{ end }}
+
+{{/* Process the bookmarks data */}}
+{{ range $data }}
+
+  {{/* Construct page */}}
+  {{ $title := .title }}
+  {{ $url := .url }}
+  {{ $tags := .tags }}
+  {{ $content := printf "Title: [%s](%s)\n\nTags: %s" $title $url (delimit $tags ", ") }}
+  {{ $hash := (hash.FNV32a $url) }}
+
+  {{/* Add the page */}}
+  {{ $page := dict
+    "content" (dict "mediaType" "text/markdown" "value" $content)
+    "kind" "page"
+    "params" (dict "url" $url "tags" $tags)
+    "path" $hash
+    "title" $title
+  }}
+  {{ $.AddPage $page }}
+
+{{ end }}

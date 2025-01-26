@@ -1,0 +1,11 @@
+{{ $iconName := default "icon" .icon }}
+{{ $iconPath := printf "icons/%s.webp" $iconName }}
+{{ $fallbackPath := "icons/fallback.webp" }}
+
+<figure>
+  {{ if (resources.Exists $iconPath) }}
+    <img src="{{ $iconPath }}" alt="Site icon: {{ $iconName }}">
+  {{ else }}
+    <img src="{{ $fallbackPath }}" alt="Fallback icon">
+  {{ end }}
+</figure>

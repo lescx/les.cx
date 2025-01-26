@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>
+          <strong>URL:</strong> <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Params.url }}</a>
+        </p>
+        {{ if .Params.tags }}
+          <p><strong>Tags:</strong> {{ delimit .Params.tags ", " }}</p>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
