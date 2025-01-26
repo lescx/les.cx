@@ -1,0 +1,12 @@
+[[footer]]
+  name = 'Contact'
+  pageRef = '/contact'
+  weight = 10
+[[footer]]
+  name = 'Copyleft'
+  pageRef = '/copyleft'
+  weight = 20
+[[footer]]
+  name = 'Privacy'
+  pageRef = '/privacy'
+  weight = 30

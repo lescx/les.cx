@@ -1,0 +1,11 @@
+baseURL = 'https://les.cx'
+cleanDestinationDir = true
+defaultContentLanguage = 'en'
+disableHugoGeneratorInject = true
+disableKinds = ['404', 'rss', 'sitemap']
+enableGitInfo = true
+enableRobotsTXT = true
+hasCJKLanguage = true
+languageCode = 'en-US'
+timezone = 'Europe/Berlin'
+title = 'Luca Etienne Schulz'

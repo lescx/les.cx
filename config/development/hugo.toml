@@ -1,0 +1,3 @@
+printI18nWarnings = true
+printPathWarnings = true
+printUnusedTemplates = true
