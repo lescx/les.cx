@@ -1,0 +1,7 @@
+<h{{ .Level }} id="{{ .Anchor }}" {{- with .Attributes.class }} class="{{ . }}" {{- end }}>
+	{{$linksvg := resources.Get "symbols/link.svg"}}
+  {{ .Text }}
+	<a href="#{{.Anchor | safeURL}}">
+    <img class="anchor" src="{{$linksvg.RelPermalink}}" alt="" style="width: 1rem;">
+  </a>
+</h{{ .Level }}>

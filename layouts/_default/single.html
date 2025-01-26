@@ -1,0 +1,4 @@
+{{ define "main" }}
+  {{ partial "heading.html" (dict "title" .Title "subtitle" .Params.subtitle) }}
+  {{ .Content }}
+{{ end }}

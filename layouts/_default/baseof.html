@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <header>
+      <!--
+        Breadcrumbs should be used on (almost?) all pages.
+        404 pages etc should prob not have breadcrumb nav.
+      -->
+      {{ block "header" . }}
+        {{ partial "header/breadcrumb.html" . }}
+        {{ partial "header/banner.html" . }}
+      {{ end }}
+    </header>
+    <main>
+      {{ block "main" . }}
+        {{ partial "heading.html" (dict "title" .Title "subtitle" .Params.subtitle) }}
+        {{ .Content }}
+      {{ end }}
+    </main>
+    <footer>
+      {{ block "footer" . }}
+        {{ partialCached "footer/menu.html" . }}
+      {{ end }}
+    </footer>
+  </body>
+</html>

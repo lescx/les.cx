@@ -1,0 +1,4 @@
+{{ define "main" }}
+  {{ partial "heading.html" (dict "title" .Site.Params.ipa "subtitle" .Site.Params.introductory "ariaLabel" .Site.Params.name) }}
+  {{ .Content }}
+{{ end }}
