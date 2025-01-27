@@ -6,6 +6,8 @@ title = 'Contact'
 
 You can contact me via [SimpleX](https://simplex.chat), [Signal](https://signal.org), [Matrix](https://matrix.org) or email.
 
+Scan this QR code to contact me via Signal:
+
 {{< qr text="https://signal.me/#eu/lbjqsgan4_h-vfQYSijqqxUnFwt2QWQodUmiwfPEk3LafWkQwMBIQKnsYSpvO3pU" level="low" alt="QR Code for Signal username @les.01" />}}
 
 ## Contact Details
