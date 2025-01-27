@@ -25,12 +25,14 @@
 /* } */
 
 body {
-  margin: 0;
   background-color: var(--color-background-primary);
   color: var(--color-text-secondary);
   font-family: sans-serif;
   line-height: 1.6;
   overflow-wrap: break-word;
+  margin: 40px auto;
+  padding: 0 10px;
+  max-width: 32rem;
 }
 
 body > header {
