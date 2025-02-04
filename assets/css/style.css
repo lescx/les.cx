@@ -1,34 +1,8 @@
-:root {
-  --color-background-primary:    #FCFCFC; /* background color */
-  --color-text-primary:          #171717; /* highlighting, important, heading, links, special stuff */
-  --color-text-secondary:        #3D3D3D; /* default text */
-  --color-text-tertiary:         #5C5C5C; /* one element that differs from the rest - e.g. one link item in a menu */
-
-  @media (prefers-color-scheme: dark) {
-    --color-background-primary:  #171717;
-    --color-text-primary:        #FCFCFC;
-    --color-text-secondary:      #E5E5E5;
-    --color-text-tertiary:       #D0D0D0;
-  }
-}
-
-/* html { */
-  /* font-size: clamp(24px, 1.5vw, 30px); */
-  /* overflow: hidden; */
-  /* overflow-y: scroll; */
-/* } */
-
-/* *, ::after, ::before { */
-  /* margin: 0; */
-  /* padding: 0; */
-  /* box-sizing: border-box; */
-/* } */
-
 body {
   background-color: var(--color-background-primary);
   color: var(--color-text-secondary);
-  font-family: sans-serif;
-  line-height: 1.6;
+  font-family: system-ui, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
   overflow-wrap: break-word;
   margin: 40px auto;
   padding: 0 10px;
@@ -40,13 +14,6 @@ body > header {
     margin: 0;
   }
 }
-
-/* body > main { */
-  /* width: 100%; */
-  /* max-width: 32rem; */
-  /* margin: 0 auto; */
-  /* padding: 9rem 1.25rem 12rem; */
-/* } */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
