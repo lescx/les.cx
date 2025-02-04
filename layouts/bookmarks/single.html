@@ -2,7 +2,7 @@
   <h1>{{ .Title }}</h1>
 
   {{ if .Params.url }}
-    <p><strong>URL:</strong> <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Params.url }}</a></p>
+    <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Params.url }}</a>
   {{ end }}
 
   {{ if .Params.tags }}
@@ -10,6 +10,15 @@
     <ul>
       {{ range .Params.tags }}
         <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+  {{ if .Params.mirrors }}
+    <p><strong>Mirrors:</strong></p>
+    <ul>
+      {{ range .Params.mirrors }}
+        <li><a href="{{ . }}">{{ . }}</a></li>
       {{ end }}
     </ul>
   {{ end }}

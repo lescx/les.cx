@@ -29,54 +29,14 @@
     "tags": [
       "1337x",
       "piracy"
-    ]
-  },
-  {
-    "title": "1337x",
-    "url": "https://1337xto.to",
-    "tags": [
-      "1337x",
-      "piracy"
-    ]
-  },
-  {
-    "title": "1337x",
-    "url": "https://www.1337xx.st",
-    "tags": [
-      "1337x",
-      "piracy"
-    ]
-  },
-  {
-    "title": "1337x",
-    "url": "https://www.1337xx.to",
-    "tags": [
-      "1337x",
-      "piracy"
-    ]
-  },
-  {
-    "title": "1337x",
-    "url": "https://www.1337xxx.to",
-    "tags": [
-      "1337x",
-      "piracy"
-    ]
-  },
-  {
-    "title": "1337x",
-    "url": "https://www.1377x.to",
-    "tags": [
-      "1337x",
-      "piracy"
-    ]
-  },
-  {
-    "title": "1377x",
-    "url": "https://www.1337x.tw",
-    "tags": [
-      "1337x",
-      "piracy"
+    ],
+    "mirrors": [
+      "https://1337xto.to",
+      "https://www.1337xx.st",
+      "https://www.1337xx.to",
+      "https://www.1337xxx.to",
+      "https://www.1377x.to",
+      "https://www.1337x.tw"
     ]
   },
   {
@@ -7249,14 +7209,9 @@
     "tags": [
       "piracy",
       "torrentgalaxy"
-    ]
-  },
-  {
-    "title": "TorrentGalaxy",
-    "url": "https://torrentgalaxy.to",
-    "tags": [
-      "piracy",
-      "torrentgalaxy"
+    ],
+    "mirrors": [
+      "https://torrentgalaxy.to"
     ]
   },
   {

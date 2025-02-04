@@ -18,14 +18,15 @@
   {{ $title := .title }}
   {{ $url := .url }}
   {{ $tags := .tags }}
-  {{ $content := printf "Title: [%s](%s)\n\nTags: %s" $title $url (delimit $tags ", ") }}
+  {{ $mirrors := .mirrors }}
+  {{ $content := printf "Placeholder content: [%s](%s)\n\nTags: %s" $title $url (delimit $tags ", ") }}
   {{ $hash := (hash.FNV32a $url) }}
 
   {{/* Add the page */}}
   {{ $page := dict
     "content" (dict "mediaType" "text/markdown" "value" $content)
     "kind" "page"
-    "params" (dict "url" $url "tags" $tags)
+    "params" (dict "url" $url "tags" $tags "mirrors" $mirrors)
     "path" $hash
     "title" $title
   }}
