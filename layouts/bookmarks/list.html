@@ -1,19 +1,34 @@
 {{ define "main" }}
   <small>Psst, this page is still WIP.</small>
-  <ul>
-    {{ range .Pages }}
-      <li>
-        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Params.url }}</a>
-        {{ if .Params.tags }}
-          {{ $hashTags := slice }}
-          {{ range .Params.tags }}
-            {{ $hashTags = $hashTags | append (printf "#%s" .) }}
-          {{ end }}
-          {{ $sortedTags := sort $hashTags }}
-          <p>{{ delimit $sortedTags ", " }}</p>
-        {{ end }}
-      </li>
-    {{ end }}
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>URL</th>
+        <th>Tags</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range .Pages }}
+        <tr>
+          <td>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </td>
+          <td>
+            <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
+          </td>
+          <td>
+            {{ if .Params.tags }}
+              {{ $hashTags := slice }}
+              {{ range .Params.tags }}
+                {{ $hashTags = $hashTags | append (printf "#%s" .) }}
+              {{ end }}
+              {{ $sortedTags := sort $hashTags }}
+              {{ delimit $sortedTags ", " }}
+            {{ end }}
+          </td>
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
 {{ end }}
