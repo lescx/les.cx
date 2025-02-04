@@ -29,8 +29,6 @@ les.cx.                 300     IN      MX      10 mail.protonmail.ch.
 les.cx.                 300     IN      MX      20 mailsec.protonmail.ch.
 ```
 
-I will change my email provider as I see fit.
-
 ### Email Netiquette
 
 1. Use plain text.
