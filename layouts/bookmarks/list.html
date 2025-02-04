@@ -3,8 +3,8 @@
   <table>
     <thead>
       <tr>
-        <th>Title</th>
         <th>URL</th>
+        <th>Bookmark</th>
         <th>Tags</th>
       </tr>
     </thead>
@@ -12,10 +12,10 @@
       {{ range .Pages }}
         <tr>
           <td>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">🔗</a>
           </td>
           <td>
-            <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </td>
           <td>
             {{ if .Params.tags }}
@@ -24,7 +24,7 @@
                 {{ $hashTags = $hashTags | append (printf "#%s" .) }}
               {{ end }}
               {{ $sortedTags := sort $hashTags }}
-              {{ delimit $sortedTags ", " }}
+              {{ delimit $sortedTags " " }}
             {{ end }}
           </td>
         </tr>
