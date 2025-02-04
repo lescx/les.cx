@@ -6,7 +6,12 @@
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Params.url }}</a>
         {{ if .Params.tags }}
-          <p>{{ delimit .Params.tags ", " }}</p>
+          {{ $hashTags := slice }}
+          {{ range .Params.tags }}
+            {{ $hashTags = $hashTags | append (printf "#%s" .) }}
+          {{ end }}
+          {{ $sortedTags := sort $hashTags }}
+          <p>{{ delimit $sortedTags ", " }}</p>
         {{ end }}
       </li>
     {{ end }}
