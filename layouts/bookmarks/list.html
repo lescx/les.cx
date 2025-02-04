@@ -7,7 +7,7 @@
           <strong>URL:</strong> <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Params.url }}</a>
         </p>
         {{ if .Params.tags }}
-          <p><strong>Tags:</strong> {{ delimit .Params.tags ", " }}</p>
+          <p>{{ delimit .Params.tags ", " }}</p>
         {{ end }}
       </li>
     {{ end }}
