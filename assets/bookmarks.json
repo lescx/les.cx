@@ -8194,5 +8194,37 @@
       "article",
       "security"
     ]
+  },
+  {
+    "title": "404media",
+    "url": "https://www.404media.co",
+    "tags": [
+      "news",
+      "archive"
+    ]
+  },
+  {
+    "title": "Purelymail",
+    "url": "https://purelymail.com",
+    "tags": [
+      "email"
+    ]
+  },
+  {
+    "title": "FreeBSD - a lesson in poor defaults",
+    "url": "https://vez.mrsk.me/freebsd-defaults",
+    "tags": [
+      "freebsd",
+      "bsd",
+      "article"
+    ]
+  },
+  {
+    "title": "AnarSec",
+    "url": "https://web.archive.org/web/20241220202247/https://www.anarsec.guide/contact",
+    "tags": [
+      "security",
+      "blog"
+    ]
   }
 ]
