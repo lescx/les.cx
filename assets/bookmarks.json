@@ -902,7 +902,8 @@
     "title": "Bulbapedia",
     "url": "https://bulbapedia.bulbagarden.net/wiki/Main_Page",
     "tags": [
-      "pokémon"
+      "pokémon",
+      "wiki"
     ]
   },
   {
@@ -923,7 +924,9 @@
     "title": "Bypassing EDR through Retrosigned Drivers and System Time Manipulation",
     "url": "https://www.aon.com/en/insights/cyber-labs/bypassing-edr-through-retrosigned-drivers-and-system-time-manipulation",
     "tags": [
-      "article"
+      "article",
+      "windows",
+      "edr"
     ]
   },
   {
@@ -938,7 +941,8 @@
     "title": "C23 is Finished: Here is What is on the Menu",
     "url": "https://thephd.dev/c23-is-coming-here-is-what-is-on-the-menu",
     "tags": [
-      "article"
+      "article",
+      "c"
     ]
   },
   {
@@ -1083,10 +1087,11 @@
     ]
   },
   {
-    "title": "Chris Brannon's Homepage",
+    "title": "Chris Brannon",
     "url": "https://the-brannons.com",
     "tags": [
-      "blog"
+      "blog",
+      "accessibility"
     ]
   },
   {
@@ -1299,7 +1304,8 @@
     "title": "Corleone. Pate der Paten - Geschichte",
     "url": "https://www.arte.tv/de/videos/RC-020678/corleone-pate-der-paten",
     "tags": [
-      "streaming"
+      "streaming",
+      "documentary"
     ]
   },
   {
@@ -1535,13 +1541,6 @@
     ]
   },
   {
-    "title": "decalage2/awesome-security-hardening",
-    "url": "https://github.com/decalage2/awesome-security-hardening",
-    "tags": [
-      "repository"
-    ]
-  },
-  {
     "title": "Decompiler Explorer",
     "url": "https://dogbolt.org",
     "tags": [
@@ -1567,14 +1566,16 @@
     "title": "DeepL Translate",
     "url": "https://deepl.com/translator",
     "tags": [
-      "translator"
+      "translator",
+      "deepl"
     ]
   },
   {
     "title": "DeepL Write",
     "url": "https://www.deepl.com/en/write",
     "tags": [
-      "translator"
+      "translator",
+      "deepl"
     ]
   },
   {
@@ -2200,13 +2201,6 @@
     "url": "https://eylenburg.github.io",
     "tags": [
       "blog"
-    ]
-  },
-  {
-    "title": "fabacab/awesome-cybersecurity-blueteam",
-    "url": "https://github.com/fabacab/awesome-cybersecurity-blueteam",
-    "tags": [
-      "repository"
     ]
   },
   {
