@@ -1344,7 +1344,7 @@
     ]
   },
   {
-    "title": "Criterion Collection",
+    "title": "Criterion Channel",
     "url": "https://www.criterionchannel.com",
     "tags": [
       "shopping",
@@ -5981,13 +5981,6 @@
     ]
   },
   {
-    "title": "reMarkable",
-    "url": "https://remarkable.com",
-    "tags": [
-      "shopping"
-    ]
-  },
-  {
     "title": "Rematch",
     "url": "https://www.arte.tv/de/videos/RC-025577/rematch",
     "tags": [
@@ -6810,13 +6803,6 @@
     ]
   },
   {
-    "title": "System76",
-    "url": "https://system76.com",
-    "tags": [
-      "shopping"
-    ]
-  },
-  {
     "title": "systemausfall.org",
     "url": "https://systemausfall.org",
     "tags": [
@@ -6864,13 +6850,6 @@
     "url": "https://www.talbica.com",
     "tags": [
       "chemistry"
-    ]
-  },
-  {
-    "title": "tangara",
-    "url": "https://sr.ht/~jacqueline/tangara",
-    "tags": [
-      "shopping"
     ]
   },
   {
@@ -7569,7 +7548,7 @@
     ]
   },
   {
-    "title": "Voyager",
+    "title": "ZSA",
     "url": "https://www.zsa.io",
     "tags": [
       "shopping",
@@ -7703,6 +7682,7 @@
     "title": "WEtell",
     "url": "https://wetell.de",
     "tags": [
+      "isp",
       "shopping"
     ]
   },
@@ -7740,7 +7720,9 @@
     "url": "https://whiskeyrap.de",
     "tags": [
       "music",
-      "shopping"
+      "prezident",
+      "shopping",
+      "whiskeyrap"
     ]
   },
   {
@@ -8133,7 +8115,8 @@
     "title": "ZWICK Schuhmanufaktur",
     "url": "http://www.zwick-schuhmanufaktur.de/index.html",
     "tags": [
-      "shopping"
+      "shopping",
+      "shoes"
     ]
   },
   {
