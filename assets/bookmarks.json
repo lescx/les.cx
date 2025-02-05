@@ -21,7 +21,8 @@
     "tags": [
       "blog",
       "programming"
-    ]
+    ],
+    "feed": "https://feeds.feedburner.com/1024cores"
   },
   {
     "title": "1337x",
@@ -558,7 +559,8 @@
     "url": "https://nvie.com/posts/a-successful-git-branching-model",
     "tags": [
       "git"
-    ]
+    ],
+    "feed": "https://feeds.feedburner.com/nvie"
   },
   {
     "title": "Audible",
@@ -653,7 +655,8 @@
     "title": "Bash One-Liners",
     "url": "https://www.bashoneliners.com/oneliners/popular",
     "tags": [
-      "bash"
+      "bash",
+      "cheatsheet"
     ]
   },
   {
@@ -1086,14 +1089,8 @@
     "url": "https://chrissis-corner.de",
     "tags": [
       "blog"
-    ]
-  },
-  {
-    "title": "ChrissisCorner",
-    "url": "https://github.com/ChrissisCorner",
-    "tags": [
-      "github"
-    ]
+    ],
+    "repository": "https://github.com/ChrissisCorner"
   },
   {
     "title": "ChrisTitusTech/winutil",
@@ -1560,6 +1557,10 @@
       "article",
       "rss"
     ]
+  },
+  {
+    "title": "Lighthouse feed finder",
+    "url": "https://lighthouseapp.io/tools/feed-finder"
   },
   {
     "title": "DeepL Translate",
@@ -2800,7 +2801,8 @@
     "title": "Google Java Style Guide",
     "url": "https://google.github.io/styleguide/javaguide.html",
     "tags": [
-      "java"
+      "java",
+      "cheatsheet"
     ]
   },
   {
@@ -3677,14 +3679,16 @@
     "title": "Java language server",
     "url": "https://github.com/eclipse-jdtls/eclipse.jdt.ls",
     "tags": [
-      "repository"
+      "repository",
+      "java"
     ]
   },
   {
     "title": "Java SE 22 & JDK 22 Documentation",
     "url": "https://docs.oracle.com/en/java/javase/22/docs/api/index.html",
     "tags": [
-      "documentation"
+      "documentation",
+      "java"
     ]
   },
   {
@@ -3705,7 +3709,8 @@
     "title": "jdb Command",
     "url": "https://docs.oracle.com/en/java/javase/17/docs/specs/man/jdb.html",
     "tags": [
-      "documentation"
+      "documentation",
+      "java"
     ]
   },
   {
@@ -4066,7 +4071,8 @@
     "title": "Learning the Java Language",
     "url": "https://docs.oracle.com/javase/tutorial/java",
     "tags": [
-      "documentation"
+      "documentation",
+      "java"
     ]
   },
   {
@@ -4199,7 +4205,8 @@
     "url": "https://linus-neumann.de",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://linus-neumann.de/feed"
   },
   {
     "title": "Linux/4004",
@@ -4213,7 +4220,8 @@
     "url": "https://freedom-to-tinker.com/2013/10/09/the-linux-backdoor-attempt-of-2003",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://freedom-to-tinker.com/feed"
   },
   {
     "title": "Linux Containers Forum",
@@ -4318,7 +4326,8 @@
     "url": "https://kapouay.eu.org/bookmarks",
     "tags": [
       "bookmarks"
-    ]
+    ],
+    "feed": "https://kapouay.eu.org/atom.xml"
   },
   {
     "title": "LitSolutions",
@@ -7364,7 +7373,8 @@
     "url": "https://www.typewolf.com",
     "tags": [
       "typefaces"
-    ]
+    ],
+    "feed": "https://www.typewolf.com/feed"
   },
   {
     "title": "Typey Type for Stenographers",
@@ -7372,28 +7382,24 @@
     "tags": [
       "stenography",
       "keyboard"
-    ]
-  },
-  {
-    "title": "Typst Forum",
-    "url": "https://forum.typst.app",
-    "tags": [
-      "typst"
-    ]
+    ],
+    "feed": "https://didoesdigital.com/index.xml"
   },
   {
     "title": "Typst",
     "url": "https://typst.app",
     "tags": [
       "typst"
-    ]
+    ],
+    "feed": "https://typst.app/blog/atom.xml"
   },
   {
     "title": "Uberspace",
-    "url": "https://uberspace.de/en",
+    "url": "https://uberspace.de",
     "tags": [
       "hoster"
-    ]
+    ],
+    "feed": "https://blog.uberspace.de"
   },
   {
     "title": "Udo Spickmann Fotograf und Kamerasammler",
@@ -7415,7 +7421,8 @@
     "url": "https://blog.thesparktree.com/ultimate-media-server-build-hardware",
     "tags": [
       "series"
-    ]
+    ],
+    "feed": "https://blog.thesparktree.com/feed.xml"
   },
   {
     "title": "ulyssa/iamb",
@@ -7436,14 +7443,16 @@
     "url": "https://educatedguesswork.org/posts/memory-management-1",
     "tags": [
       "series"
-    ]
+    ],
+    "feed": "https://educatedguesswork.org/feed/feed.xml"
   },
   {
     "title": "Unlocking secret ThinkPad functionality for emulating USB devices",
     "url": "https://xairy.io/articles/thinkpad-xdci",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://xairy.io/feed.xml"
   },
   {
     "title": "Unofficial NixOS Wiki",
@@ -7530,7 +7539,8 @@
     "url": "https://veith-yaeger.de",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://veith-yaeger.de/feed"
   },
   {
     "title": "Veloren",
@@ -8372,7 +8382,7 @@
     "feed": "https://voidstarsec.com/blog/feed.xml"
   },
   {
-    "title": "~2 Bored Guys",
+    "title": "2 Bored Guys",
     "url": "https://www.youtube.com/channel/UCFgBYlz5LwymPSWBX-G6hBA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFgBYlz5LwymPSWBX-G6hBA",
     "tags": [
@@ -8381,7 +8391,7 @@
     ]
   },
   {
-    "title": "~3Blue1Brown",
+    "title": "3Blue1Brown",
     "url": "https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw",
     "tags": [
@@ -8390,7 +8400,7 @@
     ]
   },
   {
-    "title": "~13Cubed",
+    "title": "13Cubed",
     "url": "https://www.youtube.com/channel/UCy8ntxFEudOCRZYT1f7ya9Q",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCy8ntxFEudOCRZYT1f7ya9Q",
     "tags": [
@@ -8399,7 +8409,7 @@
     ]
   },
   {
-    "title": "~Ahoy",
+    "title": "Ahoy",
     "url": "https://www.youtube.com/channel/UCE1jXbVAGJQEORz9nZqb5bQ",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCE1jXbVAGJQEORz9nZqb5bQ",
     "tags": [
@@ -8408,7 +8418,7 @@
     ]
   },
   {
-    "title": "~Arch",
+    "title": "Arch",
     "url": "https://www.youtube.com/channel/UCB5zZAm0b5-EqWkOEwHBE_A",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB5zZAm0b5-EqWkOEwHBE_A",
     "tags": [
@@ -8417,7 +8427,7 @@
     ]
   },
   {
-    "title": "~BeHaind",
+    "title": "BeHaind",
     "url": "https://www.youtube.com/channel/UCDhu1klCDnf2glev0YbYkDA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDhu1klCDnf2glev0YbYkDA",
     "tags": [
@@ -8426,7 +8436,7 @@
     ]
   },
   {
-    "title": "~Ben Eater",
+    "title": "Ben Eater",
     "url": "https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA",
     "tags": [
@@ -8435,7 +8445,7 @@
     ]
   },
   {
-    "title": "~CodeAesthetic",
+    "title": "CodeAesthetic",
     "url": "https://www.youtube.com/channel/UCaSCt8s_4nfkRglWCvNSDrg",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "tags": [
@@ -8444,7 +8454,7 @@
     ]
   },
   {
-    "title": "~Computerphile",
+    "title": "Computerphile",
     "url": "https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA",
     "tags": [
@@ -8453,7 +8463,7 @@
     ]
   },
   {
-    "title": "~Defunctland",
+    "title": "Defunctland",
     "url": "https://www.youtube.com/channel/UCVo63lbKHjC04KqYhwSZ_Pg",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVo63lbKHjC04KqYhwSZ_Pg",
     "tags": [
@@ -8462,7 +8472,7 @@
     ]
   },
   {
-    "title": "~Fireship",
+    "title": "Fireship",
     "url": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
     "tags": [
@@ -8471,7 +8481,7 @@
     ]
   },
   {
-    "title": "~Internet Historian",
+    "title": "Internet Historian",
     "url": "https://www.youtube.com/channel/UCR1D15p_vdP3HkrH8wgjQRw",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCR1D15p_vdP3HkrH8wgjQRw",
     "tags": [
@@ -8480,7 +8490,7 @@
     ]
   },
   {
-    "title": "~JCS - Criminal Psychology",
+    "title": "JCS - Criminal Psychology",
     "url": "https://www.youtube.com/channel/UCYwVxWpjeKFWwu8TML-Te9A",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYwVxWpjeKFWwu8TML-Te9A",
     "tags": [
@@ -8489,7 +8499,7 @@
     ]
   },
   {
-    "title": "~Jules",
+    "title": "Jules",
     "url": "https://www.youtube.com/channel/UCpes6DXY4XCSA8s9Q1G9ocg",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpes6DXY4XCSA8s9Q1G9ocg",
     "tags": [
@@ -8498,7 +8508,7 @@
     ]
   },
   {
-    "title": "~Jules der II.",
+    "title": "Jules der II.",
     "url": "https://www.youtube.com/channel/UCR42P1Uub9py2H5RkdcTnWA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCR42P1Uub9py2H5RkdcTnWA",
     "tags": [
@@ -8507,7 +8517,7 @@
     ]
   },
   {
-    "title": "~LaurieWired",
+    "title": "LaurieWired",
     "url": "https://www.youtube.com/channel/UCJXa3_WNNmIpewOtCHf3B0g",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJXa3_WNNmIpewOtCHf3B0g",
     "tags": [
@@ -8516,7 +8526,7 @@
     ]
   },
   {
-    "title": "~LiveOverflow",
+    "title": "LiveOverflow",
     "url": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w",
     "tags": [
@@ -8525,7 +8535,7 @@
     ]
   },
   {
-    "title": "~Massive Zug",
+    "title": "Massive Zug",
     "url": "https://www.youtube.com/channel/UCDR0ePrqTvsh5vix4Lzwieg",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDR0ePrqTvsh5vix4Lzwieg",
     "tags": [
@@ -8534,7 +8544,7 @@
     ]
   },
   {
-    "title": "~MiiMii",
+    "title": "MiiMii",
     "url": "https://www.youtube.com/channel/UCZzGtvgIcthK2cOGvwGGbbA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZzGtvgIcthK2cOGvwGGbbA",
     "tags": [
@@ -8543,7 +8553,7 @@
     ]
   },
   {
-    "title": "~MrWissen2go",
+    "title": "MrWissen2go",
     "url": "https://www.youtube.com/channel/UCZHpIFMfoJJ_1QxNGLJTzyA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHpIFMfoJJ_1QxNGLJTzyA",
     "tags": [
@@ -8552,7 +8562,7 @@
     ]
   },
   {
-    "title": "~MythosOfGaming",
+    "title": "MythosOfGaming",
     "url": "https://www.youtube.com/channel/UCFFfGA991VRR4U8FNNs72Qg",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFFfGA991VRR4U8FNNs72Qg",
     "tags": [
@@ -8561,7 +8571,7 @@
     ]
   },
   {
-    "title": "~Posy",
+    "title": "Posy",
     "url": "https://www.youtube.com/channel/UCmEmX_jw_pRp5UbAdzkZq-g",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmEmX_jw_pRp5UbAdzkZq-g",
     "tags": [
@@ -8570,7 +8580,7 @@
     ]
   },
   {
-    "title": "~Robert Hofmann",
+    "title": "Robert Hofmann",
     "url": "https://www.youtube.com/channel/UCaH02uiAaEbNmNjEfN0NT_w",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaH02uiAaEbNmNjEfN0NT_w",
     "tags": [
@@ -8579,7 +8589,7 @@
     ]
   },
   {
-    "title": "~Simplicissimus",
+    "title": "Simplicissimus",
     "url": "https://www.youtube.com/channel/UCKGMHVipEvuZudhHD05FOYA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKGMHVipEvuZudhHD05FOYA",
     "tags": [
@@ -8588,7 +8598,7 @@
     ]
   },
   {
-    "title": "~stacksmashing",
+    "title": "stacksmashing",
     "url": "https://www.youtube.com/channel/UC3S8vxwRfqLBdIhgRlDRVzw",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3S8vxwRfqLBdIhgRlDRVzw",
     "tags": [
@@ -8597,7 +8607,7 @@
     ]
   },
   {
-    "title": "~Summoning Salt",
+    "title": "Summoning Salt",
     "url": "https://www.youtube.com/channel/UCtUbO6rBht0daVIOGML3c8w",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtUbO6rBht0daVIOGML3c8w",
     "tags": [
@@ -8606,7 +8616,7 @@
     ]
   },
   {
-    "title": "~Travis McEnery",
+    "title": "Travis McEnery",
     "url": "https://www.youtube.com/channel/UCUSUdvFASRi8Xs3gjPXWaKg",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUSUdvFASRi8Xs3gjPXWaKg",
     "tags": [
@@ -8615,7 +8625,7 @@
     ]
   },
   {
-    "title": "~Veritasium",
+    "title": "Veritasium",
     "url": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA",
     "tags": [
@@ -8624,7 +8634,7 @@
     ]
   },
   {
-    "title": "~VoxelRifts",
+    "title": "VoxelRifts",
     "url": "https://www.youtube.com/channel/UC4Cqvm3LRHa2Fuv2m45sIEg",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4Cqvm3LRHa2Fuv2m45sIEg",
     "tags": [
@@ -8633,7 +8643,7 @@
     ]
   },
   {
-    "title": "~Vsauce",
+    "title": "Vsauce",
     "url": "https://www.youtube.com/channel/UC6nSFpj9HTCZ5t-N3Rm3-HA",
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6nSFpj9HTCZ5t-N3Rm3-HA",
     "tags": [
