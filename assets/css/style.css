@@ -33,11 +33,6 @@ img, picture, video, canvas, svg {
   height: auto;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
 header, footer {
   :is(ul, ol) {
     padding-left: 0;
