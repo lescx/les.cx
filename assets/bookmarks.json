@@ -44,7 +44,8 @@
     "url": "https://dgl.cx/2023/09/ansi-terminal-security",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://dgl.cx/feed"
   },
   {
     "title": "3Blue1Brown",
@@ -503,7 +504,8 @@
     "url": "https://arstechnica.com",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://feeds.arstechnica.com/arstechnica/index"
   },
   {
     "title": "Arte",
@@ -1957,7 +1959,16 @@
     "url": "https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction",
     "tags": [
       "cryptography"
-    ]
+    ],
+    "feed": "https://andrea.corbellini.name/feed.atom"
+  },
+  {
+    "title": "Engineering at Meta",
+    "url": "https://engineering.fb.com",
+    "tags": [
+      "blog"
+    ],
+    "feed": "https://engineering.fb.com/feed"
   },
   {
     "title": "Eloquent JavaScript",
@@ -2252,7 +2263,8 @@
     "url": "https://privsec.dev/posts/android/f-droid-security-issues",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://privsec.dev/index.xml"
   },
   {
     "title": "Fedora",
@@ -2787,10 +2799,12 @@
   },
   {
     "title": "Google Project Zero",
-    "url": "https://github.com/googleprojectzero",
+    "url": "https://googleprojectzero.blogspot.com",
     "tags": [
       "github"
-    ]
+    ],
+    "repository": "https://github.com/googleprojectzero",
+    "feed": "https://googleprojectzero.blogspot.com/feeds/posts/default"
   },
   {
     "title": "Google Public DNS",
@@ -3241,8 +3255,10 @@
     "title": "How to Ask Questions of Experts To Gain More than Just Answers",
     "url": "https://josh.works/better-questions",
     "tags": [
+      "artikel",
       "netiquette"
-    ]
+    ],
+    "feed": "https://josh.works/atom.xml"
   },
   {
     "title": "How To Ask Questions The Smart Way",
@@ -3258,13 +3274,6 @@
       "thalia",
       "book",
       "shopping"
-    ]
-  },
-  {
-    "title": "How to C (as of 2016)",
-    "url": "https://matt.sh/howto-c",
-    "tags": [
-      "article"
     ]
   },
   {
@@ -4570,18 +4579,27 @@
     "feed": "https://matt.sh/.rss"
   },
   {
+    "title": "How to C (as of 2016)",
+    "url": "https://matt.sh/howto-c",
+    "tags": [
+      "article"
+    ]
+  },
+  {
     "title": "Max Böck",
     "url": "https://mxb.dev",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://mxb.dev/feed.xml"
   },
   {
     "title": "Max Latka",
     "url": "https://latka.li",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://latka.li/b/rss.xml"
   },
   {
     "title": "MDN Web Docs",
@@ -4595,7 +4613,8 @@
     "url": "https://media.ccc.de",
     "tags": [
       "streaming"
-    ]
+    ],
+    "feed": "https://media.ccc.de/updates.rdf"
   },
   {
     "title": "MediaSavvy",
@@ -4620,24 +4639,14 @@
     "feed": "https://www.megabeets.net/feed"
   },
   {
-    "title": "Megathread",
+    "title": "Piracy Megathread",
     "url": "https://reddit.com/r/Piracy/wiki/megathread",
     "tags": [
       "piracy"
-    ]
-  },
-  {
-    "title": "Megathread",
-    "url": "https://rentry.co/megathread",
-    "tags": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "Megathread",
-    "url": "https://rentry.org/megathread",
-    "tags": [
-      "piracy"
+    ],
+    "mirrors": [
+      "https://rentry.co/megathread",
+      "https://rentry.org/megathread"
     ]
   },
   {
@@ -4672,7 +4681,8 @@
     "url": "https://mertbakir.gitlab.io",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://mertbakir.gitlab.io/index.xml"
   },
   {
     "title": "MetaBattle Wiki",
@@ -4725,25 +4735,20 @@
     ]
   },
   {
-    "title": "millert",
-    "url": "https://github.com/millert",
-    "tags": [
-      "github"
-    ]
-  },
-  {
     "title": "MINIATURE CALENDAR",
     "url": "https://miniature-calendar.com",
     "tags": [
       "art"
-    ]
+    ],
+    "feed": "https://miniature-calendar.com/feed"
   },
   {
     "title": "Minimal Computing",
     "url": "https://go-dh.github.io/mincomp",
     "tags": [
       "suckless"
-    ]
+    ],
+    "feed": "https://go-dh.github.io/mincomp/atom"
   },
   {
     "title": "Minimal Forth computer",
@@ -4775,7 +4780,8 @@
     "url": "https://mjg59.dreamwidth.org",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://mjg59.dreamwidth.org/data/rss"
   },
   {
     "title": "Modern JavaScript Explained For Dinosaurs",
@@ -7762,6 +7768,15 @@
     ]
   },
   {
+    "title": "Wired: Security",
+    "url": "https://www.wired.com/category/security",
+    "tags": [
+      "news",
+      "security"
+    ],
+    "feed": "https://www.wired.com/feed/category/security/latest/rss"
+  },
+  {
     "title": "Why the Security of USB Is Fundamentally Broken",
     "url": "https://www.wired.com/2014/07/usb-security",
     "tags": [
@@ -8288,6 +8303,312 @@
     "tags": [
       "blender",
       "blog"
+    ]
+  },
+  {
+    "title": "TechRepublic: Security",
+    "url": "https://www.techrepublic.com/rssfeeds/topic/security/?feedType=rssfeeds",
+    "tags": [
+      "news",
+      "security"
+    ],
+    "feed": "https://www.techrepublic.com/rssfeeds/topic/security/?feedType=rssfeeds"
+  },
+  {
+    "title": "The Guardian: Security",
+    "url": "https://www.theguardian.com/technology/data-computer-security",
+    "tags": [
+      "news",
+      "security"
+    ],
+    "feed": "https://www.theguardian.com/technology/data-computer-security/rss"
+  },
+  {
+    "title": "IBM Security Intelligence",
+    "url": "https://securityintelligence.com",
+    "tags": [
+      "blog",
+      "security"
+    ],
+    "feed": "https://securityintelligence.com/feed"
+  },
+  {
+    "title": "Voidstar Security Research Blog",
+    "url": "https://voidstarsec.com/blog",
+    "tags": [
+      "blog",
+      "security"
+    ],
+    "feed": "https://voidstarsec.com/blog/feed.xml"
+  },
+  {
+    "title": "~2 Bored Guys",
+    "url": "https://www.youtube.com/channel/UCFgBYlz5LwymPSWBX-G6hBA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFgBYlz5LwymPSWBX-G6hBA",
+    "tags": [
+  	"channel",
+  	"youtube"
+    ]
+  },
+  {
+    "title": "~3Blue1Brown",
+    "url": "https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~13Cubed",
+    "url": "https://www.youtube.com/channel/UCy8ntxFEudOCRZYT1f7ya9Q",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCy8ntxFEudOCRZYT1f7ya9Q",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Ahoy",
+    "url": "https://www.youtube.com/channel/UCE1jXbVAGJQEORz9nZqb5bQ",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCE1jXbVAGJQEORz9nZqb5bQ",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Arch",
+    "url": "https://www.youtube.com/channel/UCB5zZAm0b5-EqWkOEwHBE_A",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB5zZAm0b5-EqWkOEwHBE_A",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~BeHaind",
+    "url": "https://www.youtube.com/channel/UCDhu1klCDnf2glev0YbYkDA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDhu1klCDnf2glev0YbYkDA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Ben Eater",
+    "url": "https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~CodeAesthetic",
+    "url": "https://www.youtube.com/channel/UCaSCt8s_4nfkRglWCvNSDrg",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Computerphile",
+    "url": "https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Defunctland",
+    "url": "https://www.youtube.com/channel/UCVo63lbKHjC04KqYhwSZ_Pg",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVo63lbKHjC04KqYhwSZ_Pg",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Fireship",
+    "url": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Internet Historian",
+    "url": "https://www.youtube.com/channel/UCR1D15p_vdP3HkrH8wgjQRw",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCR1D15p_vdP3HkrH8wgjQRw",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~JCS - Criminal Psychology",
+    "url": "https://www.youtube.com/channel/UCYwVxWpjeKFWwu8TML-Te9A",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYwVxWpjeKFWwu8TML-Te9A",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Jules",
+    "url": "https://www.youtube.com/channel/UCpes6DXY4XCSA8s9Q1G9ocg",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpes6DXY4XCSA8s9Q1G9ocg",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Jules der II.",
+    "url": "https://www.youtube.com/channel/UCR42P1Uub9py2H5RkdcTnWA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCR42P1Uub9py2H5RkdcTnWA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~LaurieWired",
+    "url": "https://www.youtube.com/channel/UCJXa3_WNNmIpewOtCHf3B0g",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJXa3_WNNmIpewOtCHf3B0g",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~LiveOverflow",
+    "url": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Massive Zug",
+    "url": "https://www.youtube.com/channel/UCDR0ePrqTvsh5vix4Lzwieg",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDR0ePrqTvsh5vix4Lzwieg",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~MiiMii",
+    "url": "https://www.youtube.com/channel/UCZzGtvgIcthK2cOGvwGGbbA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZzGtvgIcthK2cOGvwGGbbA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~MrWissen2go",
+    "url": "https://www.youtube.com/channel/UCZHpIFMfoJJ_1QxNGLJTzyA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHpIFMfoJJ_1QxNGLJTzyA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~MythosOfGaming",
+    "url": "https://www.youtube.com/channel/UCFFfGA991VRR4U8FNNs72Qg",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFFfGA991VRR4U8FNNs72Qg",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Posy",
+    "url": "https://www.youtube.com/channel/UCmEmX_jw_pRp5UbAdzkZq-g",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmEmX_jw_pRp5UbAdzkZq-g",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Robert Hofmann",
+    "url": "https://www.youtube.com/channel/UCaH02uiAaEbNmNjEfN0NT_w",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaH02uiAaEbNmNjEfN0NT_w",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Simplicissimus",
+    "url": "https://www.youtube.com/channel/UCKGMHVipEvuZudhHD05FOYA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKGMHVipEvuZudhHD05FOYA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~stacksmashing",
+    "url": "https://www.youtube.com/channel/UC3S8vxwRfqLBdIhgRlDRVzw",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3S8vxwRfqLBdIhgRlDRVzw",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Summoning Salt",
+    "url": "https://www.youtube.com/channel/UCtUbO6rBht0daVIOGML3c8w",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtUbO6rBht0daVIOGML3c8w",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Travis McEnery",
+    "url": "https://www.youtube.com/channel/UCUSUdvFASRi8Xs3gjPXWaKg",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUSUdvFASRi8Xs3gjPXWaKg",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Veritasium",
+    "url": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~VoxelRifts",
+    "url": "https://www.youtube.com/channel/UC4Cqvm3LRHa2Fuv2m45sIEg",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4Cqvm3LRHa2Fuv2m45sIEg",
+    "tags": [
+  	  "channel",
+  	  "youtube"
+    ]
+  },
+  {
+    "title": "~Vsauce",
+    "url": "https://www.youtube.com/channel/UC6nSFpj9HTCZ5t-N3Rm3-HA",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6nSFpj9HTCZ5t-N3Rm3-HA",
+    "tags": [
+  	  "channel",
+  	  "youtube"
     ]
   }
 ]
