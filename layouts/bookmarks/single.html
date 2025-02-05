@@ -9,7 +9,7 @@
   {{ end }}
 
   {{ if .Params.tags }}
-    <p><strong>Tags:</strong></p>
+    <p>Tags:</p>
     <ul>
       {{ range .Params.tags }}
         <li>{{ . }}</li>
@@ -18,7 +18,7 @@
   {{ end }}
 
   {{ if .Params.mirrors }}
-    <p><strong>Mirrors:</strong></p>
+    <p>Mirrors:</p>
     <ul>
       {{ range .Params.mirrors }}
         <li><a href="{{ . }}">{{ . }}</a></li>
@@ -27,8 +27,6 @@
   {{ end }}
 
   {{ if .Content }}
-    <div>
-      {{ .Content }}
-    </div>
+    {{ .Content }}
   {{ end }}
 {{ end }}
