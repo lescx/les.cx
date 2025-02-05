@@ -144,7 +144,8 @@
     "title": "Accrescent",
     "url": "https://accrescent.app",
     "tags": [
-      "android"
+      "android",
+      "app"
     ]
   },
   {
@@ -259,10 +260,11 @@
     "feed": "https://alexwlchan.net/atom.xml"
   },
   {
-    "title": "All commands sorted by votes",
+    "title": "Commandlinefu: All commands sorted by votes",
     "url": "https://www.commandlinefu.com/commands/browse/sort-by-votes",
     "tags": [
-      "bash"
+      "bash",
+      "cheatsheet"
     ]
   },
   {
@@ -306,13 +308,6 @@
     "url": "https://www.kix.in/2008/06/19/an-alternative-to-shared-libraries",
     "tags": [
       "suckless",
-      "article"
-    ]
-  },
-  {
-    "title": "An analysis of a new Linux vulnerability in nf_tables",
-    "url": "https://pwning.tech/nftables",
-    "tags": [
       "article"
     ]
   },
@@ -668,7 +663,8 @@
     "title": "Bash scripting cheatsheet",
     "url": "https://devhints.io/bash",
     "tags": [
-      "bash"
+      "bash",
+      "cheatsheet"
     ]
   },
   {
@@ -1913,7 +1909,8 @@
     "title": "Easing Functions Cheat Sheet",
     "url": "https://easings.net",
     "tags": [
-      "documentation"
+      "documentation",
+      "cheatsheet"
     ]
   },
   {
@@ -3475,7 +3472,8 @@
     "title": "Index Alphabetical - OWASP Cheat Sheet Series",
     "url": "https://cheatsheetseries.owasp.org/Glossary.html",
     "tags": [
-      "documentation"
+      "documentation",
+      "cheatsheet"
     ]
   },
   {
@@ -5779,10 +5777,18 @@
     "feed": "https://pwning.tech/rss"
   },
   {
+    "title": "An analysis of a new Linux vulnerability in nf_tables",
+    "url": "https://pwning.tech/nftables",
+    "tags": [
+      "article"
+    ]
+  },
+  {
     "title": "Python Cheatsheet",
     "url": "https://www.pythoncheatsheet.org",
     "tags": [
-      "python"
+      "python",
+      "cheatsheet"
     ]
   },
   {
@@ -6178,7 +6184,8 @@
     "title": "Rust Language Cheat Sheet",
     "url": "https://cheats.rs",
     "tags": [
-      "rust"
+      "rust",
+      "cheatsheet"
     ]
   },
   {
@@ -7757,7 +7764,8 @@
     "title": "Why numbering should start at zero",
     "url": "https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html",
     "tags": [
-      "article"
+      "article",
+      "dijkstra"
     ]
   },
   {
@@ -7844,7 +7852,8 @@
     "title": "Words",
     "url": "https://justinjackson.ca/words.html",
     "tags": [
-      "article"
+      "article",
+      "suckless"
     ]
   },
   {
@@ -7922,7 +7931,8 @@
     "title": "XHTML 1.0 Strict Cheat Sheet",
     "url": "https://www.w3.org/2010/04/xhtml10-strict.html",
     "tags": [
-      "standard"
+      "standard",
+      "cheatsheet"
     ]
   },
   {
@@ -8214,8 +8224,7 @@
   {
     "title": "Michael W Lucas",
     "url": "https://mwl.io",
-    "tags": [
-    ],
+    "tags": [],
     "feed": "https://mwl.io/feed"
   },
   {
@@ -8231,9 +8240,11 @@
     "feed": "https://www.hackerone.com/blog.rss"
   },
   {
-    "title": "Securelist",
+    "title": "Kaspersky Securelist",
     "url": "https://securelist.com",
-    "tags": [],
+    "tags": [
+      "blog"
+    ],
     "feed": "https://securelist.com/feed"
   },
   {
@@ -8269,5 +8280,21 @@
       "security"
     ],
     "feed": "https://blog.qualys.com/feed"
+  },
+  {
+    "title": "Blender Studio Blog",
+    "url": "https://studio.blender.org/blog",
+    "tags": [
+      "blender",
+      "blog"
+    ]
+  },
+  {
+    "title": "Blender Developer Blog",
+    "url": "https://code.blender.org",
+    "tags": [
+      "blender",
+      "blog"
+    ]
   }
 ]
