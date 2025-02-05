@@ -57,11 +57,11 @@ header, footer {
 }
 
 /* When the technology filter is active, hide all bookmarks... */
-.bookmark {
-  display: none;
-}
+/* .bookmark { */
+  /* display: none; */
+/* } */
 
 /* ...and then show only those that have the "technology" class */
-.bookmark.blog {
-  display: table-row;
-}
+/* .bookmark.blog { */
+  /* display: table-row; */
+/* } */
