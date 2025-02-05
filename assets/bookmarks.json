@@ -3527,18 +3527,12 @@
     ]
   },
   {
-    "title": "Inter font family",
-    "url": "https://github.com/rsms/inter",
-    "tags": [
-      "repository"
-    ]
-  },
-  {
     "title": "Inter",
     "url": "https://rsms.me/inter",
     "tags": [
       "typeface"
-    ]
+    ],
+    "repository": "https://github.com/rsms/inter"
   },
   {
     "title": "Internet Archive",
