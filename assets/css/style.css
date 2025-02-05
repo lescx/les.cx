@@ -1,12 +1,46 @@
+@font-face {
+  font-family: 'Courier Prime';
+  src:
+    url('fonts/CourierPrime-Regular.woff2') format('woff2'),
+    url('fonts/CourierPrime-Regular.woff') format('woff'),
+    url('fonts/CourierPrime-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src:
+    url('fonts/CourierPrime-Italic.woff2') format('woff2'),
+    url('fonts/CourierPrime-Italic.woff') format('woff'),
+    url('fonts/CourierPrime-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src:
+    url('fonts/CourierPrime-Bold.woff2') format('woff2'),
+    url('fonts/CourierPrime-Bold.woff') format('woff'),
+    url('fonts/CourierPrime-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src:
+    url('fonts/CourierPrime-BoldItalic.woff2') format('woff2'),
+    url('fonts/CourierPrime-BoldItalic.woff') format('woff'),
+    url('fonts/CourierPrime-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
 body {
-  background-color: var(--color-background-primary);
-  color: var(--color-text-secondary);
-  font-family: system-ui, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Courier Prime', 'Courier New', Courier, monospace;
   line-height: 1.5;
-  overflow-wrap: break-word;
-  margin: 40px auto;
-  padding: 0 10px;
-  max-width: 48rem;
 }
 
 body > header {
@@ -15,16 +49,17 @@ body > header {
   }
 }
 
+header, footer {
+  :is(ul, ol) {
+    padding-left: 0;
+  }
+  li {
+    display: inline;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
-}
-
-h1, h2, h3, h4, h5, h6, a, a:visited {
-  color: var(--color-text-primary);
-}
-
-a:hover, a:active, a:focus {
-  color: var(--color-text-tertiary);
 }
 
 img, picture, video, canvas, svg {
@@ -33,35 +68,10 @@ img, picture, video, canvas, svg {
   height: auto;
 }
 
-header, footer {
-  :is(ul, ol) {
-    padding-left: 0;
-  }
-  li {
-    display: inline; 
-  }
-  /* li:not(:last-child) { */
-    /* margin-right: 6px; */
-  /* } */
-}
-
-/* nav[aria-label="breadcrumb"] ol li:not(:last-child)::after { */
-  /* content: "/"; */
-/* } */
-
 .anchor {
-    display: none;
-}
-:is(h1:hover, h2:hover, h3:hover) .anchor {
-    display: inline-block;
+  display: none;
 }
 
-/* When the technology filter is active, hide all bookmarks... */
-/* .bookmark { */
-  /* display: none; */
-/* } */
-
-/* ...and then show only those that have the "technology" class */
-/* .bookmark.blog { */
-  /* display: table-row; */
-/* } */
+:is(h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover) .anchor {
+  display: inline-block;
+}

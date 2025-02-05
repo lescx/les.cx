@@ -203,13 +203,6 @@
     ]
   },
   {
-    "title": "A Few Thoughts on Cryptographic Engineering",
-    "url": "https://blog.cryptographyengineering.com",
-    "tags": [
-      "cryptography"
-    ]
-  },
-  {
     "title": "Affinity",
     "url": "https://affinity.serif.com",
     "tags": [
@@ -5462,13 +5455,6 @@
     ]
   },
   {
-    "title": "pepe",
-    "url": "https://github.com/pepe",
-    "tags": [
-      "github"
-    ]
-  },
-  {
     "title": "Perfetto UI",
     "url": "https://ui.perfetto.dev",
     "tags": [
@@ -6155,8 +6141,12 @@
     "title": "Richard Stallman’s Personal Site",
     "url": "https://stallman.org",
     "tags": [
-      "blog"
-    ]
+      "blog",
+      "fsf",
+      "gnu",
+      "emacs"
+    ],
+    "feed": "https://stallman.org/rss/rss.xml"
   },
   {
     "title": "Richy's Random Ramblings",
@@ -6345,21 +6335,24 @@
     "title": "Schmincke",
     "url": "https://schmincke.de",
     "tags": [
-      "shopping"
+      "shopping",
+      "art"
     ]
   },
   {
     "title": "Schmuddelwedda",
     "url": "https://schmuddelwedda.de",
     "tags": [
-      "shopping"
+      "shopping",
+      "clothing"
     ]
   },
   {
     "title": "Schneier on Security",
     "url": "https://www.schneier.com",
     "tags": [
-      "blog"
+      "blog",
+      "security"
     ],
     "feed": "https://www.schneier.com/feed/atom"
   },
