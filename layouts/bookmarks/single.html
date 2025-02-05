@@ -2,7 +2,10 @@
   <h1>{{ .Title }}</h1>
 
   {{ if .Params.url }}
-    <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">{{ .Params.url }}</a>
+    <p>URL: <a href="{{ .Params.url }}">{{ .Params.url }}</a></p>
+  {{ end }}
+  {{ if .Params.feed }}
+    <p>Feed: <a href="{{ .Params.feed }}">{{ .Params.feed }}</a></p>
   {{ end }}
 
   {{ if .Params.tags }}
