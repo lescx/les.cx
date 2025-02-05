@@ -28,6 +28,10 @@
     </ul>
   {{ end }}
 
+  {{ if .Params.feed }}
+    <a href="{{ .Params.feed }}">📡</a>
+  {{ end }}
+
   {{ if .Params.description }}
     <p>{{ .Params.description }}</p>
   {{ end }}
