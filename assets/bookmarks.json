@@ -6092,7 +6092,8 @@
     "url": "https://reverse.put.as",
     "tags": [
       "reverse-engineering"
-    ]
+    ],
+    "feed": "https://reverse.put.as/index.xml"
   },
   {
     "title": "Reverse Engineering Resources",
@@ -6113,13 +6114,6 @@
     "url": "https://bernardodamele.blogspot.com/2011/09/reverse-shells-one-liners.html",
     "tags": [
       "reverse-shell"
-    ]
-  },
-  {
-    "title": "Reversing Binaries: CTF Edition",
-    "url": "https://swanandx.github.io/blog/posts/re/ctfs",
-    "tags": [
-      "ctf"
     ]
   },
   {
