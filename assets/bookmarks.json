@@ -3256,7 +3256,8 @@
     "tags": [
       "article",
       "concurrency"
-    ]
+    ],
+    "feed": "https://wyounas.github.io/feed.xml"
   },
   {
     "title": "How deep is the well?",
@@ -3548,7 +3549,8 @@
     "url": "https://blog.redteam-pentesting.de/2021/inside-a-pbx",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://blog.redteam-pentesting.de/posts/index.xml"
   },
   {
     "title": "IntelTechniques by Michael Bazzell",
@@ -4362,7 +4364,8 @@
     "url": "https://logbuch-netzpolitik.de",
     "tags": [
       "podcast"
-    ]
+    ],
+    "feed": "https://logbuch-netzpolitik.de/feed/opus"
   },
   {
     "title": "LOLBAS",
@@ -4833,6 +4836,11 @@
     ]
   },
   {
+    "title": "我的站点 | 一个系统软件工程师的随手涂鸦",
+    "url": "https://nanxiao.me",
+    "feed": "https://nanxiao.me/feed"
+  },
+  {
     "title": "Modern JavaScript Tutorial",
     "url": "https://javascript.info",
     "tags": [
@@ -4888,7 +4896,8 @@
     "title": "My arsenal of CLI tools",
     "url": "https://abhijithota.me/posts/cli-tools",
     "tags": [
-      "article"
+      "article",
+      "dead"
     ]
   },
   {
@@ -8061,7 +8070,18 @@
       "piracy",
       "torrents",
       "yify"
-    ]
+    ],
+    "feed": "https://yts.mx/rss"
+  },
+  {
+    "title": "YIFY 4K",
+    "url": "https://yts.mx/browse-movies/0/2160p/all/0/latest/0/all",
+    "tags": [
+      "piracy",
+      "torrents",
+      "yify"
+    ],
+    "feed": "https://yts.mx/rss/0/2160p/all/0/en"
   },
   {
     "title": "YIFY Subtitles",
@@ -8697,6 +8717,23 @@
     "tags": [
       "gw2",
       "videogame"
+    ]
+  },
+  {
+    "title": "Anirudh Oppiliappan",
+    "url": "https://anirudh.fi/blog",
+    "feed": "https://anirudh.fi/blog/feed.xml",
+    "tags": [
+      "blog"
+    ]
+  },
+  {
+    "title": "Medieninformationen Polizei Sachsen",
+    "url": "https://www.polizei.sachsen.de/de/medieninformationen_pdd.htm",
+    "feed": "https://www.polizei.sachsen.de/de/presse_rss_pdd.xml",
+    "tags": [
+      "news",
+      "1312"
     ]
   }
 ]
