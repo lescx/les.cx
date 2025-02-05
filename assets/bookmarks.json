@@ -8850,22 +8850,30 @@
   {
     "title": "A Beginner's Guide to Forth",
     "url": "https://galileo.phys.virginia.edu/classes/551.jvn.fall01/primer.htm",
-    "tags": "forth"
+    "tags": [
+      "forth"
+    ]
   },
   {
     "title": "Easy Forth",
     "url": "https://skilldrick.github.io/easyforth",
-    "tags": "forth"
+    "tags": [
+      "forth"
+    ]
   },
   {
     "title": "forth2020 - About Forth",
     "url": "https://www.forth2020.org/about-forth",
-    "tags": "forth"
+    "tags": [
+      "forth"
+    ]
   },
   {
     "title": "Forth",
     "url": "https://forth-standard.org",
-    "tags": "forth"
+    "tags": [
+      "forth"
+    ]
   },
   {
     "title": "Forth: The Hacker’s Language",
@@ -8878,7 +8886,9 @@
   {
     "title": "Forth: The programming language that writes itself",
     "url": "https://ratfactor.com/forth/the_programming_language_that_writes_itself.html",
-    "tags": "forth"
+    "tags": [
+      "forth"
+    ]
   },
   {
     "title": "zserge's blog",
@@ -8900,12 +8910,12 @@
   {
     "title": "Thinking Forth",
     "url": "https://thinking-forth.sourceforge.net",
-    "tags": "forth"
+    "tags": ["forth"]
   },
   {
     "title": "Tumble Forth",
     "url": "http://tumbleforth.hardcoded.net",
-    "tags": "forth"
+    "tags": ["forth"]
   },
   {
     "title": "vdupras/duskos",
