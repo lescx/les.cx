@@ -1565,7 +1565,10 @@
   },
   {
     "title": "Lighthouse feed finder",
-    "url": "https://lighthouseapp.io/tools/feed-finder"
+    "url": "https://lighthouseapp.io/tools/feed-finder",
+    "tags": [
+      "feeds"
+    ]
   },
   {
     "title": "DeepL Translate",
@@ -3121,7 +3124,8 @@
     "title": "Have I Been Pwned",
     "url": "https://haveibeenpwned.com",
     "tags": [
-      "webapp"
+      "webapp",
+      "haveibeenpwned"
     ]
   },
   {
@@ -4838,7 +4842,10 @@
   {
     "title": "我的站点 | 一个系统软件工程师的随手涂鸦",
     "url": "https://nanxiao.me",
-    "feed": "https://nanxiao.me/feed"
+    "feed": "https://nanxiao.me/feed",
+    "tags": [
+      "blog"
+    ]
   },
   {
     "title": "Modern JavaScript Tutorial",
@@ -6366,7 +6373,10 @@
   {
     "title": "Latacora",
     "url": "https://www.latacora.com",
-    "feed": "https://www.latacora.com/blog/index.xml"
+    "feed": "https://www.latacora.com/blog/index.xml",
+    "tags": [
+      "security"
+    ]
   },
   {
     "title": "seankhliao",
@@ -7602,6 +7612,7 @@
     "title": "VirusTotal Blog",
     "url": "https://blog.virustotal.com",
     "tags": [
+      "blog"
     ],
     "feed": "https://blog.virustotal.com/feeds/posts/default"
   },
@@ -8283,6 +8294,7 @@
     "title": "Microsoft Security Response Center Blog",
     "url": "https://msrc.microsoft.com/blog",
     "tags": [
+      "security"
     ],
     "feed": "https://msrc.microsoft.com/blog/feed"
   },
@@ -8290,6 +8302,8 @@
     "title": "Chromium Blog",
     "url": "https://blog.chromium.org",
     "tags": [
+      "chromium",
+      "blog"
     ],
     "feed": "https://blog.chromium.org/atom.xml"
   },
@@ -8304,19 +8318,26 @@
   {
     "title": "Michael W Lucas",
     "url": "https://mwl.io",
-    "tags": [],
+    "tags": [
+      "bsd"
+    ],
     "feed": "https://mwl.io/feed"
   },
   {
     "title": "Troy Hunt",
     "url": "https://www.troyhunt.com",
-    "tags": [],
+    "tags": [
+      "haveibeenpwned",
+      "blog"
+    ],
     "feed": "https://www.troyhunt.com/rss"
   },
   {
     "title": "HackerOne",
     "url": "https://www.hackerone.com",
-    "tags": [],
+    "tags": [
+      "misc"
+    ],
     "feed": "https://www.hackerone.com/blog.rss"
   },
   {
@@ -8330,7 +8351,9 @@
   {
     "title": "Krebs On Security",
     "url": "https://krebsonsecurity.com",
-    "tags": [],
+    "tags": [
+      "security"
+    ],
     "feed": "https://krebsonsecurity.com/feed"
   },
   {
@@ -8738,8 +8761,7 @@
     "url": "https://www.polizei.sachsen.de/de/medieninformationen_pdd.htm",
     "feed": "https://www.polizei.sachsen.de/de/presse_rss_pdd.xml",
     "tags": [
-      "news",
-      "1312"
+      "news"
     ]
   }
 ]

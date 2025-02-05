@@ -6,7 +6,7 @@ body {
   overflow-wrap: break-word;
   margin: 40px auto;
   padding: 0 10px;
-  max-width: 48rem;
+  /* max-width: 48rem; */
 }
 
 body > header {

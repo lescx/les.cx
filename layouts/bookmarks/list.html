@@ -1,3 +1,13 @@
+{{ define "head" }}
+  {{ partial "head.html" . }}
+
+  {{ $sorterJS := resources.Get "js/bookmarks-sorter.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $sorterJS.RelPermalink }}" defer></script>
+
+  {{ $searcherJS := resources.Get "js/bookmarks-searcher.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $searcherJS.RelPermalink }}" defer></script>
+{{ end }}
+
 {{ define "main" }}
   {{/* Build a list of all tags from all pages */}}
   {{ $allTags := slice }}
@@ -18,7 +28,8 @@
 
   <input type="text" placeholder="Search…">
 
-  <table>
+  <!-- Give the table an id so we can easily select it in JavaScript -->
+  <table id="bookmarksTable">
     <thead>
       <tr>
         <th>URL</th>
