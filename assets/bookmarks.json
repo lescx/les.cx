@@ -8303,14 +8303,6 @@
     "feed": "https://www.bleepingcomputer.com/feed"
   },
   {
-    "title": "Michael W Lucas",
-    "url": "https://mwl.io",
-    "tags": [
-      "bsd"
-    ],
-    "feed": "https://mwl.io/feed"
-  },
-  {
     "title": "Troy Hunt",
     "url": "https://www.troyhunt.com",
     "tags": [
@@ -9333,7 +9325,8 @@
     "tags": [
       "books",
       "openbsd"
-    ]
+    ],
+    "feed": "https://mwl.io/feed"
   },
   {
     "title": "OpenBSD.app",
@@ -9602,14 +9595,6 @@
     "title": "Chrome Remote Desktop",
     "url": "https://remotedesktop.google.com/home",
     "tags": [
-      "chrome"
-    ]
-  },
-  {
-    "title": "Chromium Blog",
-    "url": "https://blog.chromium.org",
-    "tags": [
-      "blog",
       "chrome"
     ]
   },
