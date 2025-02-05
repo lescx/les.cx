@@ -16,7 +16,7 @@
 
   <p>There are currently {{ $bookmarkCount }} bookmarks in {{ $tagCount }} different tags.</p>
 
-  <input style="width: 100%; height: 150%;" type="text" placeholder="Search…">
+  <input type="text" placeholder="Search…">
 
   <table>
     <thead>
@@ -29,7 +29,7 @@
     </thead>
     <tbody>
       {{ range .Pages }}
-        <tr>
+        <tr class="bookmark{{ if .Params.tags }} {{ delimit .Params.tags " " }}{{ end }}">
           <td>
             <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">🔗</a>
           </td>

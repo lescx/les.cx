@@ -4529,7 +4529,7 @@
   },
   {
     "title": "Mailing List",
-    "url": "https://scriptedconfiguration.org/formulas/mailing-list.html",
+    "url": "https://scriptedconfiguration.org/mailing-list.html",
     "tags": [
       "article",
       "awk"
@@ -7097,6 +7097,14 @@
     "url": "https://www.theverge.com",
     "tags": [
       "news"
+    ],
+    "feed": "https://www.theverge.com/rss/partner/subscriber-only-full-feed/rss.xml"
+  },
+  {
+    "title": "Beej's Guide to Git",
+    "url": "https://beej.us/guide/bggit",
+    "tags": [
+      "git"
     ]
   },
   {
@@ -7322,7 +7330,8 @@
     "url": "https://www.linusakesson.net/programming/tty/index.php",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://www.linusakesson.net/rssfeed.php"
   },
   {
     "title": "TUD BA Informatik - OneDrive",
@@ -7586,7 +7595,8 @@
     "url": "https://vincentdelft.be",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://vincentdelft.be/rss"
   },
   {
     "title": "VirusTotal Blog",
@@ -7760,7 +7770,8 @@
     "url": "https://www.ionos.com/digitalguide/server/security/kerberos",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://www.ionos.com/digitalguide/server/security/feed.rss"
   },
   {
     "title": "WhatsMyName Web",
@@ -7792,7 +7803,8 @@
     "url": "https://whonix.org",
     "tags": [
       "distro"
-    ]
+    ],
+    "feed": "https://forums.whonix.org/c/news/21.rss"
   },
   {
     "title": "Why is Exposing the Docker Socket a Really Bad Idea?",

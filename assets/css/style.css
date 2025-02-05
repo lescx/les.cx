@@ -55,3 +55,13 @@ header, footer {
 :is(h1:hover, h2:hover, h3:hover) .anchor {
     display: inline-block;
 }
+
+/* When the technology filter is active, hide all bookmarks... */
+.bookmark {
+  display: none;
+}
+
+/* ...and then show only those that have the "technology" class */
+.bookmark.blog {
+  display: table-row;
+}
