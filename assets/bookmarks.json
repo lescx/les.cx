@@ -4171,13 +4171,6 @@
     ]
   },
   {
-    "title": "Links...and whatnot",
-    "url": "https://windowsir.blogspot.com/2010/04/linksand-whatnot.html",
-    "tags": [
-      "article"
-    ]
-  },
-  {
     "title": "Linus Neumann",
     "url": "https://linus-neumann.de",
     "tags": [
@@ -4185,7 +4178,7 @@
     ]
   },
   {
-    "title": "Linux/4004 - Dmitry.GR",
+    "title": "Linux/4004",
     "url": "https://dmitry.gr/?r=05.Projects&proj=35.%20Linux4004",
     "tags": [
       "article"
@@ -4316,13 +4309,6 @@
     "url": "https://danielkeep.github.io/tlborm/book/index.html",
     "tags": [
       "rust"
-    ]
-  },
-  {
-    "title": "Live Cyber Threat Map | Check Point",
-    "url": "https://threatmap.checkpoint.com",
-    "tags": [
-      "misc"
     ]
   },
   {
@@ -6970,7 +6956,8 @@
     "tags": [
       "blog",
       "fediverse"
-    ]
+    ],
+    "feed": "https://micro.thedroneely.com/m/tdro/rss.xml"
   },
   {
     "title": "theevilbit blog",
