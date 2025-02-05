@@ -69,13 +69,6 @@
     ]
   },
   {
-    "title": "4K YIFY",
-    "url": "https://yts.mx/browse-movies/0/2160p/all/0/latest/0/all",
-    "tags": [
-      "piracy"
-    ]
-  },
-  {
     "title": "750 Words",
     "url": "https://750words.com",
     "tags": [
@@ -254,14 +247,16 @@
     "url": "https://www.akamai.com/blog/security-research",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://feeds.feedburner.com/akamai/blog"
   },
   {
     "title": "alexwlchan",
     "url": "https://alexwlchan.net",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://alexwlchan.net/atom.xml"
   },
   {
     "title": "All commands sorted by votes",
@@ -407,6 +402,10 @@
     "tags": [
       "piracy",
       "books"
+    ],
+    "mirrors": [
+      "https://annas-archive.li",
+      "https://annas-archive.se"
     ]
   },
   {
@@ -494,7 +493,8 @@
     "url": "https://ariadne.space",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://ariadne.space/atom.xml"
   },
   {
     "title": "Arm Memory Tagging Extension - Android",
@@ -750,7 +750,8 @@
     "url": "https://bjoreman.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://bjoreman.com/rss.rss"
   },
   {
     "title": "Blender",
@@ -1183,7 +1184,8 @@
       "blog",
       "malware",
       "cryptography"
-    ]
+    ],
+    "feed": "https://cocomelonc.github.io/feed.xml"
   },
   {
     "title": "Codemadness Nice Git Projects",
@@ -1315,7 +1317,8 @@
     "url": "https://correctiv.org",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://correctiv.org/feed"
   },
   {
     "title": "cpu.land",
@@ -1483,7 +1486,8 @@
     "url": "https://danielrotter.at",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://danielrotter.at/feed.xml"
   },
   {
     "title": "Dartling",
@@ -1636,7 +1640,8 @@
     "url": "https://detritus.zone",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://detritus.zone/feed.xml"
   },
   {
     "title": "Deutschlandfunk",
@@ -1852,7 +1857,8 @@
     "url": "https://drewdevault.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://drewdevault.com/blog/index.xml"
   },
   {
     "title": "DSM personal web site",
@@ -1922,7 +1928,8 @@
     "url": "https://eff.org",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://www.eff.org/rss/updates.xml"
   },
   {
     "title": "eieio.games",
@@ -1988,7 +1995,8 @@
     "url": "https://emeraldonion.org",
     "tags": [
       "misc"
-    ]
+    ],
+    "feed": "https://emeraldonion.org/feed.xml"
   },
   {
     "title": "emersion/mrsh",
@@ -2076,19 +2084,12 @@
     ]
   },
   {
-    "title": "Eric Eggert — Web Accessibility Expert",
-    "url": "https://steadyhq.com/en/yatil/about",
-    "tags": [
-      "blog",
-      "accessibility"
-    ]
-  },
-  {
     "title": "Eric Radman",
     "url": "https://eradman.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://eradman.com/atom.xml"
   },
   {
     "title": "Everything curl",
@@ -2110,7 +2111,8 @@
     "url": "https://www.evilsocket.net",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.evilsocket.net/atom.xml"
   },
   {
     "title": "Exhibition: ‘Sally Mann: A Thousand Crossings’",
@@ -2274,7 +2276,8 @@
     "url": "https://blog.fefe.de",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://blog.fefe.de/rss.xml"
   },
   {
     "title": "Feminist Server – Visibility and Functionality: Femke Snelting",
@@ -2442,7 +2445,8 @@
     "url": "https://www.cambus.net",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.cambus.net/atom.xml"
   },
   {
     "title": "Freedom of the Press Foundation",
@@ -2792,13 +2796,6 @@
     ]
   },
   {
-    "title": "Google Online Security Blog",
-    "url": "https://security.googleblog.com",
-    "tags": [
-      "blog"
-    ]
-  },
-  {
     "title": "Google Project Zero",
     "url": "https://github.com/googleprojectzero",
     "tags": [
@@ -2831,7 +2828,8 @@
     "url": "https://gosha.net",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://gosha.net/feed.xml"
   },
   {
     "title": "goto-zero: An extended intro to solving stack overflow CTF challenges",
@@ -2845,7 +2843,8 @@
     "url": "https://gr0k.net",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.gr0k.net/blog/feed.xml"
   },
   {
     "title": "Gradle Build Tool",
@@ -2960,14 +2959,16 @@
     "url": "https://hackaday.com",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://hackaday.com/blog/feed"
   },
   {
     "title": "Hacker News",
     "url": "https://news.ycombinator.com",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://news.ycombinator.com/rss"
   },
   {
     "title": "Hacker's Delight",
@@ -3385,7 +3386,8 @@
     "tags": [
       "blog",
       "janet"
-    ]
+    ],
+    "feed": "ttps://ianthehenry.com/feed.xml"
   },
   {
     "title": "IconBrew",
@@ -3748,21 +3750,24 @@
     "url": "https://joshldavis.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://joshldavis.com/atom.xml"
   },
   {
     "title": "joshua stein",
     "url": "https://jcs.org",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://jcs.org/rss"
   },
   {
     "title": "Josh W Comeau",
     "url": "https://joshwcomeau.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.joshwcomeau.com/rss.xml"
   },
   {
     "title": "JSTOR",
@@ -3790,7 +3795,8 @@
     "url": "https://jwillikers.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.jwillikers.com/feed.xml"
   },
   {
     "title": "jwz.org",
@@ -3811,14 +3817,16 @@
     "url": "https://kapouay.eu.org",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://kapouay.eu.org/atom.xml"
   },
   {
     "title": "Karl Bartel's Website",
     "url": "https://www.karl.berlin",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.karl.berlin/atom.xml"
   },
   {
     "title": "Kaspersky Password Manager: All your passwords are belong to us",
@@ -3876,7 +3884,8 @@
     "url": "https://www.kino-im-kasten.de",
     "tags": [
       "cinema"
-    ]
+    ],
+    "feed": "https://www.kino-im-kasten.de/rss.xml"
   },
   {
     "title": "Kinokalender Dresden",
@@ -3954,7 +3963,8 @@
     "url": "https://kuketz-blog.de",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.kuketz-blog.de/feed"
   },
   {
     "title": "Kursübersicht",
@@ -4341,7 +4351,8 @@
     "url": "https://longest.voyage",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://longest.voyage/index.xml"
   },
   {
     "title": "looking for examples of display-menu",
@@ -4564,7 +4575,8 @@
     "url": "https://matt.sh",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://matt.sh/.rss"
   },
   {
     "title": "Max Böck",
@@ -4613,7 +4625,8 @@
     "url": "https://www.megabeets.net",
     "tags": [
       "reverse-engineering"
-    ]
+    ],
+    "feed": "https://www.megabeets.net/feed"
   },
   {
     "title": "Megathread",
@@ -4660,7 +4673,8 @@
     "url": "https://curius.de",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://curius.de/feed"
   },
   {
     "title": "Mert BakÄ±r",
@@ -4762,7 +4776,8 @@
     "tags": [
       "blog",
       "news"
-    ]
+    ],
+    "feed": "https://www.technologyreview.com/feed"
   },
   {
     "title": "mjg59",
@@ -4901,7 +4916,8 @@
     "url": "https://netzpolitik.org",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://netzpolitik.org/feed"
   },
   {
     "title": "Neusprech",
@@ -5231,7 +5247,8 @@
     "tags": [
       "blog",
       "news"
-    ]
+    ],
+    "feed": "https://www.oryxspioenkop.com/feeds/posts/default"
   },
   {
     "title": "Oryx",
@@ -5455,7 +5472,8 @@
     "tags": [
       "news",
       "linux"
-    ]
+    ],
+    "feed": "https://www.phoronix.com/phoronix-rss.php"
   },
   {
     "title": "Photopea",
@@ -5757,7 +5775,8 @@
     "url": "https://pwning.tech",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://pwning.tech/rss"
   },
   {
     "title": "Python Cheatsheet",
@@ -5870,8 +5889,10 @@
     "title": "Raymond Chen Author at The Old New Thing",
     "url": "https://devblogs.microsoft.com/oldnewthing/author/oldnewthing",
     "tags": [
-      "blog"
-    ]
+      "blog",
+      "windows"
+    ],
+    "feed": "https://devblogs.microsoft.com/oldnewthing/author/oldnewthing/feed"
   },
   {
     "title": "Read Practical Cryptography With Go",
@@ -5951,7 +5972,8 @@
     "url": "https://kokorobot.ca/site/home.html",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://kokorobot.ca/links/rss.xml"
   },
   {
     "title": "Relearn CSS layout: Every Layout",
@@ -6130,17 +6152,12 @@
   },
   {
     "title": "rsms",
-    "url": "https://github.com/rsms",
-    "tags": [
-      "github"
-    ]
-  },
-  {
-    "title": "rsms",
     "url": "https://rsms.me",
     "tags": [
       "blog"
-    ]
+    ],
+    "repository": "https://github.com/rsms",
+    "feed": "https://rsms.me/atom.xml"
   },
   {
     "title": "Ruby methods are colorless",
@@ -6282,7 +6299,8 @@
     "url": "https://www.schneier.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.schneier.com/feed/atom"
   },
   {
     "title": "Schneier on Security",
@@ -6360,7 +6378,8 @@
     "url": "https://seirdy.one",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://seirdy.one/posts/atom.xml"
   },
   {
     "title": "Semantic Versioning",
@@ -6513,7 +6532,8 @@
     "tags": [
       "messenger",
       "simplex"
-    ]
+    ],
+    "feed": "https://simplex.chat/feed.rss"
   },
   {
     "title": "Simplifying C code with a Karnaugh Map",
@@ -6534,7 +6554,8 @@
     "url": "https://sizeofvoid.org",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://sizeofvoid.org/posts/index.xml"
   },
   {
     "title": "SkullSecurity",
@@ -6721,7 +6742,8 @@
     "url": "https://www.storin.nl",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.storin.nl/rss.xml"
   },
   {
     "title": "story.one",
@@ -6801,7 +6823,8 @@
     "url": "https://www.tagesschau.de",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://www.tagesschau.de/infoservices/alle-meldungen-100~rss2.xml"
   },
   {
     "title": "Tagesschau Mining",
@@ -6960,7 +6983,8 @@
       "blog",
       "security",
       "apple"
-    ]
+    ],
+    "feed": "https://theevilbit.github.io/posts/index.xml"
   },
   {
     "title": "The Guardian",
@@ -7087,7 +7111,8 @@
     "url": "https://blog.thechases.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://blog.thechases.com/rss.xml"
   },
   {
     "title": "Tim van der Molen",
@@ -7258,7 +7283,8 @@
     "url": "https://tumfatig.net",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.tumfatig.net/index.xml"
   },
   {
     "title": "TuringPi",
@@ -7508,11 +7534,11 @@
     ]
   },
   {
-    "title": "VirusTotal",
-    "url": "https://blog.virustotal.com/feeds/posts/default",
+    "title": "VirusTotal Blog",
+    "url": "https://blog.virustotal.com",
     "tags": [
-      "feed"
-    ]
+    ],
+    "feed": "https://blog.virustotal.com/feeds/posts/default"
   },
   {
     "title": "VirusTotal",
@@ -7968,7 +7994,9 @@
     "title": "YIFY",
     "url": "https://yts.mx",
     "tags": [
-      "piracy"
+      "piracy",
+      "torrents",
+      "yify"
     ]
   },
   {
@@ -7976,7 +8004,8 @@
     "url": "https://yifysubtitles.ch",
     "tags": [
       "piracy",
-      "subtitles"
+      "subtitles",
+      "yify"
     ]
   },
   {
@@ -8024,10 +8053,11 @@
   },
   {
     "title": "Zeit",
-    "url": "https://newsfeed.zeit.de/index",
+    "url": "https://www.zeit.de",
     "tags": [
-      "feed"
-    ]
+      "news"
+    ],
+    "feed": "https://newsfeed.zeit.de/index"
   },
   {
     "title": "Zentrum für digitale Lexikographie der deutschen Sprache",
@@ -8076,7 +8106,8 @@
     "url": "https://ziglang.org",
     "tags": [
       "zig"
-    ]
+    ],
+    "feed": "https://ziglang.org/devlog/index.xml"
   },
   {
     "title": "Z-library",
@@ -8147,5 +8178,96 @@
       "security",
       "blog"
     ]
+  },
+  {
+    "title": "Google Security Blog",
+    "url": "https://security.googleblog.com",
+    "tags": [
+      "blog",
+      "security",
+      "google"
+    ],
+    "feed": "https://feeds.feedburner.com/GoogleOnlineSecurityBlog"
+  },
+  {
+    "title": "Microsoft Security Response Center Blog",
+    "url": "https://msrc.microsoft.com/blog",
+    "tags": [
+    ],
+    "feed": "https://msrc.microsoft.com/blog/feed"
+  },
+  {
+    "title": "Chromium Blog",
+    "url": "https://blog.chromium.org",
+    "tags": [
+    ],
+    "feed": "https://blog.chromium.org/atom.xml"
+  },
+  {
+    "title": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com",
+    "tags": [
+      "news"
+    ],
+    "feed": "https://www.bleepingcomputer.com/feed"
+  },
+  {
+    "title": "Michael W Lucas",
+    "url": "https://mwl.io",
+    "tags": [
+    ],
+    "feed": "https://mwl.io/feed"
+  },
+  {
+    "title": "Troy Hunt",
+    "url": "https://www.troyhunt.com",
+    "tags": [],
+    "feed": "https://www.troyhunt.com/rss"
+  },
+  {
+    "title": "HackerOne",
+    "url": "https://www.hackerone.com",
+    "tags": [],
+    "feed": "https://www.hackerone.com/blog.rss"
+  },
+  {
+    "title": "Securelist",
+    "url": "https://securelist.com",
+    "tags": [],
+    "feed": "https://securelist.com/feed"
+  },
+  {
+    "title": "Krebs On Security",
+    "url": "https://krebsonsecurity.com",
+    "tags": [],
+    "feed": "https://krebsonsecurity.com/feed"
+  },
+  {
+    "title": "Apple Security Research",
+    "url": "https://security.apple.com/blog",
+    "tags": [
+      "apple",
+      "blog",
+      "security"
+    ],
+    "feed": "https://security.apple.com/blog/feed.rss"
+  },
+  {
+    "title": "Microsoft Security Blog",
+    "url": "https://www.microsoft.com/en-us/security/blog",
+    "tags": [
+      "blog",
+      "security"
+    ],
+    "feed": "https://www.microsoft.com/en-us/security/blog/feed"
+  },
+  {
+    "title": "Qualys Security Blog",
+    "url": "https://blog.qualys.com",
+    "tags": [
+      "blog",
+      "security"
+    ],
+    "feed": "https://blog.qualys.com/feed"
   }
 ]

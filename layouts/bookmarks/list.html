@@ -16,11 +16,11 @@
 
   <p>There are currently {{ $bookmarkCount }} bookmarks in {{ $tagCount }} different tags.</p>
 
-  <small>Psst, this page is still WIP.</small>
   <table>
     <thead>
       <tr>
         <th>URL</th>
+        <th>Feed</th>
         <th>Bookmark</th>
         <th>Tags</th>
       </tr>
@@ -30,6 +30,13 @@
         <tr>
           <td>
             <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">🔗</a>
+          </td>
+          <td>
+            {{ if .Params.feed }}
+              <a href="{{ .Params.feed }}" target="_blank" rel="noopener noreferrer">📡</a>
+            {{ else }}
+              <span>🦆</span>
+            {{ end }}
           </td>
           <td>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>

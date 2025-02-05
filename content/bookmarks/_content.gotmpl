@@ -13,12 +13,12 @@
 
 {{/* Process the bookmarks data */}}
 {{ range $data }}
-
   {{/* Construct page */}}
   {{ $title := .title }}
   {{ $url := .url }}
   {{ $tags := .tags }}
   {{ $mirrors := .mirrors }}
+  {{ $feed := .feed }}
   {{ $content := printf "Placeholder content: [%s](%s)" $title $url }}
   {{ $hash := (hash.FNV32a $url) }}
 
@@ -26,10 +26,9 @@
   {{ $page := dict
     "content" (dict "mediaType" "text/markdown" "value" $content)
     "kind" "page"
-    "params" (dict "url" $url "tags" $tags "mirrors" $mirrors)
+    "params" (dict "url" $url "tags" $tags "mirrors" $mirrors "feed" $feed)
     "path" $hash
     "title" $title
   }}
   {{ $.AddPage $page }}
-
 {{ end }}
