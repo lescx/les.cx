@@ -280,7 +280,8 @@
     "url": "https://amnesty.de",
     "tags": [
       "activism"
-    ]
+    ],
+    "feed": "https://www.amnesty.de/rss/themen/all"
   },
   {
     "title": "Amnesty International",
@@ -317,7 +318,8 @@
     "url": "https://poor.dev/blog/terminal-anatomy",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://poor.dev/blog/index.xml"
   },
   {
     "title": "Anderen helfen Dissoziationen zu stoppen",
@@ -828,7 +830,8 @@
     "url": "https://bradfrost.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://feeds.feedburner.com/brad-frosts-blog"
   },
   {
     "title": "BrandColors",
@@ -1265,7 +1268,8 @@
     "url": "https://maskray.me/blog/2022-12-18-control-flow-integrity",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://maskray.me/blog/atom.xml"
   },
   {
     "title": "Conventional Commits",
@@ -1705,7 +1709,8 @@
     "url": "https://blog.quarkslab.com/digging-into-linux-namespaces-part-1.html",
     "tags": [
       "series"
-    ]
+    ],
+    "feed": "ttps://blog.quarkslab.com/feeds/all.atom.xml"
   },
   {
     "title": "Digging Into Runtimes – runc",
@@ -2526,7 +2531,8 @@
     "url": "https://gabmus.org",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://gabmus.org/posts/index.xml"
   },
   {
     "title": "Gamedev in Lisp",
@@ -3325,7 +3331,8 @@
     "tags": [
       "article",
       "jvm"
-    ]
+    ],
+    "feed": "https://zserge.com/rss.xml"
   },
   {
     "title": "Hrǽw",
@@ -3836,6 +3843,15 @@
     ]
   },
   {
+    "title": "Kaspersky Blog",
+    "url": "https://www.kaspersky.com/blog",
+    "tags": [
+      "security",
+      "blog"
+    ],
+    "feed": "https://www.kaspersky.com/blog/feed"
+  },
+  {
     "title": "kees",
     "url": "https://github.com/kees",
     "tags": [
@@ -3854,7 +3870,8 @@
     "url": "https://understandlegacycode.com/blog/key-points-of-working-effectively-with-legacy-code",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://understandlegacycode.com/rss.xml"
   },
   {
     "title": "KG Karagarga",
@@ -3921,7 +3938,8 @@
     "url": "https://kittygiraudel.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://kittygiraudel.com/rss/index.xml"
   },
   {
     "title": "Kli",
@@ -4085,7 +4103,8 @@
     "tags": [
       "tree-sitter",
       "article"
-    ]
+    ],
+    "feed": "https://www.jonashietala.se/feed.xml"
   },
   {
     "title": "Letterboxd",
@@ -4144,7 +4163,8 @@
       "blog",
       "torrent",
       "software"
-    ]
+    ],
+    "feed": "https://blog.libtorrent.org/feed"
   },
   {
     "title": "Lidarr",
@@ -6506,7 +6526,8 @@
     "tags": [
       "ssh",
       "article"
-    ]
+    ],
+    "feed": "https://www.agwa.name/blog/feed"
   },
   {
     "title": "SignDict",
@@ -6983,6 +7004,14 @@
     "feed": "https://micro.thedroneely.com/m/tdro/rss.xml"
   },
   {
+    "title": "Thedro's Blog",
+    "url": "https://www.thedroneely.com/posts",
+    "tags": [
+      "blog"
+    ],
+    "feed": "https://www.thedroneely.com/posts/rss.xml"
+  },
+  {
     "title": "theevilbit blog",
     "url": "https://theevilbit.github.io",
     "tags": [
@@ -7327,7 +7356,8 @@
     "tags": [
       "blog",
       "typography"
-    ]
+    ],
+    "feed": "https://typesetinthefuture.com/feed"
   },
   {
     "title": "Typewolf",
@@ -8610,5 +8640,39 @@
   	  "channel",
   	  "youtube"
     ]
+  },
+  {
+    "title": "Rahul M. Juliato",
+    "url": "https://www.rahuljuliato.com",
+    "tags": [
+      "blog",
+      "emacs"
+    ],
+    "feed": "https://www.rahuljuliato.com/rss.xml"
+  },
+  {
+    "title": "Threadpost",
+    "url": "https://threatpost.com",
+    "tags": [
+      "news"
+    ],
+    "feed": "https://threatpost.com/feed"
+  },
+  {
+    "title": "A Few Thoughts on Cryptographic Engineering",
+    "url": "https://blog.cryptographyengineering.com",
+    "tags": [
+      "blog",
+      "cryptography"
+    ],
+    "feed": "https://blog.cryptographyengineering.com/feed"
+  },
+  {
+    "title": "Xe Iaso's blog",
+    "url": "https://xeiaso.net",
+    "tags": [
+      "blog"
+    ],
+    "feed": "https://xeiaso.net/blog.rss"
   }
 ]
