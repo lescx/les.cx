@@ -1,4 +1,21 @@
 {{ define "main" }}
+  {{/* Build a list of all tags from all pages */}}
+  {{ $allTags := slice }}
+  {{ range .Pages }}
+    {{ if .Params.tags }}
+      {{ range .Params.tags }}
+        {{ $allTags = $allTags | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $uniqueTags := uniq $allTags }}
+
+  {{/* Count bookmarks and unique tags */}}
+  {{ $bookmarkCount := len .Pages }}
+  {{ $tagCount := len $uniqueTags }}
+
+  <p>There are currently {{ $bookmarkCount }} bookmarks in {{ $tagCount }} different tags.</p>
+
   <small>Psst, this page is still WIP.</small>
   <table>
     <thead>
