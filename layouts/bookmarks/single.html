@@ -9,12 +9,14 @@
   {{ end }}
 
   {{ if .Params.tags }}
-    <p>Tags:</p>
-    <ul>
+    <p>Tags: 
+      {{ $hashTags := slice }}
       {{ range .Params.tags }}
-        <li>{{ . }}</li>
+        {{ $hashTags = $hashTags | append (printf "#%s" .) }}
       {{ end }}
-    </ul>
+      {{ $sortedTags := sort $hashTags }}
+      {{ delimit $sortedTags " " }}
+    </p>
   {{ end }}
 
   {{ if .Params.mirrors }}
@@ -26,7 +28,7 @@
     </ul>
   {{ end }}
 
-  {{ if .Content }}
-    {{ .Content }}
+  {{ if .Params.description }}
+    <p>{{ .Params.description }}</p>
   {{ end }}
 {{ end }}

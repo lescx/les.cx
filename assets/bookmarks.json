@@ -53,7 +53,8 @@
     "url": "https://www.3blue1brown.com",
     "tags": [
       "mathematics"
-    ]
+    ],
+    "feed": "https://3blue1brown.substack.com/feed"
   },
   {
     "title": "3DS Hacks Guide",
@@ -274,7 +275,8 @@
     "url": "https://alphathiel.de",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://alphathiel.de/feed"
   },
   {
     "title": "Amnesty International DE",
@@ -289,7 +291,8 @@
     "url": "https://www.amnesty.org",
     "tags": [
       "activism"
-    ]
+    ],
+    "feed": "https://www.amnesty.org/en/feed"
   },
   {
     "title": "AMONG THE WILD",
@@ -310,9 +313,9 @@
     "title": "An alternative to shared libraries",
     "url": "https://www.kix.in/2008/06/19/an-alternative-to-shared-libraries",
     "tags": [
-      "suckless",
       "article"
-    ]
+    ],
+    "feed": "https://www.kix.in/feed.xml"
   },
   {
     "title": "Anatomy of a Terminal Emulator",
@@ -333,14 +336,16 @@
     "title": "andrewchambers",
     "url": "https://github.com/andrewchambers",
     "tags": [
-      "github"
+      "github",
+      "zig"
     ]
   },
   {
     "title": "Andrew Schmelyun",
     "url": "https://aschmelyun.com",
     "tags": [
-      "blog"
+      "blog",
+      "laravel"
     ]
   },
   {
@@ -355,7 +360,8 @@
     "url": "https://xairy.io",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://xairy.io/feed.xml"
   },
   {
     "title": "Android Developers",
@@ -471,7 +477,8 @@
     "url": "https://archlinux.org",
     "tags": [
       "distro"
-    ]
+    ],
+    "feed": "https://archlinux.org/feeds/news"
   },
   {
     "title": "ArchWiki",
@@ -574,15 +581,18 @@
     "url": "https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://0pointer.net/blog/index.atom"
   },
   {
     "title": "Autismus-Kultur",
     "url": "https://autismus-kultur.de",
     "tags": [
+      "autism",
       "psychology",
       "health"
-    ]
+    ],
+    "feed": "https://autismus-kultur.de/feed"
   },
   {
     "title": "Automaten und Sprachen (B.Sc.-Niveau)",
@@ -604,7 +614,8 @@
     "url": "https://avidseeker.github.io",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://avidseeker.github.io/index.xml"
   },
   {
     "title": "AvistaZ",
@@ -862,7 +873,8 @@
     "url": "https://budgetbytes.com",
     "tags": [
       "recipes"
-    ]
+    ],
+    "feed": "https://www.budgetbytes.com/feed"
   },
   {
     "title": "Bug hunting in the Janet language interpreter",
@@ -1184,13 +1196,6 @@
     "tags": [
       "blog",
       "git"
-    ]
-  },
-  {
-    "title": "Coding Challenges",
-    "url": "https://codingchallenges.fyi",
-    "tags": [
-      "misc"
     ]
   },
   {
@@ -1644,7 +1649,17 @@
     "url": "https://www.deutschlandfunk.de",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://www.deutschlandfunk.de/nachrichten-100.rss"
+  },
+  {
+    "title": "Deutschlandfunk Kultur Film & Serie",
+    "url": "https://www.deutschlandfunkkultur.de/film-serie-100.html",
+    "tags": [
+      "news",
+      "movies"
+    ],
+    "feed": "https://www.deutschlandfunkkultur.de/film-serie-100.rss"
   },
   {
     "title": "Deutschlands Geld-Ratgeber",
@@ -2203,21 +2218,24 @@
     "url": "https://www.factorio.com",
     "tags": [
       "videogame"
-    ]
+    ],
+    "feed": "https://www.factorio.com/blog/rss"
   },
   {
     "title": "FADE DEAD Adventures in Reversing Malicious Run-Only AppleScripts",
     "url": "https://sentinelone.com/labs/fade-dead-adventures-in-reversing-malicious-run-only-applescripts",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://www.sentinelone.com/feed"
   },
   {
     "title": "Fake books",
     "url": "https://lcamtuf.substack.com/p/fake-books",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://lcamtuf.substack.com/feed"
   },
   {
     "title": "Fallout4Map",
@@ -2262,7 +2280,8 @@
     "url": "https://www.faz.net/aktuell",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://www.faz.net/rss/aktuell"
   },
   {
     "title": "F-Droid Security Issues",
@@ -2292,7 +2311,8 @@
     "url": "https://creatingcommons.zhdk.ch/tag/femke-snelting/index.html",
     "tags": [
       "misc"
-    ]
+    ],
+    "feed": "https://creatingcommons.zhdk.ch/feed/index.html"
   },
   {
     "title": "Figma",
@@ -2334,21 +2354,24 @@
     "url": "https://ft.com",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://www.ft.com/news-feed?format=rss"
   },
   {
     "title": "FireShell Security Team",
     "url": "https://fireshellsecurity.team",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://fireshellsecurity.team/feed.xml"
   },
   {
     "title": "FitGirl Repacks",
     "url": "https://fitgirl-repacks.site",
     "tags": [
       "piracy"
-    ]
+    ],
+    "feed": "https://fitgirl-repacks.site/feed"
   },
   {
     "title": "FlatFootFox",
@@ -2356,7 +2379,8 @@
     "tags": [
       "blog",
       "keyboards"
-    ]
+    ],
+    "feed": "https://flatfootfox.com/rss"
   },
   {
     "title": "Flipper Devices",
@@ -2371,15 +2395,8 @@
     "tags": [
       "registrar",
       "hoster"
-    ]
-  },
-  {
-    "title": "Florian Renz",
-    "url": "https://www.florian-renz.de",
-    "tags": [
-      "photography",
-      "blog"
-    ]
+    ],
+    "feed": "https://blog.flokinet.is"
   },
   {
     "title": "Flowchart Maker & Online Diagram Software",
@@ -2408,7 +2425,8 @@
     "url": "https://www.isoglosse.de/2016/06/fonts-for-phonetic-transcriptions",
     "tags": [
       "typefaces"
-    ]
+    ],
+    "feed": "https://www.isoglosse.de/feed"
   },
   {
     "title": "Fotoimpex Berlin",
@@ -2432,7 +2450,8 @@
     "tags": [
       "activism",
       "news"
-    ]
+    ],
+    "feed": "https://fragdenstaat.de/artikel/feed"
   },
   {
     "title": "Framework",
@@ -3228,7 +3247,8 @@
     "url": "https://blog.lambda.cx/posts/how-bsd-authentication-works",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://blog.lambda.cx/index.xml"
   },
   {
     "title": "How concurrency works: A visual guide",
@@ -3719,13 +3739,6 @@
     "tags": [
       "digital-garden",
       "blog"
-    ]
-  },
-  {
-    "title": "jExam",
-    "url": "https://jexam.inf.tu-dresden.de",
-    "tags": [
-      "tu-dresden"
     ]
   },
   {
@@ -6140,7 +6153,8 @@
     "url": "https://blog.rac.me.uk",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://blog.rac.me.uk/feed"
   },
   {
     "title": "Ripped",
@@ -6199,14 +6213,16 @@
     "tags": [
       "article",
       "series"
-    ]
+    ],
+    "feed": "https://jpcamara.com/feed.xml"
   },
   {
     "title": "Rules for Writing Software Tutorials",
     "url": "https://refactoringenglish.com/chapters/rules-for-software-tutorials",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://refactoringenglish.com/index.xml"
   },
   {
     "title": "Rust Language Cheat Sheet",
@@ -6294,7 +6310,7 @@
     ]
   },
   {
-    "title": "Sally Mann: The Family and the Land | Sally Mann | The Guardian",
+    "title": "Sally Mann: The Family and the Land",
     "url": "https://www.theguardian.com/artanddesign/2010/jun/20/sally-mann-family-and-land-review",
     "tags": [
       "sally-mann"
@@ -6338,19 +6354,16 @@
     "feed": "https://www.schneier.com/feed/atom"
   },
   {
-    "title": "Schneier on Security",
-    "url": "https://www.schneier.com/feed/atom",
-    "tags": [
-      "feed",
-      "atom"
-    ]
-  },
-  {
     "title": "Scripting OS X - #! is not a curse word",
     "url": "https://scriptingosx.com",
     "tags": [
       "software"
     ]
+  },
+  {
+    "title": "Latacora",
+    "url": "https://www.latacora.com",
+    "feed": "https://www.latacora.com/blog/index.xml"
   },
   {
     "title": "seankhliao",
@@ -6454,7 +6467,8 @@
     "tags": [
       "piracy",
       "anime"
-    ]
+    ],
+    "feed": "https://www.shanaproject.com/feeds/site"
   },
   {
     "title": "sharkdp/pastel",
@@ -6465,7 +6479,7 @@
     ]
   },
   {
-    "title": "sheat.sh",
+    "title": "cheat.sh",
     "url": "https://cheat.sh",
     "tags": [
       "documentation"
@@ -6477,7 +6491,8 @@
     "tags": [
       "article",
       "suckless"
-    ]
+    ],
+    "feed": "https://xn--rpa.cc/feed.atom"
   },
   {
     "title": "Shellter",
@@ -6505,7 +6520,8 @@
     "url": "https://shootfilmridesteel.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://shootfilmridesteel.com/feed"
   },
   {
     "title": "Shoot It With Film",
@@ -6527,7 +6543,8 @@
     "tags": [
       "messenger",
       "signal"
-    ]
+    ],
+    "feed": "https://signal.org/blog/rss.xml"
   },
   {
     "title": "Sign Arbitrary Data With Your SSH Keys",
@@ -6543,7 +6560,8 @@
     "url": "https://signdict.org",
     "tags": [
       "dictionary"
-    ]
+    ],
+    "repository": "https://github.com/signdict/website"
   },
   {
     "title": "simeononsecurity/Windows-Optimize-Harden-Debloat",
@@ -6598,14 +6616,16 @@
     "url": "https://skullsecurity.org",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.skullsecurity.org/feed"
   },
   {
     "title": "small web is beautiful",
     "url": "https://benhoyt.com/writings/the-small-web-is-beautiful",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://benhoyt.com/writings/rss.xml"
   },
   {
     "title": "Smogon University",
@@ -6622,25 +6642,10 @@
     ]
   },
   {
-    "title": "Software Engineering Lab",
-    "url": "https://github.com/st-tu-dresden-praktikum",
-    "tags": [
-      "github",
-      "tu-dresden"
-    ]
-  },
-  {
     "title": "sogaiu",
     "url": "https://github.com/sogaiu",
     "tags": [
       "github"
-    ]
-  },
-  {
-    "title": "SonarQube",
-    "url": "https://www.sonarsource.com/products/sonarqube",
-    "tags": [
-      "tu-dresden"
     ]
   },
   {
@@ -6703,7 +6708,8 @@
     "url": "https://sphil.xyz",
     "tags": [
       "philosophy"
-    ]
+    ],
+    "repository": "https://github.com/systemphil/sphil"
   },
   {
     "title": "Spinach and Mushroom Crustless Quiche",
@@ -8684,5 +8690,13 @@
       "blog"
     ],
     "feed": "https://xeiaso.net/blog.rss"
+  },
+  {
+    "title": "Guild Wars 2",
+    "url": "https://www.guildwars2.com",
+    "tags": [
+      "gw2",
+      "videogame"
+    ]
   }
 ]
