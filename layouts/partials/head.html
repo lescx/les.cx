@@ -7,4 +7,6 @@
 {{ $style := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
+<link rel="preload" href="/fonts/CourierPrime-Regular.woff2" as="font" type="font/woff2">
+
 <link rel="icon" href="data:,">
