@@ -986,14 +986,8 @@
     "url": "https://canonical.com/lxd",
     "tags": [
       "lxc"
-    ]
-  },
-  {
-    "title": "canonical/lxd",
-    "url": "https://github.com/canonical/lxd",
-    "tags": [
-      "repository"
-    ]
+    ],
+    "repository": "https://github.com/canonical/lxd"
   },
   {
     "title": "Carl’s Fallout 4 Guide",
