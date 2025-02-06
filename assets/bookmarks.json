@@ -9610,5 +9610,39 @@
       "documentation",
       "chromeos"
     ]
+  },
+  {
+    "title": "SVGO",
+    "url": "https://svgo.dev",
+    "tags": [
+      "svg"
+    ]
+  },
+  {
+    "title": "#!book",
+    "url": "https://book.hashbang.sh",
+    "tags": [
+      "hacking",
+      "wiki"
+    ]
+  },
+  {
+    "title": "Advice for a friend who wants to start a blog",
+    "url": "https://www.henrikkarlsson.xyz/p/start-a-blog",
+    "tags": [
+      "article",
+      "blog"
+    ],
+    "feed": "https://www.henrikkarlsson.xyz/feed"
+  },
+  {
+    "title": "",
+    "url": "https://blog.cochlea.xyz/sparse-interpretable-audio-codec-paper.html",
+    "tags": [
+      "audio",
+      "codec",
+      "article"
+    ],
+    "feed": "https://blog.cochlea.xyz/feed"
   }
 ]
