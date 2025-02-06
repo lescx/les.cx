@@ -3,6 +3,9 @@
 
   {{ $sorterJS := resources.Get "js/bookmarks-sorter.js" | resources.Minify | resources.Fingerprint }}
   <script src="{{ $sorterJS.RelPermalink }}" defer></script>
+
+  {{ $searcherJS := resources.Get "js/bookmarks-searcher.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $searcherJS.RelPermalink }}" defer></script>
 {{ end }}
 
 {{ define "main" }}
@@ -22,6 +25,8 @@
   {{ $tagCount := len $uniqueTags }}
 
   <p>There are currently {{ $bookmarkCount }} bookmarks in {{ $tagCount }} different tags.</p>
+
+  <input type="text" style="width: 100%;" placeholder="Search…">
 
   <!-- Give the table an id so we can easily select it in JavaScript -->
   <table id="bookmarksTable">
