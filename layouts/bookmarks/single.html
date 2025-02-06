@@ -5,6 +5,10 @@
     <p>URL: <a href="{{ .Params.url }}">{{ .Params.url }}</a></p>
   {{ end }}
 
+  {{ if .Params.repository }}
+    <p>Repository: <a href="{{ .Params.repository }}">{{ .Params.repository }}</a></p>
+  {{ end }}
+
   {{ if .Params.tags }}
     <p>Tags: 
       {{ $hashTags := slice }}

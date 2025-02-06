@@ -19,6 +19,7 @@
   {{ $tags := .tags }}
   {{ $mirrors := .mirrors }}
   {{ $feed := .feed }}
+  {{ $repository := .repository }}
   {{ $content := printf "Placeholder content: [%s](%s)" $title $url }}
   {{ $hash := (hash.FNV32a $url) }}
 
@@ -26,7 +27,7 @@
   {{ $page := dict
     "content" (dict "mediaType" "text/markdown" "value" $content)
     "kind" "page"
-    "params" (dict "url" $url "tags" $tags "mirrors" $mirrors "feed" $feed)
+    "params" (dict "url" $url "tags" $tags "mirrors" $mirrors "feed" $feed "repository" $repository)
     "path" $hash
     "title" $title
   }}
