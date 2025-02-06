@@ -4,9 +4,6 @@
   {{ if .Params.url }}
     <p>URL: <a href="{{ .Params.url }}">{{ .Params.url }}</a></p>
   {{ end }}
-  {{ if .Params.feed }}
-    <p>Feed: <a href="{{ .Params.feed }}">{{ .Params.feed }}</a></p>
-  {{ end }}
 
   {{ if .Params.tags }}
     <p>Tags: 
@@ -28,8 +25,11 @@
     </ul>
   {{ end }}
 
+	{{$rsssvg := resources.Get "symbols/rss.svg"}}
   {{ if .Params.feed }}
-    <a href="{{ .Params.feed }}">📡</a>
+    <a href="{{ .Params.feed }}">
+      <img class="rss" src="{{$rsssvg.RelPermalink}}" alt="" style="width: 1rem;">
+    </a>
   {{ end }}
 
   {{ if .Params.description }}
