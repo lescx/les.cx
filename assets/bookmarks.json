@@ -6362,7 +6362,8 @@
   },
   {
     "title": "secureblue",
-    "url": "https://github.com/secureblue/secureblue",
+    "url": "https://secureblue.dev"
+    "repository": "https://github.com/secureblue/secureblue",
     "tags": [
       "atomic",
       "distro",
@@ -9661,5 +9662,15 @@
       "article",
       "hifi"
     ]
+  },
+  {
+    "title": "Hyprland",
+    "url": "https://hyprland.org",
+    "tags": [
+      "hyprland",
+      "wm"
+    ],
+    "repository": "https://github.com/hyprwm/Hyprland"
+    "feed": "https://hyprland.org/rss.xml"
   }
 ]
