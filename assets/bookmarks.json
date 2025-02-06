@@ -8877,12 +8877,16 @@
   {
     "title": "Thinking Forth",
     "url": "https://thinking-forth.sourceforge.net",
-    "tags": ["forth"]
+    "tags": [
+      "forth"
+    ]
   },
   {
     "title": "Tumble Forth",
     "url": "http://tumbleforth.hardcoded.net",
-    "tags": ["forth"]
+    "tags": [
+      "forth"
+    ]
   },
   {
     "title": "vdupras/duskos",
@@ -9630,7 +9634,7 @@
     "feed": "https://www.henrikkarlsson.xyz/feed"
   },
   {
-    "title": "",
+    "title": "Toward a Sparse Interpretable Audio Codec",
     "url": "https://blog.cochlea.xyz/sparse-interpretable-audio-codec-paper.html",
     "tags": [
       "audio",
@@ -9638,5 +9642,24 @@
       "article"
     ],
     "feed": "https://blog.cochlea.xyz/feed"
+  },
+  {
+    "title": "Using eqn for Website Equation Formatting",
+    "url": "https://douglasrumbaugh.com/post/eqn-mathml",
+    "tags": [
+      "article",
+      "blog",
+      "eqn"
+    ]
+  },
+  {
+    "title": "FreeBSD and hi-fi audio setup: bit-perfect, equalizer, real-time",
+    "url": "https://m4c.pl/blog/freebsd-audio-setup-bitperfect-equalizer-realtime",
+    "tags": [
+      "freebsd",
+      "audio",
+      "article",
+      "hifi"
+    ]
   }
 ]
