@@ -433,7 +433,7 @@
     "title": "AntiPolygraph",
     "url": "https://antipolygraph.org",
     "tags": [
-      "misc"
+      "polygraph"
     ]
   },
   {
@@ -448,7 +448,8 @@
     "title": "Apple Developer",
     "url": "https://developer.apple.com",
     "tags": [
-      "documentation"
+      "documentation",
+      "apple"
     ]
   },
   {
@@ -8925,7 +8926,7 @@
     "url": "https://developer.apple.com/library/archive/navigation",
     "tags": [
       "documentation",
-      "macos"
+      "apple"
     ]
   },
   {
@@ -9548,7 +9549,7 @@
     "tags": [
       "chromeos"
     ],
-    "repository": "https://github.com/MrChromebox",
+    "repository": "https://github.com/MrChromebox"
   },
   {
     "title": "My Notes on Linux Application Support in ChromeOS",
