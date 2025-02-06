@@ -2497,7 +2497,7 @@
     "title": "Frida",
     "url": "https://frida.re",
     "tags": [
-      "reverse-engineering"
+      "re"
     ]
   },
   {
@@ -2651,13 +2651,6 @@
     ]
   },
   {
-    "title": "GitHub Gists",
-    "url": "https://gist.github.com/lescx",
-    "tags": [
-      "hoster"
-    ]
-  },
-  {
     "title": "GitHub",
     "url": "https://github.com",
     "tags": [
@@ -2722,7 +2715,7 @@
     "title": "GNU",
     "url": "https://www.gnu.org",
     "tags": [
-      "misc"
+      "gnu"
     ]
   },
   {
@@ -2738,14 +2731,6 @@
     "tags": [
       "gaming",
       "gog"
-    ]
-  },
-  {
-    "title": "goguma",
-    "url": "https://codeberg.org/emersion/goguma",
-    "tags": [
-      "git",
-      "repository"
     ]
   },
   {
@@ -2768,7 +2753,8 @@
     "url": "https://golem.de",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://rss.golem.de/rss.php?feed=ATOM1.0"
   },
   {
     "title": "Good Privacy Information/GDPR Notice",
@@ -3024,9 +3010,10 @@
   },
   {
     "title": "HackTricks",
-    "url": "https://book.hacktricks.xyz/welcome/readme",
+    "url": "https://book.hacktricks.wiki/en/index.html",
     "tags": [
-      "documentation"
+      "documentation",
+      "hacking"
     ]
   },
   {
@@ -3048,7 +3035,8 @@
     "url": "https://handelsblatt.com",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://www.handelsblatt.com/contentexport/feed/schlagzeilen"
   },
   {
     "title": "HANDJOB Guide",
@@ -3129,7 +3117,8 @@
     "url": "https://heise.de",
     "tags": [
       "news"
-    ]
+    ],
+    "feed": "https://www.heise.de/rss/heise-atom.xml"
   },
   {
     "title": "Helix",
@@ -3268,7 +3257,10 @@
     "title": "How I Take Notes With Vim Markdown and Pandoc",
     "url": "https://jamesbvaughan.com/markdown-pandoc-notes",
     "tags": [
-      "article"
+      "article",
+      "vim",
+      "markdown",
+      "pandoc"
     ]
   },
   {
@@ -3300,21 +3292,24 @@
     "title": "How to create a custom ISO for Windows 10",
     "url": "https://techtarget.com/searchenterprisedesktop/tip/How-to-create-a-custom-ISO-for-Windows-10",
     "tags": [
-      "article"
+      "article",
+      "windows",
+      "iso"
     ]
   },
   {
     "title": "How to get on a Watchlist",
     "url": "https://encyclopediageopolitica.com/how-to-get-on-a-watchlist",
     "tags": [
-      "piracy"
+      "podcast"
     ]
   },
   {
     "title": "How to know what the 'errno' means?",
     "url": "https://stackoverflow.com/questions/503878/how-to-know-what-the-errno-means",
     "tags": [
-      "c"
+      "c",
+      "errno"
     ]
   },
   {
@@ -3329,14 +3324,16 @@
     "title": "How to protect Mac computers from cold boot attacks",
     "url": "https://sunknudsen.com/privacy-guides/how-to-protect-mac-computers-from-cold-boot-attacks",
     "tags": [
-      "article"
+      "article",
+      "macos"
     ]
   },
   {
     "title": "How to setup Exact Audio Copy for FLAC ripping",
     "url": "https://captainrookie.com/how-to-setup-exact-audio-copy-for-flac-ripping",
     "tags": [
-      "piracy"
+      "piracy",
+      "ripping"
     ]
   },
   {
@@ -3372,13 +3369,6 @@
     ]
   },
   {
-    "title": "Hunor Karamán / hex22",
-    "url": "https://hex22.org",
-    "tags": [
-      "blog"
-    ]
-  },
-  {
     "title": "Hurawatch",
     "url": "https://hurawatchz.to/home",
     "tags": [
@@ -3390,7 +3380,8 @@
     "title": "hyprblog",
     "url": "https://blog.coffinsec.com",
     "tags": [
-      "blog"
+      "blog",
+      "security"
     ]
   },
   {
@@ -3420,19 +3411,21 @@
     "title": "I Created the Nerdiest Game Ever - You’re the OS",
     "url": "https://plbrault.com/blog-posts/i-created-the-nerdierst-game-ever-en",
     "tags": [
-      "videogame"
+      "videogame",
+      "article"
     ]
   },
   {
     "title": "iFixit",
     "url": "https://ifixit.com",
     "tags": [
-      "shopping"
+      "shopping",
+      "repair"
     ]
   },
   {
     "title": "IFSR FTP Server",
-    "url": "https://ftp.ifsr.de/klausuren/Grundstudium/Algorithmen_und_Datenstrukturen",
+    "url": "https://ftp.ifsr.de/klausuren",
     "tags": [
       "tu-dresden"
     ]
@@ -3442,13 +3435,6 @@
     "url": "https://ifsr.de",
     "tags": [
       "tu-dresden"
-    ]
-  },
-  {
-    "title": "IKEA Deutschland",
-    "url": "https://www.ikea.com/de/de",
-    "tags": [
-      "shopping"
     ]
   },
   {
@@ -3481,7 +3467,9 @@
     "url": "https://storyteller-blog.com/2024/04/21/i-made-a-fallout-inspired-rpg-game-in-excel",
     "tags": [
       "excel",
-      "article"
+      "article",
+      "videogame",
+      "fallout"
     ]
   },
   {
@@ -3524,11 +3512,12 @@
     "title": "Infosec_Reference",
     "url": "https://rmusser.net/docs",
     "tags": [
-      "documentation"
+      "documentation",
+      "infosec"
     ]
   },
   {
-    "title": "Insecure coding in C (and C++) | PPT",
+    "title": "Insecure coding in C (and C++)",
     "url": "https://www.slideshare.net/olvemaudal/insecure-coding-in-c-and-c",
     "tags": [
       "c",
@@ -3576,21 +3565,24 @@
     "title": "Introduction of System Call",
     "url": "https://www.geeksforgeeks.org/introduction-of-system-call",
     "tags": [
-      "documentation"
+      "documentation",
+      "syscall"
     ]
   },
   {
     "title": "Introduction to Computer Graphics",
     "url": "https://www.cs.uic.edu/~jbell/CourseNotes/ComputerGraphics",
     "tags": [
-      "documentation"
+      "documentation",
+      "graphics"
     ]
   },
   {
     "title": "Introduction to Reverse Engineering Cocoa Applications",
     "url": "https://cloud.google.com/blog/topics/threat-intelligence/introduction-to-reve",
     "tags": [
-      "article"
+      "article",
+      "re"
     ]
   },
   {
@@ -4085,7 +4077,7 @@
     "title": "Learn reverse engineering",
     "url": "https://yurichev.org/RE_start",
     "tags": [
-      "reverse-engineering"
+      "re"
     ]
   },
   {
@@ -4670,7 +4662,7 @@
     "title": "Megabeets",
     "url": "https://www.megabeets.net",
     "tags": [
-      "reverse-engineering"
+      "re"
     ],
     "feed": "https://www.megabeets.net/feed"
   },
@@ -5678,7 +5670,7 @@
     "title": "Practical Reverse Engineering",
     "url": "https://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart",
     "tags": [
-      "reverse-engineering"
+      ""
     ]
   },
   {
@@ -5865,9 +5857,10 @@
   },
   {
     "title": "radare2 for reverse engineering",
-    "url": "https://itnext.io/radare2-for-reverse-engineering-part1-eedf0a47b5cc",
+    "url": "https://itnext.io/radare2-for-re-part1-eedf0a47b5cc",
     "tags": [
-      "radare"
+      "radare",
+      "re"
     ]
   },
   {
@@ -6050,7 +6043,7 @@
     "title": "Reverse Engineering challenges",
     "url": "https://challenges.re",
     "tags": [
-      "reverse-engineering"
+      "re"
     ]
   },
   {
@@ -6064,29 +6057,29 @@
     "title": "Reverse Engineering",
     "url": "https://crackme.re",
     "tags": [
-      "reverse-engineering"
+      "re"
     ]
   },
   {
     "title": "Reverse Engineering",
     "url": "https://jne.re",
     "tags": [
-      "reverse-engineering"
+      "re"
     ]
   },
   {
     "title": "Reverse Engineering",
     "url": "https://reverse.put.as",
     "tags": [
-      "reverse-engineering"
+      "re"
     ],
     "feed": "https://reverse.put.as/index.xml"
   },
   {
     "title": "Reverse Engineering Resources",
-    "url": "https://bbinfosec.medium.com/reverse-engineering-resources-beginners-to-intermediate-guide-links-f64c207505ed",
+    "url": "https://bbinfosec.medium.com/re-resources-beginners-to-intermediate-guide-links-f64c207505ed",
     "tags": [
-      "reverse-engineering"
+      "re"
     ]
   },
   {
@@ -8056,7 +8049,7 @@
     "title": "YARA",
     "url": "https://virustotal.github.io/yara",
     "tags": [
-      "reverse-engineering"
+      "re"
     ]
   },
   {
@@ -8158,7 +8151,7 @@
     "title": "zerforschung",
     "url": "https://zerforschung.org",
     "tags": [
-      "reverse-engineering"
+      "re"
     ]
   },
   {
@@ -9316,7 +9309,8 @@
     "title": "Is OpenBSD secure?",
     "url": "https://isopenbsdsecu.re",
     "tags": [
-      "openbsd"
+      "openbsd",
+      "security"
     ]
   },
   {
@@ -9560,7 +9554,8 @@
     "url": "https://mrchromebox.tech",
     "tags": [
       "chromeos"
-    ]
+    ],
+    "repository": "https://github.com/MrChromebox",
   },
   {
     "title": "My Notes on Linux Application Support in ChromeOS",
@@ -9599,31 +9594,27 @@
     ]
   },
   {
-    "title": "MrChromebox",
-    "url": "https://github.com/MrChromebox",
-    "tags": [
-      "github"
-    ]
-  },
-  {
     "title": "running linux mainline on arm chromebooks",
     "url": "https://github.com/hexdump0815/linux-mainline-on-arm-chromebooks",
     "tags": [
-      "repository"
+      "repository",
+      "chromeos"
     ]
   },
   {
     "title": "ChromiumOS Docs",
     "url": "https://chromium.googlesource.com/chromiumos/docs/+/HEAD/README.md",
     "tags": [
-      "documentation"
+      "documentation",
+      "chromeos"
     ]
   },
   {
     "title": "Chrultrabook Docs",
     "url": "https://docs.chrultrabook.com",
     "tags": [
-      "documentation"
+      "documentation",
+      "chromeos"
     ]
   }
 ]
