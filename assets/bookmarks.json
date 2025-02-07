@@ -6362,7 +6362,7 @@
   },
   {
     "title": "secureblue",
-    "url": "https://secureblue.dev"
+    "url": "https://secureblue.dev",
     "repository": "https://github.com/secureblue/secureblue",
     "tags": [
       "atomic",
@@ -9702,11 +9702,11 @@
       "hyprland",
       "wm"
     ],
-    "repository": "https://github.com/hyprwm/Hyprland"
+    "repository": "https://github.com/hyprwm/Hyprland",
     "feed": "https://hyprland.org/rss.xml"
   },
   {
-    "title: "Pebble",
+    "title": "Pebble",
     "repository": "https://github.com/pebble-dev",
     "tags": [
       "pebble"
@@ -9720,14 +9720,14 @@
     ]
   },
   {
-    "title: "Pebble Dev Container",
+    "title": "Pebble Dev Container",
     "url": "https://github.com/FBarrca/pebble-devcontainer",
     "tags": [
       "pebble"
     ]
   },
   {
-    "title: "Pebble OS Capabilities Presentation",
+    "title": "Pebble OS Capabilities Presentation",
     "url": "https://docs.google.com/presentation/d/1wfyBRwbrv5YtSnvNRnEPz5tRx9y7VGcFsuHbi1X-D7I/edit",
     "tags": [
       "pebble"
