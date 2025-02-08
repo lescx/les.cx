@@ -1,46 +1,47 @@
-@font-face {
-  font-family: 'Courier Prime';
-  src:
-    url('/fonts/CourierPrime-Regular.woff2') format('woff2'),
-    url('/fonts/CourierPrime-Regular.woff') format('woff'),
-    url('/fonts/CourierPrime-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
+/* @font-face { */
+  /* font-family: 'Courier Prime'; */
+  /* src: */
+    /* url('/fonts/CourierPrime-Regular.woff2') format('woff2'), */
+    /* url('/fonts/CourierPrime-Regular.woff') format('woff'), */
+    /* url('/fonts/CourierPrime-Regular.ttf') format('truetype'); */
+  /* font-weight: 400; */
+  /* font-style: normal; */
+/* } */
 
-@font-face {
-  font-family: 'Courier Prime';
-  src:
-    url('/fonts/CourierPrime-Italic.woff2') format('woff2'),
-    url('/fonts/CourierPrime-Italic.woff') format('woff'),
-    url('/fonts/CourierPrime-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
+/* @font-face { */
+  /* font-family: 'Courier Prime'; */
+  /* src: */
+    /* url('/fonts/CourierPrime-Italic.woff2') format('woff2'), */
+    /* url('/fonts/CourierPrime-Italic.woff') format('woff'), */
+    /* url('/fonts/CourierPrime-Italic.ttf') format('truetype'); */
+  /* font-weight: 400; */
+  /* font-style: italic; */
+/* } */
 
-@font-face {
-  font-family: 'Courier Prime';
-  src:
-    url('/fonts/CourierPrime-Bold.woff2') format('woff2'),
-    url('/fonts/CourierPrime-Bold.woff') format('woff'),
-    url('/fonts/CourierPrime-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
+/* @font-face { */
+  /* font-family: 'Courier Prime'; */
+  /* src: */
+    /* url('/fonts/CourierPrime-Bold.woff2') format('woff2'), */
+    /* url('/fonts/CourierPrime-Bold.woff') format('woff'), */
+    /* url('/fonts/CourierPrime-Bold.ttf') format('truetype'); */
+  /* font-weight: 700; */
+  /* font-style: normal; */
+/* } */
 
-@font-face {
-  font-family: 'Courier Prime';
-  src:
-    url('/fonts/CourierPrime-BoldItalic.woff2') format('woff2'),
-    url('/fonts/CourierPrime-BoldItalic.woff') format('woff'),
-    url('/fonts/CourierPrime-BoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic;
-}
+/* @font-face { */
+  /* font-family: 'Courier Prime'; */
+  /* src: */
+    /* url('/fonts/CourierPrime-BoldItalic.woff2') format('woff2'), */
+    /* url('/fonts/CourierPrime-BoldItalic.woff') format('woff'), */
+    /* url('/fonts/CourierPrime-BoldItalic.ttf') format('truetype'); */
+  /* font-weight: 700; */
+  /* font-style: italic; */
+/* } */
 
 /* check, if I should use html or body for those elements */
 html {
-  font-family: 'Courier Prime', 'Courier Screenplay', 'Courier New', Courier, monospace;
+  /* font-family: 'Courier Prime', 'Courier Screenplay', 'Courier New', Courier, monospace; */
+  font-family: sans-serif;
   font-size: 12pt;
   font-weight: lighter;
   padding-left: 1.5in;
