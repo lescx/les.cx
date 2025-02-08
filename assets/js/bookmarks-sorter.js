@@ -2,10 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const table = document.getElementById('bookmarksTable');
   const headers = Array.from(table.querySelectorAll('th'));
   const sortDirections = headers.map(() => true);
-  let currentSortedIndex = 1; // Default: sort by "Bookmark"
+  let currentSortedIndex = 2; // Default: sort by "Bookmark" (index 2)
 
   headers.forEach((header, i) => {
-    if (i === 0) {
+    // Disable sorting for URL (column 0) and Feed (column 1)
+    if (i === 0 || i === 1) {
       header.style.cursor = 'default';
       return;
     }
@@ -25,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Initialize the default indicator
+  // Initialize the default indicator for the default sorted column ("Bookmark")
   updateIndicators(headers, currentSortedIndex, sortDirections[currentSortedIndex]);
 });
 

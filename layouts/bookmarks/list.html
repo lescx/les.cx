@@ -33,15 +33,24 @@
     <thead>
       <tr>
         <th>URL</th>
+        <th>Feed</th>
         <th>Bookmark</th>
         <th>Tags</th>
       </tr>
     </thead>
     <tbody>
+    	{{$rsssvg := resources.Get "symbols/rss.svg"}}
       {{ range .Pages }}
         <tr class="bookmark{{ if .Params.tags }} {{ delimit .Params.tags " " }}{{ end }}">
           <td>
-            <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">🔗</a>
+            <a href="{{ .Params.url }}">🔗</a>
+          </td>
+          <td>
+            {{ if .Params.feed }}
+              <a href="{{ .Params.feed }}"><img class="rss" src="{{$rsssvg.RelPermalink}}" alt="" style="width: 1rem;"></a>
+            {{ else }}
+              <span>🦆</span>
+            {{ end }}
           </td>
           <td>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>

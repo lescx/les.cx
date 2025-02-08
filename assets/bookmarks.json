@@ -6142,7 +6142,7 @@
     "title": "RISC simulator by Peter Higginson",
     "url": "https://peterhigginson.co.uk/RISC",
     "tags": [
-      "risc"
+      "risc-v"
     ]
   },
   {
@@ -9751,5 +9751,14 @@
       "algebra",
       "combinatorics"
     ]
+  },
+  {
+    "title": "Project F",
+    "url": "https://projectf.io",
+    "tags": [
+      "blog",
+      "risc-v"
+    ],
+    "feed": "https://projectf.io/index.xml"
   }
 ]

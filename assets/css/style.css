@@ -95,3 +95,10 @@ img, picture, video, canvas, svg {
 a {
   color: inherit;
 }
+
+/* Dirty solution */
+@media (prefers-color-scheme: dark) {
+  .rss {
+    filter: invert(100%);
+  }
+}
