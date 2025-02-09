@@ -1722,7 +1722,7 @@
     "feed": "ttps://blog.quarkslab.com/feeds/all.atom.xml"
   },
   {
-    "title": "Digging Into Runtimes – runc",
+    "title": "Digging Into Runtimes: runc",
     "url": "https://blog.quarkslab.com/digging-into-runtimes-runc.html",
     "tags": [
       "article"
@@ -3706,7 +3706,8 @@
     "tags": [
       "digital-garden",
       "blog"
-    ]
+    ],
+    "feed": "https://braindump.jethro.dev/index.xml"
   },
   {
     "title": "JFF",
@@ -3773,14 +3774,16 @@
     "url": "https://jvns.ca",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://jvns.ca/atom.xml"
   },
   {
-    "title": "julia’s drawings",
+    "title": "Julia’s drawings",
     "url": "https://drawings.jvns.ca",
     "tags": [
       "article"
-    ]
+    ],
+    "feed": "https://drawings.jvns.ca/index.xml"
   },
   {
     "title": "JWillikers",
@@ -3802,7 +3805,8 @@
     "url": "https://kagi.com",
     "tags": [
       "search-engine"
-    ]
+    ],
+    "feed": "https://blog.kagi.com/rss.xml"
   },
   {
     "title": "kapouay.eu.org",
@@ -3930,7 +3934,8 @@
     "title": "Kli",
     "url": "https://www.kli.org",
     "tags": [
-      "klingon"
+      "klingon",
+      "startrek"
     ]
   },
   {
@@ -6148,9 +6153,11 @@
   },
   {
     "title": "rougier",
-    "url": "https://github.com/rougier",
+    "url": "https://www.labri.fr/perso/nrougier",
+    "repository": "https://github.com/rougier",
     "tags": [
-      "github"
+      "github",
+      "emacs"
     ]
   },
   {
@@ -6335,14 +6342,8 @@
   },
   {
     "title": "seankhliao",
-    "url": "https://github.com/seankhliao",
-    "tags": [
-      "github"
-    ]
-  },
-  {
-    "title": "seankhliao",
     "url": "https://seankhliao.com",
+    "repository": "https://github.com/seankhliao",
     "tags": [
       "blog"
     ]
@@ -6871,7 +6872,8 @@
     "url": "https://www.taniarascia.com",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.taniarascia.com/rss.xml"
   },
   {
     "title": "Tau Day is here: celebrate tau not pi as the true circle constant",
@@ -6907,7 +6909,8 @@
     "url": "https://tendigits.space",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://tendigits.space/feed.xml"
   },
   {
     "title": "Terminal Escapes: Engineering unexpected execution from command line interfaces",
@@ -7173,12 +7176,13 @@
     ]
   },
   {
-    "title": "Tofugu - A Japanese Culture & Language Blog",
+    "title": "Tofugu",
     "url": "https://tofugu.com",
     "tags": [
       "blog",
       "japanese"
-    ]
+    ],
+    "feed": "https://www.tofugu.com/feed.xml"
   },
   {
     "title": "Tom Hackshaw",
