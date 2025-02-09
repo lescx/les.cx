@@ -1011,7 +1011,8 @@
     "url": "https://cataclysmdda.org",
     "tags": [
       "videogame"
-    ]
+    ],
+    "feed": "https://github.com/CleverRaven/Cataclysm-DDA"
   },
   {
     "title": "catgirl",
@@ -1547,7 +1548,7 @@
     "url": "https://lighthouseapp.io/blog/deep-dive-finding-rss-feeds",
     "tags": [
       "article",
-      "rss"
+      "feeds"
     ]
   },
   {
