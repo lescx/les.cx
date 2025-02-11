@@ -155,14 +155,17 @@
     "title": "Activating Browser Modes with Doctype",
     "url": "https://hsivonen.fi/doctype",
     "tags": [
-      "article"
+      "article",
+      "doctype",
+      "html"
     ]
   },
   {
     "title": "Adafruit ESP32 Feather V2",
     "url": "https://learn.adafruit.com/adafruit-esp32-feather-v2",
     "tags": [
-      "shopping"
+      "shopping",
+      "esp32"
     ]
   },
   {
@@ -859,8 +862,11 @@
     "title": "Briar",
     "url": "https://briarproject.org",
     "tags": [
-      "android"
-    ]
+      "android",
+      "app"
+    ],
+    "repository": "https://code.briarproject.org/briar/briar",
+    "feed": "https://briarproject.org/news/index.xml"
   },
   {
     "title": "Budget Bytes",
@@ -1747,6 +1753,7 @@
     "url": "https://digitalcourage.de",
     "tags": [
       "activism",
+      "digitalcourage",
       "news"
     ]
   },
@@ -3841,18 +3848,12 @@
     "feed": "https://www.kaspersky.com/blog/feed"
   },
   {
-    "title": "kees",
-    "url": "https://github.com/kees",
-    "tags": [
-      "github"
-    ]
-  },
-  {
     "title": "Keyoxide",
     "url": "https://keyoxide.org",
     "tags": [
       "cryptography"
-    ]
+    ],
+    "feed": "https://blog.keyoxide.org/atom.xml"
   },
   {
     "title": "key points of Working Effectively with Legacy Code",
@@ -4833,8 +4834,7 @@
     "url": "https://ericlippert.com/category/monads",
     "tags": [
       "series",
-      "monads",
-      "article"
+      "monads"
     ]
   },
   {
@@ -4848,7 +4848,7 @@
     "title": "Mozilla SSL Configuration Generator",
     "url": "https://ssl-config.mozilla.org",
     "tags": [
-      "misc"
+      "ssl"
     ]
   },
   {
@@ -4871,13 +4871,6 @@
     "tags": [
       "article",
       "dead"
-    ]
-  },
-  {
-    "title": "Myzel394",
-    "url": "https://github.com/Myzel394",
-    "tags": [
-      "github"
     ]
   },
   {
@@ -4945,7 +4938,8 @@
     "url": "https://neusprech.org",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://neusprech.org/feed"
   },
   {
     "title": "Never Too Small",
@@ -4953,6 +4947,7 @@
     "tags": [
       "thalia",
       "book",
+      "tinyhouse",
       "shopping"
     ]
   },
@@ -4963,14 +4958,6 @@
       "thalia",
       "book",
       "shopping"
-    ]
-  },
-  {
-    "title": "Newsboat",
-    "url": "https://newsboat.org",
-    "tags": [
-      "software",
-      "feed"
     ]
   },
   {
@@ -5328,13 +5315,6 @@
     ]
   },
   {
-    "title": "Parallels",
-    "url": "https://parallels.com",
-    "tags": [
-      "software"
-    ]
-  },
-  {
     "title": "Paranoid NixOS Setup",
     "url": "https://xeiaso.net/blog/paranoid-nixos-2021-07-18",
     "tags": [
@@ -5650,7 +5630,7 @@
     "title": "Practical Reverse Engineering",
     "url": "https://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart",
     "tags": [
-      ""
+      "re"
     ]
   },
   {
@@ -6468,7 +6448,8 @@
     "title": "Shellter",
     "url": "https://shellterproject.com",
     "tags": [
-      "software"
+      "software",
+      "c2"
     ]
   },
   {
@@ -6482,16 +6463,9 @@
     "title": "Shodan",
     "url": "https://shodan.io",
     "tags": [
-      "search-engine"
+      "search-engine",
+      "osint"
     ]
-  },
-  {
-    "title": "Shoot Film Ride Steel",
-    "url": "https://shootfilmridesteel.com",
-    "tags": [
-      "blog"
-    ],
-    "feed": "https://shootfilmridesteel.com/feed"
   },
   {
     "title": "Shoot It With Film",
@@ -6529,7 +6503,8 @@
     "title": "SignDict",
     "url": "https://signdict.org",
     "tags": [
-      "dictionary"
+      "dictionary",
+      "sign"
     ],
     "repository": "https://github.com/signdict/website"
   },
@@ -8839,15 +8814,15 @@
     ]
   },
   {
-    "title": "A Beginner's Guide to Forth",
-    "url": "https://galileo.phys.virginia.edu/classes/551.jvn.fall01/primer.htm",
+    "title": "Easy Forth",
+    "url": "https://skilldrick.github.io/easyforth",
     "tags": [
       "forth"
     ]
   },
   {
-    "title": "Easy Forth",
-    "url": "https://skilldrick.github.io/easyforth",
+    "title": "Portable Forth Environment",
+    "url": "https://pfe.sourceforge.net",
     "tags": [
       "forth"
     ]
@@ -8856,7 +8831,8 @@
     "title": "forth2020 - About Forth",
     "url": "https://www.forth2020.org/about-forth",
     "tags": [
-      "forth"
+      "forth",
+      "interview"
     ]
   },
   {
@@ -8878,7 +8854,8 @@
     "title": "Forth: The programming language that writes itself",
     "url": "https://ratfactor.com/forth/the_programming_language_that_writes_itself.html",
     "tags": [
-      "forth"
+      "forth",
+      "article"
     ]
   },
   {
@@ -8900,7 +8877,7 @@
   },
   {
     "title": "Thinking Forth",
-    "url": "https://thinking-forth.sourceforge.net",
+    "url": "https://www.forth.com/wp-content/uploads/2018/11/thinking-forth-color.pdf",
     "tags": [
       "forth"
     ]
@@ -9234,62 +9211,48 @@
     ]
   },
   {
-    "title": "Amused Git",
-    "url": "https://git.omarpolo.com/?action=summary&index_page=&path=amused.git",
-    "tags": [
-      "openbsd"
-    ]
-  },
-  {
     "title": "Amused",
     "url": "https://projects.omarpolo.com/amused.html",
     "tags": [
-      "openbsd"
-    ]
-  },
-  {
-    "title": "Astro-GR",
-    "url": "https://astro-gr.org",
-    "tags": [
-      "blog",
-      "astronomy",
-      "openbsd"
-    ]
+      "openbsd",
+      "software"
+    ],
+    "repository": "https://git.omarpolo.com/?action=summary&index_page=&path=amused.git"
   },
   {
     "title": "bsdhowto",
     "url": "https://www.bsdhowto.ch",
     "tags": [
-      "openbsd"
-    ]
+      "openbsd",
+      "blog"
+    ],
+    "feed": "https://www.bsdhowto.ch/feed.atom"
   },
   {
-    "title": "bsd.lv",
-    "url": "https://bsd.lv",
-    "tags": [
-      "openbsd"
-    ]
-  },
-  {
-    "title": "Codemadness Sfeed RSS parser",
+    "title": "Sfeed",
     "url": "https://codemadness.org/sfeed.html",
     "tags": [
-      "openbsd"
-    ]
+      "openbsd",
+      "software"
+    ],
+    "feed": "https://codemadness.org/atom.xml"
   },
   {
     "title": "Containerized development environment on OpenBSD with Podman",
     "url": "https://blog.strus.guru/2021/10/containerized-development-environment-on-openbsd-with-podman",
     "tags": [
       "openbsd"
-    ]
+    ],
+    "feed": "https://blog.strus.guru/index.xml"
   },
   {
     "title": "doas mastery",
     "url": "https://flak.tedunangst.com/post/doas-mastery",
     "tags": [
-      "openbsd"
-    ]
+      "openbsd",
+      "doas"
+    ],
+    "feed": "https://flak.tedunangst.com/rss"
   },
   {
     "title": "Eric Radman: Workstation Notes",
@@ -9368,7 +9331,7 @@
   },
   {
     "title": "OpenBSD on a Laptop",
-    "url": "https://c0ffee.net/blog/openbsd-on-a-laptop",
+    "url": "https://www.c0ffee.net/blog/openbsd-on-a-laptop",
     "tags": [
       "openbsd"
     ]
@@ -9386,7 +9349,8 @@
     "url": "https://bwiggs.com/posts/2020-07-25-openbsd",
     "tags": [
       "openbsd"
-    ]
+    ],
+    "feed": "https://bwiggs.com/index.xml"
   },
   {
     "title": "OpenBSD on a ThinkPad X270 for Scholarly Work",
@@ -9549,7 +9513,7 @@
     ]
   },
   {
-    "title": "ext-remover",
+    "title": "ChromeOS exploit list: ext-remover",
     "url": "https://3kh0.github.io/ext-remover",
     "tags": [
       "documentation",
@@ -9559,10 +9523,11 @@
     ]
   },
   {
-    "title": "hterm and Secure Shell - nassh/docs/FAQ.md",
+    "title": "hterm and Secure Shell",
     "url": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/docs/FAQ.md",
     "tags": [
-      "chromeos"
+      "chromeos",
+      "documentation"
     ]
   },
   {
