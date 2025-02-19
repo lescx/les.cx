@@ -58,6 +58,9 @@ header, footer {
     max-width: none;
     z-index: 100;
   }
+  #side-contents-tags {
+    display: none;
+  }
 }
 
 #townportal {
@@ -159,6 +162,3 @@ input[type="text"] {
   content: " ";
 }
 
-#side-contents-tags {
-  display: none;
-}
