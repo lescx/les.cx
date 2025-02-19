@@ -9724,5 +9724,15 @@
       "movies"
     ],
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPiI104i7lyG--fkr3LZTtA"
+  },
+  {
+    "title": "Filmanalyse",
+    "url": "https://youtube.com/channel/UCN29LJGZ8FY30ysxdTnDsaw",
+    "tags": [
+      "channel",
+      "movies",
+      "youtube"
+    ],
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCN29LJGZ8FY30ysxdTnDsaw"
   }
 ]
