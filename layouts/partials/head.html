@@ -4,7 +4,7 @@
 
 <title>{{ block "title" . }}{{ partial "title.html" . }}{{ end }}</title>
 
-{{ $style := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ $main := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $main.Permalink }}" integrity="{{ $main.Data.Integrity }}">
 
 <link rel="icon" href="data:,">

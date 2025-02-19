@@ -6,26 +6,36 @@
     {{ end }}
   </head>
   <body>
-    <header>
-      <!--
-        Breadcrumbs should be used on (almost?) all pages.
-        404 pages etc should prob not have breadcrumb nav.
-      -->
-      {{ block "header" . }}
-        {{ partial "header/breadcrumb.html" . }}
-        {{ partial "header/banner.html" . }}
-      {{ end }}
-    </header>
-    <main>
-      {{ block "main" . }}
-        {{ partial "heading.html" (dict "title" .Title "subtitle" .Params.subtitle) }}
-        {{ .Content }}
-      {{ end }}
-    </main>
-    <footer>
-      {{ block "footer" . }}
-        {{ partialCached "footer/menu.html" . }}
-      {{ end }}
-    </footer>
+    <aside id="left-container">
+      <header id="townportal">
+        <hgroup>
+          <h1 aria-label="Luca Etienne Schulz">/lukɑ əˈtiːɛn ʂʊlt͡s/</h1>
+          <p>Yip, this rewrite of the site is still WIP.</p>
+        </hgroup>
+      </header>
+      <nav id="side-contents" class="centered-container">
+        {{- range site.Menus.main}}
+          <li><a href="{{ .URL }}">{{ .Name }}</a>
+        {{- end }}
+      </nav>
+      <footer id="nav-bottom">
+        {{ block "footer" . }}
+          {{ partialCached "footer/menu.html" . }}
+        {{ end }}
+      </footer>
+    </aside>
+    <section id="right-container">
+      <header>
+        {{ block "header" . }}
+          {{ partial "header/breadcrumb.html" . }}
+        {{ end }}
+      </header>
+      <main>
+        {{ block "main" . }}
+          {{ partial "heading.html" (dict "title" .Title "subtitle" .Params.subtitle) }}
+          {{ .Content }}
+        {{ end }}
+      </main>
+    </section>
   </body>
 </html>

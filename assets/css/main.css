@@ -1,0 +1,155 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+body header {
+  ol {
+    margin: 0;
+  }
+}
+
+header, footer {
+  :is(ul, ol) {
+    padding-left: 0;
+  }
+  li {
+    display: inline;
+  }
+}
+
+#left-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+  min-width: 240px;
+  max-width: 350px;
+  background-color: black;
+  color: white;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #left-container {
+    width: auto;
+    max-width: none;
+    z-index: 100;
+  }
+}
+
+#townportal {
+  height: 200px;
+  background-color: #B0BBBF;
+  align-content: center;
+  justify-items: center;
+}
+
+#right-container {
+  flex: 1 1 100%;
+  margin: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  #right-container {
+    z-index: 50;
+  }
+}
+
+#left-container > #side-contents {
+  flex-grow: 1;
+  padding: 1em;
+}
+
+.centered-container {
+  display: flex;
+  /* align-items: center; */
+}
+
+#nav-bottom {
+  margin: 1em;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.anchor { display: none; }
+a, a:visited { color: inherit; }
+input[type="text"]{ line-height: 2em; }
+
+:is(h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover) .anchor {
+  display: inline-block;
+}
+
+#mirrors ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#mirrors ul li::before {
+  content: "🪞";
+  display: inline-block;
+}
+
+/* bookmarks stuff */
+@keyframes goldGlow {
+  0% {
+    text-shadow: 0 0 1px gold;
+  }
+  30% {
+    text-shadow: 0 0 4px gold;
+  }
+  100% {
+    text-shadow: 0 0 1px gold;
+  }
+}
+
+.tag.favorites {
+  color: gold;
+  animation: goldGlow 7s infinite ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tag.favorites {
+    animation: none;
+    text-shadow: none;
+    color: gold;
+  }
+}
+
+/* Dirty solution */
+@media (prefers-color-scheme: dark) {
+  .rss {
+    filter: invert(100%);
+  }
+}
+
+.breadcrumb-separator::before,
+.breadcrumb-separator::after {
+  content: " ";
+}

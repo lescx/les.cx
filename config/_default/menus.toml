@@ -1,7 +1,8 @@
-[[footer]]
-  name = '🔖'
+[[main]]
+  name = 'Bookmarks'
   pageRef = '/bookmarks'
   weight = 1
+
 [[footer]]
   name = 'Contact'
   pageRef = '/contact'

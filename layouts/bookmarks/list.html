@@ -2,7 +2,7 @@
   {{ partial "head.html" . }}
 
   {{ $sorterJS := resources.Get "js/bookmarks-sorter.js" | resources.Minify | resources.Fingerprint }}
-  <script src="{{ $sorterJS.RelPermalink }}" defer></script>
+  <script src="{{ $sorterJS.RelPermalink }}"></script>
 
   {{ $searcherJS := resources.Get "js/bookmarks-searcher.js" | resources.Minify | resources.Fingerprint }}
   <script src="{{ $searcherJS.RelPermalink }}" defer></script>
@@ -24,11 +24,11 @@
   {{ $bookmarkCount := len .Pages }}
   {{ $tagCount := len $uniqueTags }}
 
-  <p>There are currently <span style="color: lime;">{{ $bookmarkCount }}</span> bookmarks in <span style="color: lime;">{{ $tagCount }}</span> different tags.</p>
+  <p>There are currently <span style="color: orange;">{{ $bookmarkCount }}</span> bookmarks in <span style="color: orange;">{{ $tagCount }}</span> different tags.</p>
 
-  <p>You can exclude tags from the results by putting an exclamation mark in front of the tag. Try this: <code style="color: lime">#netiquette !#xy</code></p>
+  <p>You can exclude tags from the results by putting an exclamation mark in front of the tag. Try this: <code style="color: orange">#netiquette !#xy</code></p>
 
-  <input type="text" style="width: 100%;" placeholder="Search by title or #tags" autofocus>
+  <input type="text" id="search-input" name="search" style="width: 100%;" placeholder="Search by title or #tags" autofocus>
 
   <!-- Give the table an id so we can easily select it in JavaScript -->
   <table id="bookmarksTable">
