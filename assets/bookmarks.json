@@ -2154,7 +2154,8 @@
     "title": "exislow/tidal-dl-ng",
     "url": "https://github.com/exislow/tidal-dl-ng",
     "tags": [
-      "repository"
+      "repository",
+      "piracy"
     ]
   },
   {
@@ -2210,7 +2211,8 @@
     "title": "Factorio",
     "url": "https://www.factorio.com",
     "tags": [
-      "videogame"
+      "videogame",
+      "factorio"
     ],
     "feed": "https://www.factorio.com/blog/rss"
   },
@@ -2234,7 +2236,7 @@
     "title": "Fallout4Map",
     "url": "https://fallout4map.com",
     "tags": [
-      "fallout-4",
+      "fallout4",
       "videogame"
     ]
   },
@@ -2288,7 +2290,9 @@
     "title": "Fedora",
     "url": "https://getfedora.org",
     "tags": [
-      "distro"
+      "distro",
+      "linux",
+      "fedora"
     ]
   },
   {
@@ -4075,7 +4079,8 @@
     "title": "Lidarr",
     "url": "https://lidarr.audio",
     "tags": [
-      "piracy"
+      "piracy",
+      "software"
     ]
   },
   {
@@ -4111,78 +4116,73 @@
     "title": "Linux/4004",
     "url": "https://dmitry.gr/?r=05.Projects&proj=35.%20Linux4004",
     "tags": [
-      "article"
+      "article",
+      "linux"
     ]
   },
   {
     "title": "Linux Backdoor Attempt of 2003",
     "url": "https://freedom-to-tinker.com/2013/10/09/the-linux-backdoor-attempt-of-2003",
     "tags": [
-      "article"
+      "article",
+      "linux"
     ],
     "feed": "https://freedom-to-tinker.com/feed"
-  },
-  {
-    "title": "Linux Containers Forum",
-    "url": "https://discuss.linuxcontainers.org",
-    "tags": [
-      "lxc"
-    ]
   },
   {
     "title": "Linux Containers",
     "url": "https://linuxcontainers.org",
     "tags": [
-      "lxc"
+      "lxc",
+      "linux"
     ]
   },
   {
     "title": "Linux Documentation Project",
     "url": "https://tldp.org",
     "tags": [
-      "documentation"
+      "documentation",
+      "linux"
     ]
   },
   {
     "title": "Linux Drivers Book",
     "url": "https://sysplay.github.io/books/LinuxDrivers/book",
     "tags": [
-      "documentation"
+      "documentation",
+      "linux"
     ]
   },
   {
     "title": "Linux Hardening Guide",
     "url": "https://theprivacyguide1.github.io/linux_hardening_guide",
     "tags": [
-      "hardening"
+      "hardening",
+      "linux"
     ]
   },
   {
     "title": "Linux Kernel documentation",
     "url": "https://kernel.org/doc/html/latest/index.html",
     "tags": [
-      "documentation"
+      "documentation",
+      "linux"
     ]
   },
   {
     "title": "Linux kernel syscall tables",
     "url": "https://syscalls.mebeim.net",
     "tags": [
-      "documentation"
-    ]
-  },
-  {
-    "title": "Linux Man Pages ManKier",
-    "url": "https://www.mankier.com",
-    "tags": [
-      "documentation"
+      "documentation",
+      "linux"
     ]
   },
   {
     "title": "Linux Security Hardening and Other Tweaks",
     "url": "https://vez.mrsk.me/linux-hardening",
     "tags": [
-      "hardening"
+      "hardening",
+      "linux"
     ]
   },
   {
@@ -4405,10 +4405,10 @@
     ]
   },
   {
-    "title": "Mailing List",
-    "url": "https://scriptedconfiguration.org/mailing-list.html",
+    "title": "scripted configuration",
+    "url": "https://scriptedconfiguration.org",
     "tags": [
-      "article",
+      "blog",
       "awk"
     ]
   },
@@ -4460,14 +4460,8 @@
     "url": "https://massivefictions.com",
     "tags": [
       "suckless"
-    ]
-  },
-  {
-    "title": "MatheBibel",
-    "url": "https://www.mathebibel.de",
-    "tags": [
-      "mathematics"
-    ]
+    ],
+    "feed": "https://massivefictions.com/index.rss"
   },
   {
     "title": "Mathe für Nicht-Freaks",
@@ -4483,13 +4477,6 @@
       "thalia",
       "book",
       "shopping"
-    ]
-  },
-  {
-    "title": "Matthias Endler",
-    "url": "https://ender.dev",
-    "tags": [
-      "blog"
     ]
   },
   {
@@ -4528,7 +4515,8 @@
     "url": "https://developer.mozilla.org",
     "tags": [
       "documentation"
-    ]
+    ],
+    "feed": "https://developer.mozilla.org/en-US/blog/rss.xml"
   },
   {
     "title": "media.ccc.de",
@@ -4542,7 +4530,8 @@
     "title": "MediaSavvy",
     "url": "https://mediasavvy.pages.dev",
     "tags": [
-      "piracy"
+      "piracy",
+      "documentation"
     ]
   },
   {
@@ -4579,15 +4568,6 @@
       "photography",
       "film",
       "shopping"
-    ]
-  },
-  {
-    "title": "mensen",
-    "url": "https://codeberg.org/ciluvien/mensen",
-    "tags": [
-      "git",
-      "repository",
-      "tu-dresden"
     ]
   },
   {
@@ -5575,13 +5555,6 @@
     ]
   },
   {
-    "title": "Privacy is sexy",
-    "url": "https://privacy.sexy",
-    "tags": [
-      "documentation"
-    ]
-  },
-  {
     "title": "PrivacySpy",
     "url": "https://privacyspy.org",
     "tags": [
@@ -5593,13 +5566,6 @@
     "url": "https://hdvinnie.github.io/Private-Trackers-Spreadsheet",
     "tags": [
       "piracy"
-    ]
-  },
-  {
-    "title": "Product Experts",
-    "url": "https://productexperts.withgoogle.com/profile",
-    "tags": [
-      "google"
     ]
   },
   {
@@ -5656,14 +5622,6 @@
     ]
   },
   {
-    "title": "Psychologie Heute",
-    "url": "https://psychologie-heute.de",
-    "tags": [
-      "psychology",
-      "shopping"
-    ]
-  },
-  {
     "title": "Pwning Tech",
     "url": "https://pwning.tech",
     "tags": [
@@ -5691,13 +5649,6 @@
     "url": "https://www.python.org",
     "tags": [
       "python"
-    ]
-  },
-  {
-    "title": "qbit",
-    "url": "https://github.com/qbit",
-    "tags": [
-      "github"
     ]
   },
   {
@@ -5731,16 +5682,11 @@
   },
   {
     "title": "radare",
-    "url": "https://rada.re/n",
+    "url": "https://www.radare.org",
+    "repository": "https://github.com/radareorg/radare2",
     "tags": [
-      "radare"
-    ]
-  },
-  {
-    "title": "radareorg/radare2",
-    "url": "https://github.com/radareorg/radare2",
-    "tags": [
-      "repository",
+      "re",
+      "software"
       "radare"
     ]
   },
@@ -5763,13 +5709,6 @@
     "url": "https://github.com/Raphire/Win11Debloat",
     "tags": [
       "repository"
-    ]
-  },
-  {
-    "title": "Raspberry Pi Foundation",
-    "url": "https://raspberrypi.org",
-    "tags": [
-      "raspberry-pi"
     ]
   },
   {
@@ -5800,7 +5739,8 @@
     "title": "Read Practical Cryptography With Go",
     "url": "https://leanpub.com/gocrypto/read",
     "tags": [
-      "cryptography"
+      "cryptography",
+      "go"
     ]
   },
   {
@@ -5970,20 +5910,6 @@
     ]
   },
   {
-    "title": "rfht",
-    "url": "https://github.com/rfht",
-    "tags": [
-      "github"
-    ]
-  },
-  {
-    "title": "rgz.ee",
-    "url": "https://romanzolotarev.com",
-    "tags": [
-      "blog"
-    ]
-  },
-  {
     "title": "RICE score: A prioritization framework for estimating value",
     "url": "https://roadmunk.com/guides/rice-score-prioritization-framework-product-management",
     "tags": [
@@ -6000,14 +5926,6 @@
       "emacs"
     ],
     "feed": "https://stallman.org/rss/rss.xml"
-  },
-  {
-    "title": "Richy's Random Ramblings",
-    "url": "https://blog.rac.me.uk",
-    "tags": [
-      "blog"
-    ],
-    "feed": "https://blog.rac.me.uk/feed"
   },
   {
     "title": "Ripped",
@@ -9656,5 +9574,18 @@
       "youtube"
     ],
     "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCN29LJGZ8FY30ysxdTnDsaw"
+  },
+  {
+    "title": "QobuzDL",
+    "url": "https://www.qobuz-dl.com",
+    "tags": [
+      "piracy",
+      "music",
+      "qobuz"
+    ],
+    "repository": "https://github.com/vitiko98/qobuz-dl"
+    "mirrors": [
+      "https://eu.qobuz.squid.wtf"
+    ]
   }
 ]
