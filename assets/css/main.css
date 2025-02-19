@@ -62,7 +62,7 @@ header, footer {
 
 #townportal {
   height: 200px;
-  background-color: #B0BBBF;
+  background-color: #66B3BA;
   align-content: center;
   justify-items: center;
 }
@@ -85,11 +85,11 @@ header, footer {
 
 .centered-container {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 
 #nav-bottom {
-  margin: 1em;
+  padding: 1em;
 }
 
 img, picture, video, canvas, svg {
@@ -100,7 +100,12 @@ img, picture, video, canvas, svg {
 
 .anchor { display: none; }
 a, a:visited { color: inherit; }
-input[type="text"]{ line-height: 2em; }
+
+input[type="text"] {
+  line-height: 2em;
+  background-color: white;
+  color: black;
+}
 
 :is(h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover) .anchor {
   display: inline-block;

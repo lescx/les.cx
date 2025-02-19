@@ -1,3 +1,16 @@
+{{ define "left-container" }}
+  <nav id="side-contents" class="centered-container" style="background-color: #66B3BA;">
+    {{- range site.Menus.main}}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{- end }}
+  </nav>
+  <footer id="nav-bottom" style="background-color: #66B3BA;">
+    {{ block "footer" . }}
+      {{ partialCached "footer/menu.html" . }}
+    {{ end }}
+  </footer>
+{{ end }}
+
 {{ define "main" }}
   {{ partial "heading.html" (dict "title" .Site.Params.ipa "subtitle" .Site.Params.introductory "ariaLabel" .Site.Params.name) }}
   {{ .Content }}

@@ -155,7 +155,8 @@
     "url": "https://accrescent.app",
     "tags": [
       "android",
-      "app"
+      "app",
+      "software"
     ]
   },
   {
@@ -2266,7 +2267,10 @@
     "title": "F-Droid Security Issues",
     "url": "https://privsec.dev/posts/android/f-droid-security-issues",
     "tags": [
-      "article"
+      "article",
+      "favorites",
+      "f-droid",
+      "android"
     ],
     "feed": "https://privsec.dev/index.xml"
   },
@@ -2796,7 +2800,8 @@
     "title": "GrapheneOS/hardened_malloc",
     "url": "https://github.com/GrapheneOS/hardened_malloc",
     "tags": [
-      "repository"
+      "repository",
+      "grapheneos"
     ]
   },
   {
@@ -2804,7 +2809,8 @@
     "url": "https://grapheneos.org",
     "tags": [
       "android",
-      "distro"
+      "distro",
+      "grapheneos"
     ]
   },
   {

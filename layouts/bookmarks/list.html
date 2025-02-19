@@ -1,3 +1,34 @@
+{{ define "left-container" }}
+  <header id="townportal">
+    <hgroup>
+      <h1>{{ .Title }}</h1>
+      <p>Yip, this rewrite of the site is still WIP.</p>
+    </hgroup>
+  </header>
+  <nav id="side-contents">
+    <ul>
+      {{/* Gather all tags from the bookmarks */}}
+      {{ $allTags := slice }}
+      {{ range .Pages }}
+        {{ if .Params.tags }}
+          {{ range .Params.tags }}
+            {{ $allTags = $allTags | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $uniqueTags := uniq $allTags | sort }}
+      {{ range $uniqueTags }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </nav>
+  <footer id="nav-bottom">
+    {{ block "footer" . }}
+      {{ partialCached "footer/menu.html" . }}
+    {{ end }}
+  </footer>
+{{ end }}
+
 {{ define "head" }}
   {{ partial "head.html" . }}
 
