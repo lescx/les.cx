@@ -5686,7 +5686,7 @@
     "repository": "https://github.com/radareorg/radare2",
     "tags": [
       "re",
-      "software"
+      "software",
       "radare"
     ]
   },
@@ -9583,7 +9583,7 @@
       "music",
       "qobuz"
     ],
-    "repository": "https://github.com/vitiko98/qobuz-dl"
+    "repository": "https://github.com/vitiko98/qobuz-dl",
     "mirrors": [
       "https://eu.qobuz.squid.wtf"
     ]

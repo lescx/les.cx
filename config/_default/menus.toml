@@ -1,4 +1,8 @@
 [[footer]]
+  name = '🔖'
+  pageRef = '/bookmarks'
+  weight = 1
+[[footer]]
   name = 'Contact'
   pageRef = '/contact'
   weight = 10
