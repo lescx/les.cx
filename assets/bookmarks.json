@@ -2464,7 +2464,8 @@
     "title": "Frederic Cambus",
     "url": "https://www.cambus.net",
     "tags": [
-      "blog"
+      "blog",
+      "technology"
     ],
     "feed": "https://www.cambus.net/atom.xml"
   },
@@ -2472,8 +2473,9 @@
     "title": "Freedom of the Press Foundation",
     "url": "https://freedom.press",
     "tags": [
-      "misc"
-    ]
+      "activism"
+    ],
+    "feed": "https://freedom.press/issues/feed"
   },
   {
     "title": "FreeMediaHeckYeah",
@@ -2508,13 +2510,6 @@
     "url": "https://fridaysforfuture.de",
     "tags": [
       "activism"
-    ]
-  },
-  {
-    "title": "From Development to Production",
-    "url": "https://nickjanetakis.com",
-    "tags": [
-      "misc"
     ]
   },
   {
@@ -2563,24 +2558,10 @@
     ]
   },
   {
-    "title": "GamesWirtschaft.de",
-    "url": "https://www.gameswirtschaft.de",
-    "tags": [
-      "news"
-    ]
-  },
-  {
     "title": "Gawk",
     "url": "https://www.gnu.org/software/gawk/manual",
     "tags": [
       "awk"
-    ]
-  },
-  {
-    "title": "GDC Vault",
-    "url": "https://gdcvault.com",
-    "tags": [
-      "gaming"
     ]
   },
   {
@@ -2594,7 +2575,10 @@
     "title": "Gentoo Wiki",
     "url": "https://wiki.gentoo.org/wiki/Main_Page",
     "tags": [
-      "documentation"
+      "documentation",
+      "linux",
+      "distro",
+      "gentoo"
     ]
   },
   {
@@ -2612,22 +2596,8 @@
     ]
   },
   {
-    "title": "GitButler",
-    "url": "https://gitbutler.com",
-    "tags": [
-      "git"
-    ]
-  },
-  {
     "title": "Gitea",
     "url": "https://gitea.io/en-us",
-    "tags": [
-      "git"
-    ]
-  },
-  {
-    "title": "Gitflow Workflow",
-    "url": "https://atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow",
     "tags": [
       "git"
     ]
@@ -2645,15 +2615,6 @@
     "tags": [
       "git",
       "github",
-      "hoster"
-    ]
-  },
-  {
-    "title": "GitLab",
-    "url": "https://gitlab.com",
-    "tags": [
-      "git",
-      "gitlab",
       "hoster"
     ]
   },
@@ -2799,13 +2760,6 @@
     "feed": "https://googleprojectzero.blogspot.com/feeds/posts/default"
   },
   {
-    "title": "Google Public DNS",
-    "url": "https://dns.google",
-    "tags": [
-      "google"
-    ]
-  },
-  {
     "title": "Google Shell Style Guide",
     "url": "https://google.github.io/styleguide/shellguide.html",
     "tags": [
@@ -2887,13 +2841,6 @@
     ]
   },
   {
-    "title": "GRSecurity",
-    "url": "https://grsecurity.net",
-    "tags": [
-      "software"
-    ]
-  },
-  {
     "title": "Grundwissen Mathematik",
     "url": "https://www.grund-wissen.de/mathematik",
     "tags": [
@@ -2926,13 +2873,6 @@
     "url": "https://www.errno.fr",
     "tags": [
       "blog"
-    ]
-  },
-  {
-    "title": "GW2BLTC - Tools to make gold in Guild Wars 2",
-    "url": "https://www.gw2bltc.com/en",
-    "tags": [
-      "gw2"
     ]
   },
   {
@@ -3170,25 +3110,12 @@
     ]
   },
   {
-    "title": "Hogwarts Escape",
-    "url": "https://thehogwartsescape.com",
-    "tags": [
-      "harry-potter"
-    ]
-  },
-  {
-    "title": "Home Assistant",
-    "url": "https://home-assistant.io",
-    "tags": [
-      "iot"
-    ]
-  },
-  {
     "title": "hosentaschenblog.org",
     "url": "https://www.hosentaschenblog.org",
     "tags": [
       "blog"
-    ]
+    ],
+    "feed": "https://www.hosentaschenblog.org/rss.xml"
   },
   {
     "title": "HotCakeX/Harden-Windows-Security",
@@ -3201,21 +3128,24 @@
     "title": "Hot Reloading C Code",
     "url": "https://rnpnr.xyz/blog/runtime-dynamic-c.html",
     "tags": [
-      "article"
+      "article",
+      "c"
     ]
   },
   {
     "title": "How a wireless keyboard lets hackers take full control of connected computers",
     "url": "https://arstechnica.com/information-technology/2019/03/how-a-wireless-keyboard-lets-hackers-take-full-control-of-connected-computers",
     "tags": [
-      "article"
+      "article",
+      "keyboard"
     ]
   },
   {
     "title": "How BSD Authentication Works",
     "url": "https://blog.lambda.cx/posts/how-bsd-authentication-works",
     "tags": [
-      "article"
+      "article",
+      "bsd"
     ],
     "feed": "https://blog.lambda.cx/index.xml"
   },
@@ -3232,14 +3162,16 @@
     "title": "How deep is the well?",
     "url": "http://datagenetics.com/blog/march112021/index.html",
     "tags": [
-      "article"
+      "article",
+      "mathematics"
     ]
   },
   {
     "title": "How efficient can cat(1) be?",
     "url": "https://ariadne.space/2022/07/17/how-efficient-can-cat1-be",
     "tags": [
-      "article"
+      "article",
+      "cat"
     ]
   },
   {
@@ -3265,6 +3197,7 @@
     "title": "How To Ask Questions The Smart Way",
     "url": "http://catb.org/~esr/faqs/smart-questions.html",
     "tags": [
+      "article",
       "netiquette"
     ]
   },
@@ -3354,7 +3287,7 @@
     "url": "https://gohugo.io",
     "tags": [
       "software",
-      "static-site-generator"
+      "ssg"
     ]
   },
   {
@@ -3371,7 +3304,8 @@
     "tags": [
       "blog",
       "security"
-    ]
+    ],
+    "feed": "https://blog.coffinsec.com/feed.xml"
   },
   {
     "title": "I2P Daemon",
@@ -3460,7 +3394,7 @@
     ]
   },
   {
-    "title": "Index Alphabetical - OWASP Cheat Sheet Series",
+    "title": "OWASP Cheat Sheet Series",
     "url": "https://cheatsheetseries.owasp.org/Glossary.html",
     "tags": [
       "documentation",
@@ -3482,7 +3416,7 @@
     ]
   },
   {
-    "title": "Indigo Disk VGC 2024 Pokemon Scarlet & Violet Competitive Stats | Pikalytics",
+    "title": "Pikalytics",
     "url": "https://www.pikalytics.com",
     "tags": [
       "pokémon"
@@ -3598,7 +3532,8 @@
     "title": "Isoglosse.",
     "url": "https://www.isoglosse.de",
     "tags": [
-      "blog"
+      "blog",
+      "archive"
     ]
   },
   {
@@ -3629,14 +3564,8 @@
     "url": "https://janet-lang.org",
     "tags": [
       "janet"
-    ]
-  },
-  {
-    "title": "Janet Language",
-    "url": "https://github.com/janet-lang",
-    "tags": [
-      "github"
-    ]
+    ],
+    "repository": "https://github.com/janet-lang"
   },
   {
     "title": "Jan-Lukas Else",
@@ -3681,13 +3610,6 @@
     "url": "https://javaspecialists.eu",
     "tags": [
       "java"
-    ]
-  },
-  {
-    "title": "jcs",
-    "url": "https://github.com/jcs",
-    "tags": [
-      "github"
     ]
   },
   {
