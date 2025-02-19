@@ -669,34 +669,11 @@
     ]
   },
   {
-    "title": "Bash One-Liners",
-    "url": "https://www.bashoneliners.com/oneliners/popular",
-    "tags": [
-      "bash",
-      "cheatsheet"
-    ]
-  },
-  {
-    "title": "Bash Reference Manual",
-    "url": "https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html",
-    "tags": [
-      "bash"
-    ]
-  },
-  {
     "title": "Bash scripting cheatsheet",
     "url": "https://devhints.io/bash",
     "tags": [
       "bash",
       "cheatsheet"
-    ]
-  },
-  {
-    "title": "Bauble",
-    "url": "https://bauble.studio",
-    "tags": [
-      "webapp",
-      "janet"
     ]
   },
   {
@@ -715,13 +692,6 @@
     ]
   },
   {
-    "title": "BeagleBoard",
-    "url": "https://beagleboard.org",
-    "tags": [
-      "shopping"
-    ]
-  },
-  {
     "title": "Beatrice-Raws",
     "url": "https://beatrice-raws.org",
     "tags": [
@@ -733,7 +703,8 @@
     "title": "beerisgood/Windows11_Hardening",
     "url": "https://github.com/beerisgood/Windows11_Hardening",
     "tags": [
-      "repository"
+      "repository",
+      "windows"
     ]
   },
   {
@@ -4502,7 +4473,8 @@
     "title": "How to C (as of 2016)",
     "url": "https://matt.sh/howto-c",
     "tags": [
-      "article"
+      "article",
+      "c"
     ]
   },
   {
@@ -9160,30 +9132,8 @@
     ]
   },
   {
-    "title": "OpenBSD on a Thinkpad x230",
-    "url": "https://bwiggs.com/posts/2020-07-25-openbsd",
-    "tags": [
-      "openbsd"
-    ],
-    "feed": "https://bwiggs.com/index.xml"
-  },
-  {
-    "title": "OpenBSD on a ThinkPad X270 for Scholarly Work",
-    "url": "https://www.coreystephan.com/openbsd-thinkpad",
-    "tags": [
-      "openbsd"
-    ]
-  },
-  {
     "title": "OpenBSD Webzine",
     "url": "https://webzine.puffy.cafe",
-    "tags": [
-      "openbsd"
-    ]
-  },
-  {
-    "title": "OpenBSD Yubikey Authentication",
-    "url": "https://erraticbits.ca/post/2014/openbsd-yubikey",
     "tags": [
       "openbsd"
     ]
