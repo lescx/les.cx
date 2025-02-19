@@ -24,7 +24,7 @@
   {{ $bookmarkCount := len .Pages }}
   {{ $tagCount := len $uniqueTags }}
 
-  <p>There are currently {{ $bookmarkCount }} bookmarks in {{ $tagCount }} different tags.</p>
+  <p>There are currently <span style="color: lime;">{{ $bookmarkCount }}</span> bookmarks in <span style="color: lime;">{{ $tagCount }}</span> different tags.</p>
 
   <p>You can exclude tags from the results by putting an exclamation mark in front of the tag. Try this: <code style="color: lime">#netiquette !#xy</code></p>
 
