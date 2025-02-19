@@ -9,15 +9,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   searchInput.addEventListener('input', function() {
     const query = this.value.toLowerCase().trim();
+    // Split query into individual words (ignoring extra whitespace)
+    const terms = query.split(/\s+/).filter(term => term !== "");
 
-    // Debounce with requestAnimationFrame for smoother performance
     if (searchTimeout) cancelAnimationFrame(searchTimeout);
     searchTimeout = requestAnimationFrame(() => {
       tableRows.forEach((row, index) => {
-        const isVisible = rowTexts[index].includes(query);
-        if (row.style.display !== (isVisible ? '' : 'none')) {
-          row.style.display = isVisible ? '' : 'none';
-        }
+        // Check if every search term is present in the row text.
+        const isVisible = terms.every(term => rowTexts[index].includes(term));
+        row.style.display = isVisible ? '' : 'none';
       });
     });
   });

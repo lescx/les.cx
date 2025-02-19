@@ -16,6 +16,7 @@
   {{/* Construct page */}}
   {{ $title := .title }}
   {{ $url := .url }}
+  {{ $onion := .onion }}
   {{ $tags := .tags }}
   {{ $mirrors := .mirrors }}
   {{ $feed := .feed }}
@@ -27,7 +28,7 @@
   {{ $page := dict
     "content" (dict "mediaType" "text/markdown" "value" $content)
     "kind" "page"
-    "params" (dict "url" $url "tags" $tags "mirrors" $mirrors "feed" $feed "repository" $repository)
+    "params" (dict "url" $url "onion" $onion "tags" $tags "mirrors" $mirrors "feed" $feed "repository" $repository)
     "path" $hash
     "title" $title
   }}

@@ -35,6 +35,18 @@ a {
   color: inherit;
 }
 
+#mirrors ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#mirrors ul li::before {
+  content: "🪞";
+  display: inline-block;
+}
+
+input[type="text"]{ line-height: 2em; }
+
 /* Dirty solution */
 @media (prefers-color-scheme: dark) {
   .rss {

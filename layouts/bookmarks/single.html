@@ -2,31 +2,38 @@
   <h1>{{ .Title }}</h1>
 
   {{ if .Params.url }}
-    <p>URL: <a href="{{ .Params.url }}">{{ .Params.url }}</a></p>
+    <p>🌐 <a href="{{ .Params.url }}">{{ .Params.url }}</a></p>
   {{ end }}
 
   {{ if .Params.repository }}
-    <p>Repository: <a href="{{ .Params.repository }}">{{ .Params.repository }}</a></p>
+    <p>🗃️ <a href="{{ .Params.repository }}">{{ .Params.repository }}</a></p>
   {{ end }}
 
   {{ if .Params.tags }}
-    <p>Tags: 
-      {{ $hashTags := slice }}
-      {{ range .Params.tags }}
-        {{ $hashTags = $hashTags | append (printf "#%s" .) }}
-      {{ end }}
-      {{ $sortedTags := sort $hashTags }}
-      {{ delimit $sortedTags " " }}
-    </p>
+    <div id="tags">
+      <p>🏷️
+        {{ $hashTags := slice }}
+        {{ range .Params.tags }}
+          {{ $hashTags = $hashTags | append (printf "#%s" .) }}
+        {{ end }}
+        {{ $sortedTags := sort $hashTags }}
+        {{ delimit $sortedTags " " }}
+      </p>
+    </div>
   {{ end }}
 
   {{ if .Params.mirrors }}
-    <p>Mirrors:</p>
-    <ul>
-      {{ range .Params.mirrors }}
-        <li><a href="{{ . }}">{{ . }}</a></li>
-      {{ end }}
-    </ul>
+    <div id="mirrors">
+      <ul>
+        {{ range .Params.mirrors }}
+          <li><a href="{{ . }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+
+  {{ if .Params.onion }}
+    <p>🧅 <a href="{{ .Params.onion }}">{{ .Params.onion }}</a></p>
   {{ end }}
 
 	{{$rsssvg := resources.Get "symbols/rss.svg"}}
