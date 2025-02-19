@@ -1,8 +1,10 @@
 {{ define "left-container" }}
   <nav id="side-contents" class="centered-container" style="background-color: #66B3BA;">
+    <ul>
     {{- range site.Menus.main}}
       <li><a href="{{ .URL }}">{{ .Name }}</a></li>
     {{- end }}
+    </ul>
   </nav>
   <footer id="nav-bottom" style="background-color: #66B3BA;">
     {{ block "footer" . }}

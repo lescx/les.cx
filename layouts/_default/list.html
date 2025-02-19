@@ -1,10 +1,25 @@
-<!-- NOTE:
-  The list page doesn't really contain an <article>, so it's updated.
-  Should probably me made better in the future.
--->
 {{ define "main" }}
-  {{ partial "heading.html" (dict "title" .Title "subtitle" .Params.subtitle) }}
-  <div>
-    {{ .Content }}
-  </div>
+{{ partial "heading.html" (dict "title" .Title "subtitle" .Params.subtitle) }}
+<nav>
+  <ol class="post-list">
+    {{ range .Pages }}
+      <li class="post">
+        <article>
+          <hgroup>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <div>
+              {{ with .PublishDate }}
+                <span>Published: <time>{{ . | dateFormat "2006-01-02" }}</time></span>
+              {{ end }}
+              {{ if ne .Lastmod .PublishDate }}
+                <span>Last Edited: <time>{{ .Lastmod.Format "2006-01-02" }}</time></span>
+              {{ end }}
+            </div>
+          </hgroup>
+        </article>
+      </li>
+    {{ end }}
+  </ol>
+</nav>
 {{ end }}
+

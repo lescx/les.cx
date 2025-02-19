@@ -2,6 +2,10 @@
   name = 'Bookmarks'
   pageRef = '/bookmarks'
   weight = 1
+[[main]]
+  name = 'Articles'
+  pageRef = '/articles'
+  weight = 2
 
 [[footer]]
   name = 'Contact'
