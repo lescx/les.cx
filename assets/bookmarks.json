@@ -59,7 +59,7 @@
     "feed": "https://dgl.cx/feed"
   },
   {
-    "title": "3Blue1Brown",
+    "title": "3Blue1Brown Website",
     "url": "https://www.3blue1brown.com",
     "tags": [
       "mathematics"
@@ -1846,7 +1846,7 @@
     ]
   },
   {
-    "title": "Don't ask to ask just ask",
+    "title": "Don't ask to ask, just ask",
     "url": "https://dontasktoask.com",
     "tags": [
       "netiquette"
@@ -1856,14 +1856,16 @@
     "title": "dotfiles.git",
     "url": "https://dev.sanctum.geek.nz/cgit/dotfiles.git/tree",
     "tags": [
-      "repository"
+      "repository",
+      "git"
     ]
   },
   {
     "title": "Download 3DS Cia",
     "url": "https://cia-3ds.com",
     "tags": [
-      "3ds"
+      "3ds",
+      "piracy"
     ]
   },
   {
@@ -3212,7 +3214,8 @@
     "url": "http://catb.org/~esr/faqs/smart-questions.html",
     "tags": [
       "article",
-      "netiquette"
+      "netiquette",
+      "favorites"
     ]
   },
   {
@@ -3918,17 +3921,13 @@
     ]
   },
   {
-    "title": "LadybirdBrowser/ladybird",
-    "url": "https://github.com/LadybirdBrowser/ladybird",
-    "tags": [
-      "repository"
-    ]
-  },
-  {
     "title": "Ladybird",
-    "url": "https://github.com/LadybirdBrowser",
+    "url": "https://ladybird.org",
+    "repository": "https://github.com/LadybirdBrowser",
     "tags": [
-      "github"
+      "ladybird",
+      "browser",
+      "software"
     ]
   },
   {
@@ -5835,13 +5834,6 @@
     "url": "https://every-layout.dev",
     "tags": [
       "css"
-    ]
-  },
-  {
-    "title": "Rematch",
-    "url": "https://www.arte.tv/de/videos/RC-025577/rematch",
-    "tags": [
-      "streaming"
     ]
   },
   {
@@ -7810,7 +7802,8 @@
     "title": "XY Problem",
     "url": "https://xyproblem.info",
     "tags": [
-      "netiquette"
+      "netiquette",
+      "xy"
     ]
   },
   {

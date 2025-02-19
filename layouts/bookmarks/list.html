@@ -26,6 +26,8 @@
 
   <p>There are currently {{ $bookmarkCount }} bookmarks in {{ $tagCount }} different tags.</p>
 
+  <p>You can exclude tags from the results by prepending the tag by a exclamation mark. Try this: <code style="color: lime">#netiquette !#xy</code></p>
+
   <input type="text" style="width: 100%;" placeholder="Search by title or #tags" autofocus>
 
   <!-- Give the table an id so we can easily select it in JavaScript -->
@@ -57,12 +59,9 @@
           </td>
           <td>
             {{ if .Params.tags }}
-              {{ $hashTags := slice }}
-              {{ range .Params.tags }}
-                {{ $hashTags = $hashTags | append (printf "#%s" .) }}
+              {{ range (sort .Params.tags) }}
+                <span class="tag {{ . }}">{{ printf "#%s" . }}</span>
               {{ end }}
-              {{ $sortedTags := sort $hashTags }}
-              {{ delimit $sortedTags " " }}
             {{ end }}
           </td>
         </tr>

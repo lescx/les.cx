@@ -45,6 +45,31 @@ a {
   display: inline-block;
 }
 
+@keyframes goldGlow {
+  0% {
+    text-shadow: 0 0 1px gold;
+  }
+  30% {
+    text-shadow: 0 0 4px gold;
+  }
+  100% {
+    text-shadow: 0 0 1px gold;
+  }
+}
+
+.tag.favorites {
+  color: gold;
+  animation: goldGlow 7s infinite ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tag.favorites {
+    animation: none;
+    text-shadow: none;
+    color: gold;
+  }
+}
+
 input[type="text"]{ line-height: 2em; }
 
 /* Dirty solution */
