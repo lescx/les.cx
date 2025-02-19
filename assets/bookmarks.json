@@ -3435,15 +3435,6 @@
     ]
   },
   {
-    "title": "ilya-manin/tmux-spotify",
-    "url": "https://github.com/ilya-manin/tmux-spotify",
-    "tags": [
-      "git",
-      "repository",
-      "tmux"
-    ]
-  },
-  {
     "title": "Imabi - Guided Japanese Mastery",
     "url": "https://imabi.org",
     "tags": [
@@ -4369,13 +4360,6 @@
       "blog"
     ],
     "feed": "https://longest.voyage/index.xml"
-  },
-  {
-    "title": "looking for examples of display-menu",
-    "url": "https://www.reddit.com/r/tmux/comments/mto7uj/looking_for_examples_of_displaymenu",
-    "tags": [
-      "tmux"
-    ]
   },
   {
     "title": "Lost All Hope Archive",
@@ -7135,15 +7119,6 @@
     ]
   },
   {
-    "title": "tmux-now-playing/players/mpd.sh",
-    "url": "https://github.com/spywhere/tmux-now-playing/blob/master/players/mpd.sh",
-    "tags": [
-      "tmux",
-      "git",
-      "repository"
-    ]
-  },
-  {
     "title": "tobhe",
     "url": "https://github.com/tobhe",
     "tags": [
@@ -9716,5 +9691,38 @@
       "risc-v"
     ],
     "feed": "https://projectf.io/index.xml"
+  },
+  {
+    "title": "division by zero",
+    "url": "https://www.2f30.org",
+    "tags": [
+      "suckless"
+    ]
+  },
+  {
+    "title": "Myths about /dev/urandom",
+    "url": "https://www.thomas-huehn.com/myths-about-urandom",
+    "tags": [
+      "article"
+    ]
+  },
+  {
+    "title": "Kino-Zeit",
+    "url": "https://www.kino-zeit.de",
+    "tags": [
+      "movies",
+      "news"
+    ],
+    "feed": "https://www.kino-zeit.de/rss"
+  },
+  {
+    "title": "Cinema Strikes Back",
+    "url": "https://youtube.com/channel/UCPiI104i7lyG--fkr3LZTtA",
+    "tags": [
+      "channel",
+      "youtube",
+      "movies"
+    ],
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPiI104i7lyG--fkr3LZTtA"
   }
 ]
