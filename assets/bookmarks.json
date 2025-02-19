@@ -1,6 +1,6 @@
 [
   {
-    "title": "0x6d69636b/windows_hardening",
+    "title": "HardeningKitty",
     "url": "https://github.com/0x6d69636b/windows_hardening",
     "tags": [
       "repository",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "title": "0xacab",
+    "title": "Riseup @0xacab",
     "url": "https://about.0xacab.org",
     "tags": [
       "riseup"
@@ -25,6 +25,14 @@
     "feed": "https://feeds.feedburner.com/1024cores"
   },
   {
+    "title": "1337x status page",
+    "url": "https://1337x-status.org",
+    "tags": [
+      "1337x",
+      "piracy"
+    ]
+  },
+  {
     "title": "1337x",
     "url": "https://1337x.to",
     "tags": [
@@ -37,8 +45,10 @@
       "https://www.1337xx.to",
       "https://www.1337xxx.to",
       "https://www.1377x.to",
-      "https://www.1337x.tw"
-    ]
+      "https://www.1337x.tw",
+      "https://x1337x.cc"
+    ],
+    "onion": "http://l337xdarkkaqfwzntnfk5bmoaroivtl6xsbatabvlb52umg6v3ch44yd.onion"
   },
   {
     "title": "\" [31m\"?! ANSI Terminal security in 2023 and finding 10 CVEs",
@@ -69,13 +79,6 @@
     "tags": [
       "article",
       "cve"
-    ]
-  },
-  {
-    "title": "750 Words",
-    "url": "https://750words.com",
-    "tags": [
-      "misc"
     ]
   },
   {
@@ -112,21 +115,25 @@
     "title": "9elements Cyber Security",
     "url": "https://9esec.io/blog",
     "tags": [
-      "coreboot"
-    ]
+      "coreboot",
+      "blog"
+    ],
+    "feed": "https://9esec.io/blog/rss"
   },
   {
     "title": "a13xp0p0v",
     "url": "https://github.com/a13xp0p0v",
     "tags": [
-      "github"
+      "github",
+      "linux"
     ]
   },
   {
     "title": "A 489 Megapixel Camera For Not A Lot",
     "url": "https://hackaday.com/2023/06/12/a-489-megapixel-camera-for-not-a-lot",
     "tags": [
-      "article"
+      "article",
+      "camera"
     ]
   },
   {
@@ -224,7 +231,8 @@
     "title": "ahrm/sioyek",
     "url": "https://github.com/ahrm/sioyek",
     "tags": [
-      "repository"
+      "repository",
+      "pdf"
     ]
   },
   {
@@ -377,7 +385,8 @@
     "title": "Angel Radio UK",
     "url": "https://edge.clrmedia.co.uk/angel_hb",
     "tags": [
-      "radio"
+      "radio",
+      "favorites"
     ]
   },
   {
@@ -1761,7 +1770,8 @@
     "title": "Digitales Wörterbuch der deutschen Sprache",
     "url": "https://www.dwds.de",
     "tags": [
-      "dictionary"
+      "dictionary",
+      "favorites"
     ]
   },
   {
@@ -3752,7 +3762,8 @@
     "title": "Kaspersky Password Manager: All your passwords are belong to us",
     "url": "https://blog.ledger.com/kaspersky-password-manager",
     "tags": [
-      "article"
+      "article",
+      "favorites"
     ]
   },
   {
@@ -4020,7 +4031,8 @@
     "url": "https://letterboxd.com",
     "tags": [
       "movies",
-      "letterboxd"
+      "letterboxd",
+      "favorites"
     ]
   },
   {
@@ -5305,7 +5317,8 @@
     "url": "https://www.permacomputing.net",
     "tags": [
       "suckless",
-      "permacomputing"
+      "permacomputing",
+      "favorites"
     ]
   },
   {
@@ -9414,10 +9427,11 @@
     ]
   },
   {
-    "title": "#!book",
-    "url": "https://book.hashbang.sh",
+    "title": "GOV Domain SSH Banners",
+    "url": "https://book.hashbang.sh/docs/research/audits/gov_domain_ssh_banners",
     "tags": [
       "hacking",
+      "ssh",
       "wiki"
     ]
   },
@@ -9579,6 +9593,28 @@
     "repository": "https://github.com/vitiko98/qobuz-dl",
     "mirrors": [
       "https://eu.qobuz.squid.wtf"
+    ]
+  },
+  {
+    "title": "Tae Kim's Guide to Learning Japanese",
+    "url": "https://guidetojapanese.org/learn/",
+    "tags": [
+      "japanese"
+    ]
+  },
+  {
+    "title": "Read Real Japanese Fiction: Short Stories by Contemporary Writers",
+    "url": "https://www.amazon.com/Read-Real-Japanese-Fiction-Contemporary/dp/1568366175",
+    "tags": [
+      "japanese",
+      "book"
+    ]
+  },
+  {
+    "title": "Japanese Language and Practice Games",
+    "url": "https://crossword-solver.io/japanese-language-practice-games",
+    "tags": [
+      "japanese"
     ]
   }
 ]
