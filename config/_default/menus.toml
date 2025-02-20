@@ -1,11 +1,15 @@
 [[main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 1
+[[main]]
   name = 'Bookmarks'
   pageRef = '/bookmarks'
-  weight = 1
+  weight = 2
 [[main]]
   name = 'Articles'
   pageRef = '/articles'
-  weight = 2
+  weight = 3
 
 [[footer]]
   name = 'Contact'

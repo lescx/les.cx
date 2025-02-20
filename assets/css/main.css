@@ -4,6 +4,7 @@ html, body {
 
 body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
 
@@ -68,10 +69,10 @@ header, footer {
 }
 
 #townportal {
-  height: 200px;
+  height: 5emx;
+  padding: 1em;
   background-color: #20FC8F;
   align-content: center;
-  justify-items: center;
 }
 
 #right-container {
@@ -119,7 +120,7 @@ input[type="text"] {
 }
 
 #left-container {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 #mirrors ul {
@@ -172,4 +173,14 @@ input[type="text"] {
 
 .highlight {
   overflow-y: auto;
+}
+
+.inverted {
+  color: black !important;
+  background-color: white !important;
+
+  @media (prefers-color-scheme: dark) {
+    color: white;
+    background-color: black;
+  }
 }

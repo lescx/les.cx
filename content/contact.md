@@ -4,13 +4,11 @@ draft = false
 title = 'Contact'
 +++
 
-You can contact me via SimpleX, Signal ([@les.01](https://signal.me/#eu/lbjqsgan4_h-vfQYSijqqxUnFwt2QWQodUmiwfPEk3LafWkQwMBIQKnsYSpvO3pU)), Matrix ([@les.cx:matrix.org](https://matrix.to/#/@les.cx:matrix.org)) or email.
-
-I'm not on social media. I have and love [Letterboxd](https://letterboxd.com/lescx), though.
-
-Scan this QR code to contact me directly via Signal:
+You can contact me via SimpleX, Signal ([@les.01](https://signal.me/#eu/lbjqsgan4_h-vfQYSijqqxUnFwt2QWQodUmiwfPEk3LafWkQwMBIQKnsYSpvO3pU)), Matrix ([@les.cx:matrix.org](https://matrix.to/#/@les.cx:matrix.org)) or email. Scan this QR code to contact me directly via Signal:
 
 {{< qr text="https://signal.me/#eu/lbjqsgan4_h-vfQYSijqqxUnFwt2QWQodUmiwfPEk3LafWkQwMBIQKnsYSpvO3pU" level="low" alt="QR Code for Signal username @les.01" />}}
+
+I'm not on social media. I have and love [Letterboxd](https://letterboxd.com/lescx), though.
 
 ### Email Warning
 
@@ -33,9 +31,3 @@ les.cx.                 300     IN      MX      20 mailsec.protonmail.ch.
 If you still want to contact me via email: [luca@les.cx](mailto:luca@les.cx).
 
 Don't expect an answer.
-
----
-
-* [security.txt](https://les.cx/.well-known/security.txt)
-* [age](https://les.cx/.well-known/age.pub)
-* [signify](https://les.cx/.well-known/signify.pub)

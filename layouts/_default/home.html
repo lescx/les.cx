@@ -1,5 +1,8 @@
 {{ define "left-container" }}
-  <nav id="side-contents" class="centered-container" style="background-color: #20FC8F;">
+  <header id="townportal" class="inverted">
+    <h1 aria-label="Luca Etienne Schulz">{{ .Site.Params.ipa }}</h1>
+  </header>
+  <nav id="side-contents" style="background-color: #20FC8F;">
     <ul>
     {{- range site.Menus.main}}
       <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -14,6 +17,6 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ partial "heading.html" (dict "title" .Site.Params.ipa "subtitle" .Site.Params.introductory "ariaLabel" .Site.Params.name) }}
+  <p>{{ .Site.Params.introductory }}</p>
   {{ .Content }}
 {{ end }}
