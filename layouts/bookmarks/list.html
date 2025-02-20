@@ -1,9 +1,6 @@
 {{ define "left-container" }}
   <header id="townportal">
-    <hgroup>
-      <h1>{{ .Title }}</h1>
-      <p>Путин, пососи мои яйца 🇺🇦</p>
-    </hgroup>
+    <h1>{{ .Title }}</h1>
   </header>
   <nav id="side-contents">
     <ul id="side-contents-tags">
@@ -18,7 +15,7 @@
       {{ end }}
       {{ $uniqueTags := uniq $allTags | sort }}
       {{ range $uniqueTags }}
-        <li>{{ . }}</li>
+        <li>#{{ . }}</li>
       {{ end }}
     </ul>
   </nav>
