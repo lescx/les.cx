@@ -21,9 +21,7 @@ body {
 header, footer {
   :is(ul, ol) {
     padding-left: 0;
-  }
-  li {
-    display: inline;
+    list-style: none;
   }
 }
 
@@ -44,15 +42,29 @@ header, footer {
   }
 }
 
+#side-contents ul {
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #left-container {
     width: auto;
     max-width: none;
     z-index: 100;
   }
+  ul li {
+    display: inline;
+  }
   #side-contents-tags {
     display: none;
   }
+}
+
+.breadcrumb ol li {
+  display: inline;
 }
 
 #townportal {
@@ -104,6 +116,10 @@ input[type="text"] {
 
 :is(h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover) .anchor {
   display: inline-block;
+}
+
+#left-container {
+  font-size: 1.2em;
 }
 
 #mirrors ul {
