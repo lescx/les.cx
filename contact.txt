@@ -1,0 +1,29 @@
+SimpleX: (placeholder)
+Signal: @les.01
+Matrix: @les.cx:matrix.org
+
+I'm not on social media. I have and love Letterboxd, though.
+
+Letterboxd: https://letterboxd.com/lescx
+
+A warning about email:
+
+1. I fade out my usage of the lowest common denominator for communication: email. Email was never designed for security and privacy.
+2. I stopped using S/MIME and PGP in Summer 2024.
+3. I do support DANE, MTA-STS, DMARC, SPF etc etc, but can we please just use something not email? Thank you.
+
+```bash
+$ dig +noall +answer mx les.cx
+les.cx.                 300     IN      MX      10 mail.protonmail.ch.
+les.cx.                 300     IN      MX      20 mailsec.protonmail.ch.
+```
+
+Email netiquette:
+
+1. Use plain text.
+2. Don’t send me spam, scam, newsletters, ads, crypto/NFT, AI or marketing SEO bullshit. This list will be updated as I see fit.
+3. My inbox, my rules. If in doubt, I will put you on my blocklist.
+
+Don't expect an answer.
+
+luca@les.cx
