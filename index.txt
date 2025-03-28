@@ -3,7 +3,3 @@ Luca Etienne Schulz
 Security researcher working on operating system hardening.
 
 All pages: sitemap.txt
-
-contact.txt
-privacy.txt
-copyleft.txt
