@@ -4,7 +4,6 @@ Security researcher working on operating system hardening.
 
 All pages: sitemap.txt
 
-colophon.txt
 contact.txt
 privacy.txt
 copyleft.txt
