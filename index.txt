@@ -2,12 +2,6 @@ Luca Etienne Schulz
 
 Security researcher working on operating system hardening.
 
-Recommended articles if you visit this site for the first time:
-
-Why does this site look like shit: site.txt
-About Digital Biedermeier: biedermeier.txt
-About our future on earth: earth.txt
-
 All pages: sitemap.txt
 
 colophon.txt
