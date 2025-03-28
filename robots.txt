@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://les.cx/sitemap.txt

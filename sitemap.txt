@@ -1,0 +1,8 @@
+https://les.cx/index.txt
+https://les.cx/contact.txt
+https://les.cx/privacy.txt
+https://les.cx/copyleft.txt
+https://les.cx/ads.txt
+https://les.cx/app-ads.txt
+https://les.cx/robots.txt
+https://les.cx/.well-known/nostr.json
